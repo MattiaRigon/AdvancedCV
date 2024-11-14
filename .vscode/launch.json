@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: run.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/scripts/run.py",
+            "args": [
+                "src/eval_hook.py", "src/evals/eval.py", "src/configs/config_g3m.py"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: eval_hook.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/nxtp/src/eval_hook.py",
+            "args": [
+                "evals/eval.py", "configs/config_g3m.py"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Debug infer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/nxtp/src/infer.py",
+            "args": [
+                "--ckpt-path", "nxtp/nxtp/ckpt_epoch_03_iter_1656549.pth",
+                "--img-path", "nxtp/assets/bird.png",
+                "--num-labels", "10",
+                "--save-attention-map", "False",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
