@@ -38,9 +38,9 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/nxtp/ckpt_epoch_03_iter_1656549.pth",
-                "--img-path", "nxtp/assets/bird.png",
+                "--img-path", "nxtp/assets/totk.jpg",
                 "--num-labels", "10",
-                "--save-attention-map", "False",
+                "--save-attention-map", "True",
             ],
             "console": "integratedTerminal",
             "justMyCode": false

@@ -16,6 +16,24 @@ from decoding import OneShotDecoder
 from functions import load_llama, load_clip
 from utils import load_config, set_dtype, load_checkpoint
 
+def get_last_token_attention_map(attn_map, filename="last_token_attention_map.png", cmap="Blues"):
+
+    last_token_image_attention = attn_map[0, :, -1, :256]  # Shape: [32, 256]
+
+    # Visualizza la mappa di attenzione dell'ultimo token verso i token immagine per ogni testa
+    fig, ax = plt.subplots(4, 8, figsize=(16, 8))  # Griglia 4x8 per le 32 teste
+    for head_idx in range(last_token_image_attention.shape[0]):
+        _map = last_token_image_attention[head_idx].reshape(16, 16)  # Riarrangia in 16x16 per i 256 token
+        _map = _map.detach().cpu().numpy()
+        _map = (_map - _map.min()) / (_map.max() - _map.min() + 1e-6)  # Normalizzazione
+        ax[head_idx // 8, head_idx % 8].imshow(_map, cmap="Blues")
+        ax[head_idx // 8, head_idx % 8].axis("off")
+
+    plt.tight_layout()
+    os.makedirs("attentions", exist_ok=True)
+    plt.savefig(f"attentions/{filename}")
+    plt.close()
+
 
 def visualize_attention_map(attn_map, filename="average_attention_map.png", cmap="Blues"):
     """
@@ -199,23 +217,9 @@ def main(
         )
         total = torch.zeros((16, 16))
 
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_0"], "attn_map_mean_head_idx_0.png")
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_1"], "attn_map_mean_head_idx_1.png")
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_2"], "attn_map_mean_head_idx_2.png")
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_3"], "attn_map_mean_head_idx_3.png")
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_4"], "attn_map_mean_head_idx_4.png")
-        total += save_attention_mean_layer(cached_tensors["attn_layer_idx_5"], "attn_map_mean_head_idx_5.png")
-        total = total/6
-        plt.figure(figsize=(6, 6))
-        plt.imshow(total, cmap="Blues")
-        plt.colorbar()
-        plt.axis("off")
-        plt.tight_layout()
-        plt.savefig(f"total/average_attention_map.png")
+
         if save_attention_map:
             for k in cached_tensors.keys():
-                if k != "attn_layer_idx_5":
-                    continue
                 if not "attn" in k:
                     continue
                 # visualize relatively shallow layers in the decoder
@@ -224,7 +228,8 @@ def main(
 
                 print(f"visualizing attention map for {k}")
                 attn_map = cached_tensors[k]
-
+                get_last_token_attention_map(attn_map, filename=f"layer{k}.png")
+                continue
                 # extract the attention map for image tokens
                 ii = dummy_token_index_obj
                 ij = dummy_token_index_obj + n_img_tokens
