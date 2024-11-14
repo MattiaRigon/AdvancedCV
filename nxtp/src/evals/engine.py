@@ -237,7 +237,7 @@ def prepare(args):
     # ddp
     if (
         torch.cuda.is_available()
-        and torch.cuda.device_count() > 0
+        and torch.cuda.device_count() > 1
         and (not args.jupyter_mode)  # for jupyter notebook
     ):
         args.use_ddp = True
@@ -252,6 +252,7 @@ def prepare(args):
         args.use_ddp = False  # found a little bit slower with ddp on a single gpu
         rank = 0
         world_size = 1
+        global_rank = 0
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         args.master_process = True
         args.device = device

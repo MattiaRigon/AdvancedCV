@@ -66,24 +66,58 @@ def set_dtype(args):
     return args
 
 
+# def setup_model_parallel(seed=1, mute_non_master_ranks=False):
+#     local_rank = int(os.environ.get("LOCAL_RANK", -1))
+#     world_size = int(os.environ.get("WORLD_SIZE", -1))
+#     torch.distributed.init_process_group("nccl")
+#     initialize_model_parallel(world_size)
+#     torch.cuda.set_device(local_rank)
+#     device = torch.device(f"cuda:{local_rank}")
+
+#     global_rank = dist.get_rank()
+#     set_seed(seed + global_rank)  # seed
+
+#     print(
+#         f"> local_rank: {local_rank}, world_size: {world_size}, global_rank: {global_rank}"
+#     )
+#     if mute_non_master_ranks and global_rank > 0:
+#         sys.stdout = open(os.devnull, "w")
+#     return local_rank, global_rank, world_size, device
+
 def setup_model_parallel(seed=1, mute_non_master_ranks=False):
+    # Ottieni informazioni sul rank locale e world_size
     local_rank = int(os.environ.get("LOCAL_RANK", -1))
-    world_size = int(os.environ.get("WORLD_SIZE", -1))
-    torch.distributed.init_process_group("nccl")
-    initialize_model_parallel(world_size)
-    torch.cuda.set_device(local_rank)
-    device = torch.device(f"cuda:{local_rank}")
+    world_size = int(os.environ.get("WORLD_SIZE", 1))  # Set world_size to 1 by default for single GPU
 
-    global_rank = dist.get_rank()
-    set_seed(seed + global_rank)  # seed
+    # Controlla se è necessario inizializzare torch.distributed
+    if world_size > 1:
+        # Questo viene eseguito solo per una configurazione multi-GPU
+        torch.distributed.init_process_group("nccl")
+        initialize_model_parallel(world_size)
 
-    print(
-        f"> local_rank: {local_rank}, world_size: {world_size}, global_rank: {global_rank}"
-    )
+    # Imposta il dispositivo per la GPU locale
+    if local_rank == -1:
+        # Caso di una singola GPU
+        torch.cuda.set_device(0)
+        device = torch.device("cuda:0")
+        global_rank = 0
+    else:
+        # Caso multi-GPU
+        torch.cuda.set_device(local_rank)
+        device = torch.device(f"cuda:{local_rank}")
+        global_rank = dist.get_rank()
+
+    # Imposta il seed per la riproducibilità, aggiustato per il rank globale
+    set_seed(seed + global_rank)
+
+    # Stampa le informazioni di debug
+    print(f"> local_rank: {local_rank}, world_size: {world_size}, global_rank: {global_rank}")
+
+    # Opzionalmente, muta l'output per i rank non master
     if mute_non_master_ranks and global_rank > 0:
         sys.stdout = open(os.devnull, "w")
-    return local_rank, global_rank, world_size, device
 
+    return local_rank, global_rank, world_size, device
 
 def setup_for_distributed(is_master):
     builtin_print = builtins.print

@@ -5,8 +5,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import math
-
-
+import matplotlib.pyplot as plt
+import os
 """ 
 LLaMA w/ ddp
 """
@@ -156,7 +156,6 @@ class FeedForward(nn.Module):
     def forward(self, x):
         return self.w2(F.silu(self.w1(x)) * self.w3(x))
 
-
 class TransformerBlock(nn.Module):
     def __init__(self, layer_id, args):
         super().__init__()
@@ -173,12 +172,14 @@ class TransformerBlock(nn.Module):
 
     def forward(self, x, freqs_cis, mask, cached_tensors=None):
         h = self.attention_norm(x)
-        h = x + self.attention.forward(
+        # trovata attention
+        a = self.attention.forward(
             h,
             freqs_cis,
             mask,
             cached_tensors=cached_tensors,
         )
+        h = x + a
         x = self.ffn_norm(h)
         x = h + self.feed_forward.forward(x)
         return x
