@@ -1,0 +1,9 @@
+name: lang_sam_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - torch==2.4.1 --extra-index-url https://download.pytorch.org/whl/cu124
+      - torchvision==0.19.1 --extra-index-url https://download.pytorch.org/whl/cu124

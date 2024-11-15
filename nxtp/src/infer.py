@@ -17,7 +17,6 @@ from functions import load_llama, load_clip
 from utils import load_config, set_dtype, load_checkpoint
 
 def get_last_token_attention_map(attn_map, filename="last_token_attention_map.png", cmap="Blues"):
-
     last_token_image_attention = attn_map[0, :, -1, :256]  # Shape: [32, 256]
 
     # Visualizza la mappa di attenzione dell'ultimo token verso i token immagine per ogni testa
@@ -26,12 +25,28 @@ def get_last_token_attention_map(attn_map, filename="last_token_attention_map.pn
         _map = last_token_image_attention[head_idx].reshape(16, 16)  # Riarrangia in 16x16 per i 256 token
         _map = _map.detach().cpu().numpy()
         _map = (_map - _map.min()) / (_map.max() - _map.min() + 1e-6)  # Normalizzazione
-        ax[head_idx // 8, head_idx % 8].imshow(_map, cmap="Blues")
+        ax[head_idx // 8, head_idx % 8].imshow(_map, cmap=cmap)
         ax[head_idx // 8, head_idx % 8].axis("off")
 
     plt.tight_layout()
     os.makedirs("attentions", exist_ok=True)
     plt.savefig(f"attentions/{filename}")
+    plt.close()
+
+    # Calcolo della media delle attention map su tutte le teste
+    avg_attention = last_token_image_attention.mean(axis=0)  # Shape: [256]
+    avg_attention_map = avg_attention.reshape(16, 16)  # Riarrangia in 16x16
+    avg_attention_map = avg_attention_map.detach().cpu().numpy()
+    avg_attention_map = (avg_attention_map - avg_attention_map.min()) / (
+        avg_attention_map.max() - avg_attention_map.min() + 1e-6
+    )  # Normalizzazione
+
+    # Visualizza la mappa di attenzione media
+    plt.figure(figsize=(8, 8))
+    plt.imshow(avg_attention_map, cmap=cmap)
+    plt.axis("off")
+    plt.tight_layout()
+    plt.savefig(f"attentions/average{filename}")
     plt.close()
 
 
