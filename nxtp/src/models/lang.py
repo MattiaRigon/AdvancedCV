@@ -133,9 +133,17 @@ class Attention(nn.Module):
             attn = attn + mask
         attn = F.softmax(attn, dim=-1)
 
+        attention_to_remove = torch.load('output/patch_matrix_0_0.pt')
+        attention_to_remove = 1 - attention_to_remove
+
+
+        # Filtriamo le attenzioni per ogni testa
+        attn[0, :, -1, :256] = attn[0, :, -1, :256] * attention_to_remove.flatten().cuda()
+
         if cached_tensors is not None:
             layer_idx = cached_tensors["layer_idx"]
             cached_tensors[f"attn_layer_idx_{layer_idx}"] = attn
+        
 
         x = torch.matmul(attn, v)  # (bs, n_head, slen, n_embd)
         x = x.transpose(1, 2).contiguous().view(bs, seqlen, -1)

@@ -37,7 +37,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
-                "--ckpt-path", "nxtp/nxtp/ckpt_epoch_03_iter_1656549.pth",
+                "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
                 "--img-path", "nxtp/assets/d0g.png",
                 "--num-labels", "10",
                 "--save-attention-map", "True",

@@ -11,7 +11,7 @@ class Args:
     """
 
     # hparams for directories
-    dev_root: str = "nxtp/nxtp/dev_root"
+    dev_root: str = "nxtp/dev_root"
 
     data_root: str = f"{dev_root}/data"
     ckpt_root: str = f"{dev_root}/checkpoints"
