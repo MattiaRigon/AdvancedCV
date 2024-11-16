@@ -44,6 +44,20 @@
             ],
             "console": "integratedTerminal",
             "justMyCode": false
+        },
+        {
+            "name": "Python: OURS Debug infer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/nxtp_ours/src/infer.py",
+            "args": [
+                "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
+                "--img-path", "nxtp_ours/assets/d0g.png",
+                "--num-labels", "10",
+                "--save-attention-map", "True",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
         }
     ]
 }
