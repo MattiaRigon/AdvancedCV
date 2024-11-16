@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp/assets/d0g.png",
+                "--img-path", "nxtp/assets/nintendo.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
@@ -52,7 +52,7 @@
             "program": "${workspaceFolder}/nxtp_ours/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp_ours/assets/d0g.png",
+                "--img-path", "nxtp_ours/assets/nintendo.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],

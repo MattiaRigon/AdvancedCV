@@ -30,10 +30,11 @@ def build_preprocess(input_size):
 if __name__ == "__main__":
 
     model = LangSAM()
-    image_pil = Image.open("nxtp/assets/d0g.png").convert("RGB")
+    filename = "nintendo"
+    image_pil = Image.open(f"nxtp/assets/{filename}.jpg").convert("RGB")
     image_pil = build_preprocess(224)(image_pil)
 
-    text_prompt = "dog."
+    text_prompt = "morning."
     results = model.predict([image_pil], [text_prompt])
 
     # Directory for output files
@@ -80,7 +81,7 @@ if __name__ == "__main__":
             patch_matrix_tensor = torch.tensor(patch_matrix, dtype=torch.int)
 
             # Salva il tensore su un file
-            torch.save(patch_matrix_tensor, f"{output_dir}/patch_matrix_{idx}_{mask_idx}.pt")
+            torch.save(patch_matrix_tensor, f"{output_dir}/patch_matrix_{idx}_{mask_idx}_{filename}.pt")
             plt.figure(figsize=(6, 6))
             plt.imshow(patch_matrix, cmap="gray", interpolation="nearest")
             plt.title(f"Patch Matrix for Mask {mask_idx}")

@@ -131,14 +131,15 @@ class Attention(nn.Module):
         attn = torch.matmul(q, k.transpose(2, 3)) / math.sqrt(self.n_embd)
         if mask is not None:
             attn = attn + mask
-        attn = F.softmax(attn, dim=-1)
-
-        attention_to_remove = torch.load('output/patch_matrix_0_0.pt')
-        attention_to_remove = 1 - attention_to_remove
-
+        # attention_to_remove = torch.load('output/patch_matrix_0_0.pt')
+        # attention_to_remove = 1 - attention_to_remove
 
         # Filtriamo le attenzioni per ogni testa
-        attn[0, :, -1, :256] = attn[0, :, -1, :256] * attention_to_remove.flatten().cuda()
+
+        attn = F.softmax(attn, dim=-1)
+        # for i in range(attn.shape[2]):
+        #     attn[0, :, i, :256] = attn[0, :, i, :256] * attention_to_remove.flatten().cuda()
+        # attn[0, :, -1, :256] = attn[0, :, -1, :256] * attention_to_remove.flatten().cuda()
 
         if cached_tensors is not None:
             layer_idx = cached_tensors["layer_idx"]
@@ -179,6 +180,7 @@ class TransformerBlock(nn.Module):
         self.ffn_norm = RMSNorm(args.dim, eps=args.norm_eps)
 
     def forward(self, x, freqs_cis, mask, cached_tensors=None):
+
         h = self.attention_norm(x)
         # trovata attention
         a = self.attention.forward(
