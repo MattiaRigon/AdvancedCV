@@ -97,12 +97,12 @@ class CLIPViT(nn.Module):
 
         x = x + self.positional_embedding
 
-        attention_to_remove = torch.load('output/patch_matrix_0_0_nintendo.pt')
-        attention_to_remove = 1 - attention_to_remove
-        attention_to_remove = attention_to_remove.flatten().cuda()
-        attention_to_remove = torch.cat([attention_to_remove, torch.ones(x.shape[1] - attention_to_remove.size(0)).cuda()])
-        indices_to_mantain = torch.nonzero(attention_to_remove == 1).flatten()
-        x = x[:, indices_to_mantain, :]
+        # attention_to_remove = torch.load('output/patch_matrix_0_0_nintendo.pt')
+        # attention_to_remove = 1 - attention_to_remove
+        # attention_to_remove = attention_to_remove.flatten().cuda()
+        # attention_to_remove = torch.cat([attention_to_remove, torch.ones(x.shape[1] - attention_to_remove.size(0)).cuda()])
+        # indices_to_mantain = torch.nonzero(attention_to_remove == 1).flatten()
+        # x = x[:, indices_to_mantain, :]
 
         x = self.ln_pre(x)
         x = x.permute(1, 0, 2)  # NLD -> LND

@@ -164,6 +164,12 @@ def main(
     with ctx:
         # get image token embeddings
         h = model.encode_images(img)
+        attention_to_remove = torch.load('output/patch_matrix_0_0_d0g.pt')
+        attention_to_remove = 1 - attention_to_remove
+        attention_to_remove = attention_to_remove.flatten().cuda()
+        attention_to_remove = torch.cat([attention_to_remove, torch.ones(h.shape[1] - attention_to_remove.size(0)).cuda()])
+        indices_to_mantain = torch.nonzero(attention_to_remove == 1).flatten()
+        h = h[:, indices_to_mantain, :]
         z = model.decode_images(h)
 
         # drop [CLS] token embedding

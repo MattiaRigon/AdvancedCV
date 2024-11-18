@@ -18,23 +18,16 @@ def build_preprocess(input_size):
         T.CenterCrop(input_size),
     ]
 
-    norm = [
-        T.ToTensor(),
-        T.Normalize(
-            (0.48145466, 0.4578275, 0.40821073),
-            (0.26862954, 0.26130258, 0.27577711),
-        ),
-    ]
     return T.Compose([*resized_crop, *to_rgb])
 
 if __name__ == "__main__":
 
     model = LangSAM()
-    filename = "nintendo"
+    filename = "living_room"
     image_pil = Image.open(f"nxtp/assets/{filename}.jpg").convert("RGB")
     image_pil = build_preprocess(224)(image_pil)
 
-    text_prompt = "morning."
+    text_prompt = "living."
     results = model.predict([image_pil], [text_prompt])
 
     # Directory for output files

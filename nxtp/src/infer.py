@@ -46,7 +46,7 @@ def get_last_token_attention_map(attn_map, filename="last_token_attention_map.pn
     plt.imshow(avg_attention_map, cmap=cmap)
     plt.axis("off")
     plt.tight_layout()
-    plt.savefig(f"attentions/average{filename}")
+    plt.savefig(f"attentions_normal_nxtp/average{filename}")
     plt.close()
 
 

@@ -115,7 +115,7 @@ class Attention(nn.Module):
         self.wv = nn.Linear(args.dim, args.n_heads * self.n_embd, bias=False)
         self.wo = nn.Linear(args.n_heads * self.n_embd, args.dim, bias=False)
 
-    def forward(self, x, freqs_cis, mask, cached_tensors=None):
+    def forward(self, x, freqs_cis, mask, cached_tensors=None, masked_input=None):
         bs, seqlen, _ = x.shape
         q, k, v = self.wq(x), self.wk(x), self.wv(x)
 
@@ -131,15 +131,17 @@ class Attention(nn.Module):
         attn = torch.matmul(q, k.transpose(2, 3)) / math.sqrt(self.n_embd)
         if mask is not None:
             attn = attn + mask
-        # attention_to_remove = torch.load('output/patch_matrix_0_0.pt')
-        # attention_to_remove = 1 - attention_to_remove
 
-        # Filtriamo le attenzioni per ogni testa
+        if masked_input is not None:
+            attention_to_remove = masked_input
+            attention_to_remove = attention_to_remove.float()
+            attention_to_remove[attention_to_remove == 1] = float('-inf')
 
-        attn = F.softmax(attn, dim=-1)
-        # for i in range(attn.shape[2]):
-        #     attn[0, :, i, :256] = attn[0, :, i, :256] * attention_to_remove.flatten().cuda()
+            for i in range(attn.shape[2]):
+                attn[0, :, i, :256] = attn[0, :, i, :256] + attention_to_remove.flatten().cuda()
+            # attn[0, :, i, :256] = attn[0, :, i, :256] * 0.5
         # attn[0, :, -1, :256] = attn[0, :, -1, :256] * attention_to_remove.flatten().cuda()
+        attn = F.softmax(attn, dim=-1)
 
         if cached_tensors is not None:
             layer_idx = cached_tensors["layer_idx"]
@@ -179,8 +181,16 @@ class TransformerBlock(nn.Module):
         self.attention_norm = RMSNorm(args.dim, eps=args.norm_eps)
         self.ffn_norm = RMSNorm(args.dim, eps=args.norm_eps)
 
-    def forward(self, x, freqs_cis, mask, cached_tensors=None):
-
+    def forward(self, x, freqs_cis, mask, cached_tensors=None, masked_input=None):
+        # attention_to_remove = torch.load('output/patch_matrix_0_0_nintendo.pt')
+        # attention_to_remove = 1 - attention_to_remove
+        # attention_to_remove = attention_to_remove.flatten().cuda()
+        # attention_to_remove = torch.cat([attention_to_remove, torch.ones(x.shape[1] - attention_to_remove.size(0)).cuda()])
+        # indices_to_mantain = torch.nonzero(attention_to_remove == 1).flatten()
+        # x = x[:, indices_to_mantain, :]
+        # freqs_cis = freqs_cis[indices_to_mantain, :, :]
+        # mask = mask[:, :, indices_to_mantain, :]
+        # mask = mask[:, :, :, indices_to_mantain]
         h = self.attention_norm(x)
         # trovata attention
         a = self.attention.forward(
@@ -188,7 +198,9 @@ class TransformerBlock(nn.Module):
             freqs_cis,
             mask,
             cached_tensors=cached_tensors,
+            masked_input=masked_input,
         )
+        # a = a[:, indices_to_mantain, :]
         h = x + a
         x = self.ffn_norm(h)
         x = h + self.feed_forward.forward(x)
@@ -239,6 +251,7 @@ class LLaMATransformer(nn.Module):
         decouple_label_tok_embeds=False,
         is_train=True,
         cached_tensors: Optional[dict] = None,
+        masked_input=None,
     ):
         # tokens are ids if ndim == 2 or embeddings if ndim == 3
         bs, seqlen = tokens.shape[:2]
@@ -336,7 +349,7 @@ class LLaMATransformer(nn.Module):
         for layer_idx, layer in enumerate(self.layers):
             if cached_tensors is not None:
                 cached_tensors["layer_idx"] = layer_idx
-            h = layer(h, freqs_cis, mask, cached_tensors=cached_tensors)
+            h = layer(h, freqs_cis, mask, cached_tensors=cached_tensors,masked_input=masked_input)
         h = self.norm(h)  # [bs, tokens, dim]
 
         output = self.output(h) if is_train else self.output(h[:, -1, :])

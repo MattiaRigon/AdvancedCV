@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp/assets/nintendo.jpg",
+                "--img-path", "nxtp/assets/gattino_paper.png",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
@@ -52,7 +52,21 @@
             "program": "${workspaceFolder}/nxtp_ours/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp_ours/assets/nintendo.jpg",
+                "--img-path", "nxtp_ours/assets/d0g.png",
+                "--num-labels", "10",
+                "--save-attention-map", "True",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Python: SAM Debug infer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/nxtp_ours/src/infer_sam.py",
+            "args": [
+                "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
+                "--img-path", "nxtp/assets/totk.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
