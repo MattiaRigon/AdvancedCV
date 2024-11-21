@@ -421,8 +421,10 @@ def compute_sam_mask(model_lang_sam : LangSAM, label : str, image_path, masked_i
 
     image = Image.open(image_path).convert("RGB")
     image = build_preprocess_sam(224)(image)
-    text_prompt = "living."
     output_dir = "./output/"
+    filename = os.path.basename(image_path).replace(".jpg", "").replace(".png", "")
+    output_dir = os.path.join(output_dir, filename)
+    os.makedirs(output_dir, exist_ok=True)
     save_mask = True
     results = model_lang_sam.predict([image], [label])
     patches_masked = None
@@ -463,6 +465,7 @@ def compute_sam_mask(model_lang_sam : LangSAM, label : str, image_path, masked_i
                 patches_masked += patch_matrix_tensor
                 patches_masked = torch.where(patches_masked > 0, 1, 0)
 
+
     if patches_masked is None:
         return masked_input
     elif masked_input is None:
@@ -470,6 +473,15 @@ def compute_sam_mask(model_lang_sam : LangSAM, label : str, image_path, masked_i
     else:
         patches_masked = masked_input + patches_masked
         patches_masked = torch.where(patches_masked > 0, 1, 0)
+
+    if save_mask:
+        patch_matrix_tensor = patches_masked
+        patch_matrix = patch_matrix_tensor.numpy()
+        patch_matrix = (patch_matrix * 255).astype(np.uint8)
+        mask_img = Image.fromarray(patch_matrix)
+        num = len([name for name in os.listdir(output_dir) if os.path.isfile(os.path.join(output_dir, name))])
+        mask_path = f"{output_dir}/mask_{num}.png"
+        mask_img.save(mask_path)
 
     return patches_masked
 

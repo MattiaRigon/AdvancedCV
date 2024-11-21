@@ -9,10 +9,10 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import destroy_process_group
 from torch.optim.lr_scheduler import CosineAnnealingLR
 
-from models.classifier import LangClassifier
-from encoding import construct_text_inputs, construct_embd_inputs
-from functions import load_clip, load_llama
-from utils import (
+from nxtp.src.models.classifier import LangClassifier
+from nxtp.src.encoding import construct_text_inputs, construct_embd_inputs
+from nxtp.src.functions import load_clip, load_llama
+from nxtp.src.utils import (
     load_config,
     init_nltk,
     set_dtype,
@@ -52,7 +52,7 @@ def main(cfg):
 
         print("loading ImageNet ...")
     else:
-        from loader import build_dataloader
+        from nxtp.src.loader import build_dataloader
 
     dataloader = build_dataloader(args, global_rank, world_size, is_train=True)
     ctx = torch.amp.autocast(device_type="cuda", dtype=args.ptdtype)

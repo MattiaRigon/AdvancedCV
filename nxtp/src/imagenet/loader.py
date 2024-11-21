@@ -9,17 +9,10 @@ from torch.utils.data import DataLoader
 
 _DATASETS_META = {
     # --- for validation ---
-    "in1k_valid": {
-        "length": 50000,
-        "root": f"imagenet/val",
-        "list": f"imagenet/val.list",
-    },
-    # --- for training ---
-    "in1k": {
-        "length": 1281167,
-        "root": f"imagenet/train",
-        "list": f"imagenet/train.list",
-    },
+    "coco_valid": {
+        "length": 5000,
+        "root": "coco/coco_valid",
+    }
 }
 
 

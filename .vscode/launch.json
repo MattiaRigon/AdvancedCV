@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp/assets/gattino_paper.png",
+                "--img-path", "nxtp/assets/animals.png",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
@@ -66,7 +66,7 @@
             "program": "${workspaceFolder}/nxtp_ours/src/infer_sam.py",
             "args": [
                 "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp/assets/totk.jpg",
+                "--img-path", "nxtp/assets/animals.png",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],

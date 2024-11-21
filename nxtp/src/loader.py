@@ -9,6 +9,44 @@ from PIL import Image
 from torch.utils.data import DataLoader
 from torch.utils.data.datapipes.iter.sharding import SHARDING_PRIORITIES
 from torchdata.datapipes.iter import FileLister, FileOpener
+from collections import defaultdict
+import tarfile
+import webdataset as wds
+
+# Crea un DataPipe personalizzato per estrarre il nome base
+def create_sample_dict(dp):
+    """
+    Given a DataPipe dp, creates a dictionary where the key is __key__ and the value is another dictionary
+    with keys 'jpg', 'txt', 'json' containing the corresponding data from the sample.
+    
+    Args:
+        dp: A DataPipe object yielding samples with keys '__key__', 'jpg', 'txt', and 'json'.
+    
+    Returns:
+        sample_dict: A dictionary where the keys are the __key__ of each sample and the values are dictionaries
+                     containing 'jpg', 'txt', and 'json' data for that sample.
+    """
+    sample_dict = {}
+    
+    for sample in dp:
+        # Extract the key and the data associated with 'jpg', 'txt', and 'json'
+        key = sample['__key__']
+        if key not in sample_dict:
+            sample_data = {
+                '.jpg': sample.get('.jpg', None),   # Image data (binary or processed image)
+                '.txt': sample.get('.txt', None),   # Text data (binary or processed text)
+                '.json': sample.get('.json', None)  # JSON data (binary or parsed JSON)
+            }
+        else:
+            sample_data = sample_dict[key]
+            sample_data['.jpg'] = sample.get('.jpg', sample_data['.jpg'])
+            sample_data['.txt'] = sample.get('.txt', sample_data['.txt'])
+            sample_data['.json'] = sample.get('.json', sample_data['.json'])
+        
+        # Add to dictionary with the key
+        sample_dict[key] = sample_data
+    
+    return sample_dict
 
 
 _DATASETS_META = {
@@ -72,10 +110,20 @@ def build_datapipe(
         ds_roots += [ds_dir]
         print(f"datapipe + {ds} : length {_DATASETS_META[ds]['length']} : {ds_dir}")
 
-    dp = FileLister(ds_roots, "*.tar", recursive=True)
+    dp = FileLister(ds_roots, "*.tar", recursive=False)
     dp = FileOpener(dp, mode="b")
     dp = dp.load_from_tar(length=ds_length)
     dp = dp.webdataset()
+
+    sample_dict = create_sample_dict(dp)
+
+    # dp = CustomKeyGroup(dp)
+
+    # dp = create_triplet_datapipe(ds_roots, ds_length)
+
+    for i, sample in enumerate(dp):
+        sample = sample_dict[sample['__key__']]
+        # print(f"Sample {i}: {sample}")
 
     def __len__(self):
         if isinstance(self.source_datapipe, Sized):
@@ -121,11 +169,11 @@ def build_datapipe(
         f"len {len(dp)} / {ds_length}",
     )
 
-    dp = dp.map(lambda x: apply_transform(x, image_transform, text_transform))
+    dp = dp.map(lambda x: apply_transform(x, image_transform, text_transform,sample_dict))
     return dp
 
 
-def apply_transform(item, image_transform=None, text_transform=None):
+def apply_transform(item, image_transform=None, text_transform=None,sample_dict=None):
     def decode_img(stream):
         img = Image.open(io.BytesIO(stream)).convert("RGB")
         if image_transform is not None:
@@ -137,8 +185,8 @@ def apply_transform(item, image_transform=None, text_transform=None):
         if text_transform is not None:
             txt = text_transform(txt)
         return txt
-
     key = item["__key__"]
+    item = sample_dict[key]
     img = decode_img(item[".jpg"].read())
     txt = decode_txt(item[".txt"].read())
     return img, txt, key
@@ -170,7 +218,7 @@ def build_dataloader(args, global_rank, world_size, is_train=True):
         ds_name=args.data_name,
         image_transform=build_preprocess(args.input_size),
         text_transform=None,
-        shuffle=True,
+        shuffle=False,
         num_shards=world_size,
         rank=global_rank,
     )

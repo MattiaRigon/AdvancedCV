@@ -4,7 +4,7 @@ import random
 import torch
 
 from random import shuffle
-from utils import get_noun_words
+from nxtp.src.utils import get_noun_words
 
 
 def construct_text_inputs(

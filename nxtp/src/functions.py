@@ -7,9 +7,9 @@ import math
 import torch
 import torch.nn as nn
 
-from tokenizer import Tokenizer
-from models.clip import build_clip_model
-from models.lang import LLaMATransformer
+from nxtp.src.tokenizer import Tokenizer
+from nxtp.src.models.clip import build_clip_model
+from nxtp.src.models.lang import LLaMATransformer
 
 """
 Helper functions for loading models
@@ -46,7 +46,7 @@ def load_clip(args, device=None):
 
 
 def load_llama(args, device=None):
-    from models.lang import ModelArgs
+    from nxtp.src.models.lang import ModelArgs
 
     with open(Path(args.llama_dir) / "params.json", "r") as f:
         params = json.loads(f.read())
