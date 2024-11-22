@@ -9,9 +9,6 @@ from PIL import Image
 from torch.utils.data import DataLoader
 from torch.utils.data.datapipes.iter.sharding import SHARDING_PRIORITIES
 from torchdata.datapipes.iter import FileLister, FileOpener
-from collections import defaultdict
-import tarfile
-import webdataset as wds
 
 # Crea un DataPipe personalizzato per estrarre il nome base
 def create_sample_dict(dp):
@@ -56,7 +53,7 @@ _DATASETS_META = {
         "root": f"cc3m/cc3m_valid",
     },
     "coco_valid": {
-        "length": 5000,
+        "length": 100,
         "root": f"coco/coco_valid",
     },
     "openimages_v7_valid": {

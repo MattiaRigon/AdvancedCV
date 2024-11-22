@@ -11,9 +11,9 @@ from tqdm import tqdm
 from functools import partial
 from random import shuffle
 
-from evals.metrics import SemanticFScore
-from utils import init_nltk, set_dtype, setup_model_parallel, setup_for_distributed
-from utils import get_noun_words
+from metrics import SemanticFScore
+from nxtp_ours.src.utils import init_nltk, set_dtype, setup_model_parallel, setup_for_distributed
+from nxtp_ours.src.utils import get_noun_words
 
 """
 Vars
@@ -45,7 +45,7 @@ def init_loader(args, rank, world_size, transform=None):
 
         print("loading ImageNet ...")
     else:
-        from loader import build_dataloader
+        from nxtp_ours.src.loader import build_dataloader
 
     args.data_name = [args.test_dataset]
     loader = build_dataloader(args, rank, world_size, is_train=False)

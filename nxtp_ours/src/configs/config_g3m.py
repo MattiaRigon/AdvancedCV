@@ -59,7 +59,7 @@ cfg.partial_train_lang_output: bool = bool(0)
 # for checkpoint
 cfg.resume: bool = bool(0)
 
-_resume_ckpt_root = f"{cfg.ckpt_root}/x/{cfg.exp_code}"
+_resume_ckpt_root = f"{cfg.ckpt_root}"
 if cfg.resume:
     if os.path.exists(_resume_ckpt_root):
         ckpts = os.listdir(_resume_ckpt_root)
@@ -79,7 +79,7 @@ cfg.label_contains_number: bool = bool(0)
 inference part
 """
 ckpt_name = "ckpt_epoch_03_iter_0021360.pth"  # which checkpoint to load
-cfg.eval_ckpt_path: str = f"{cfg.ckpt_root}/x/{cfg.exp_code}/{ckpt_name}"
+cfg.eval_ckpt_path: str = f"{cfg.ckpt_root}/{ckpt_name}"
 
 cfg.text_decoder_strategy = "one_shot"  # greedy | beam | one_shot
 cfg.max_gen_len: int = 64

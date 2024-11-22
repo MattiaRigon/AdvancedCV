@@ -9,27 +9,29 @@ from torch.distributed import destroy_process_group
 from PIL import Image
 from collections import defaultdict
 
-from evals.engine import prepare, evaluate
-from evals.engine import _TEST_DATASETS, _CLIP_MODELS
+from engine import prepare, evaluate
+from engine import _TEST_DATASETS, _CLIP_MODELS
 
-from encoding import construct_text_inputs, construct_embd_inputs
-from decoding import GreedyDecoder, BeamSearchDecoder, OneShotDecoder
+from nxtp_ours.src.encoding import construct_text_inputs, construct_embd_inputs
+from nxtp_ours.src.decoding import GreedyDecoder, BeamSearchDecoder, OneShotDecoder
 
-from train import load_llama, load_clip
-from loader import build_preprocess
-from models.classifier import LangClassifier
-from utils import load_checkpoint
+from nxtp_ours.src.train import load_llama, load_clip
+from nxtp_ours.src.loader import build_preprocess
+from nxtp_ours.src.models.classifier import LangClassifier
+from nxtp_ours.src.utils import load_checkpoint
+from nxtp_ours.src.utils import load_config, set_dtype
 
-
-def main(cfg):
+def main():
     # put all the settings here
+    cfg = load_config(["--config", "nxtp_ours/src/configs/config_g3m.py"])
     args = cfg.args
+    cfg = set_dtype(args)
 
     # ------- local settings -------
     args.batch_size = 4
 
     # 0: cc3m, 1: coco, 2: openimages, 3: imagenet
-    args.test_dataset = _TEST_DATASETS[3]
+    args.test_dataset = _TEST_DATASETS[1]
 
     args.k_for_topk = 10  # top-k results
     args.xk_for_one_shot_sampling = 0  # top-k + extra k results for one-shot sampling
@@ -568,3 +570,7 @@ def post_process(
         batch_probs.append(current_scores)
 
     return batch_preds, batch_probs
+
+
+if __name__ == "__main__":
+    main()

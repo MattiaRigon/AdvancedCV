@@ -9,10 +9,10 @@ from torch.nn.parallel import DistributedDataParallel as DDP
 from torch.distributed import destroy_process_group
 from torch.optim.lr_scheduler import CosineAnnealingLR
 
-from models.classifier import LangClassifier
-from encoding import construct_text_inputs, construct_embd_inputs
-from functions import load_clip, load_llama
-from utils import (
+from nxtp_ours.src.models.classifier import LangClassifier
+from nxtp_ours.src.encoding import construct_text_inputs, construct_embd_inputs
+from nxtp_ours.src.functions import load_clip, load_llama
+from nxtp_ours.src.utils import (
     load_config,
     init_nltk,
     set_dtype,

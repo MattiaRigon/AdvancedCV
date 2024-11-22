@@ -23,11 +23,11 @@ def build_preprocess(input_size):
 if __name__ == "__main__":
 
     model = LangSAM()
-    filename = "living_room"
-    image_pil = Image.open(f"nxtp/assets/{filename}.jpg").convert("RGB")
+    filename = "animals"
+    image_pil = Image.open(f"nxtp/assets/{filename}.png").convert("RGB")
     image_pil = build_preprocess(224)(image_pil)
 
-    text_prompt = "living."
+    text_prompt = "photo."
     results = model.predict([image_pil], [text_prompt])
 
     # Directory for output files

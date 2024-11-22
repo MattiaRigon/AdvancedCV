@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 _DATASETS_META = {
     # --- for validation ---
     "coco_valid": {
-        "length": 5000,
+        "length": 100,
         "root": "coco/coco_valid",
     }
 }

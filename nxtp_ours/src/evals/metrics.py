@@ -133,13 +133,13 @@ class SemanticFScore(Metric):
             self.precision += p
             self.f += f
 
-            self.scores.append(s.detach().cpu().numpy().tolist())
+            self.scores.append(s.detach().to(torch.float32).cpu().numpy().tolist())
 
             # compute diversity
             d = x_vals @ x_vals.T
             d = torch.triu(d, diagonal=1)
             d = d[d != 0]
-            self.div_scores.append(d.detach().cpu().numpy().tolist())
+            self.div_scores.append(d.detach().to(torch.float32).cpu().numpy().tolist())
 
             # if there is only one prediction,
             # i.e., one val sitting on the diagonal alone,
