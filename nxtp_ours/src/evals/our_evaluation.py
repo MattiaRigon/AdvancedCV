@@ -232,6 +232,7 @@ def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=1
 
         # start sampling
         x = input_embds
+        all_pred = {}
         prev = []
         masked_input = None
         while len(prev) < 10:
@@ -359,8 +360,12 @@ def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=1
             batch_preds = batch_preds[0]
             batch_probs = batch_probs[0]
 
-            # print(f"\ninference time: {(t2 - t1):.3f}s")
-            # print(f"top-{num_labels} predictions:")
+            for pred, prob in zip(batch_preds, batch_probs):
+                if pred not in all_pred.keys():
+                    all_pred[pred] = prob
+                elif all_pred[pred] < prob:
+                    all_pred[pred] = prob
+
             
             for pred, prob in zip(batch_preds, batch_probs):
                 # print(f"| prob: {prob:.5f} - {pred}")
@@ -369,12 +374,19 @@ def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=1
                     text_decoder.reset()
                     if pred == "animal":
                         break
+                    if masked_input is not None:
+                        percentage_of_masked = masked_input.sum() / 256
+                        if percentage_of_masked > 0.8:
+                            sorted_keys = sorted(all_pred, key=all_pred.get, reverse=True)
+                            return sorted_keys[:10]
+                            
+                    
                     masked_input = compute_sam_mask(model_sam,pred, img_path, masked_input)
                     break
 
 
         # print(f"final predictions: {prev}")  
-        return prev
+        return sorted_keys[:10]
 
 
 
@@ -465,7 +477,7 @@ if __name__ == "__main__":
                 "metrics": vals,
             }
 
-            output_file = "evalutation_ours_coco_00000.json"
+            output_file = "evalutation_ours_coco_00000_2.json"
             if os.path.exists(output_file):
                 with open(output_file, "r") as f:
                     data = json.load(f)

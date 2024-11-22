@@ -346,6 +346,8 @@ def evaluate(
 
     pbar = tqdm(enumerate(loader), total=len(loader))
     for i, batch in pbar:
+        if batch == []:
+            continue
         imgs, caps, keys = batch  # imgs are augmented by clip preprocess
         imgs = imgs.to(device, non_blocking=True)
         bs = imgs.shape[0]

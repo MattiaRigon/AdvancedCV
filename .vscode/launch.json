@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008629.jpg",
+                "--img-path", "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
@@ -66,7 +66,7 @@
             "program": "${workspaceFolder}/nxtp_ours/src/infer_sam.py",
             "args": [
                 "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp/assets/animals.png",
+                "--img-path", "nxtp/assets/gattino_paper.png",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],

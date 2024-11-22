@@ -184,8 +184,12 @@ def apply_transform(item, image_transform=None, text_transform=None,sample_dict=
         return txt
     key = item["__key__"]
     item = sample_dict[key]
-    img = decode_img(item[".jpg"].read())
-    txt = decode_txt(item[".txt"].read())
+    try:
+        img = decode_img(item[".jpg"].read())
+        txt = decode_txt(item[".txt"].read())
+    except Exception as e:
+        print(f"Error in decoding {key}: {e}")
+        return []
     return img, txt, key
 
 

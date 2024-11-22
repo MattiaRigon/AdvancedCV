@@ -51,7 +51,7 @@ def get_last_token_attention_map(attn_map, filename="last_token_attention_map.pn
     plt.imshow(avg_attention_map, cmap=cmap)
     plt.axis("off")
     plt.tight_layout()
-    plt.savefig(f"attentions/average{filename}")
+    plt.savefig(f"attentions/average_{filename}")
     plt.close()
 
 
@@ -255,7 +255,7 @@ def main(
 
                     # print(f"visualizing attention map for {k}")
                     attn_map = cached_tensors[k]
-                    # get_last_token_attention_map(attn_map, filename=f"layer{k}.png")
+                    get_last_token_attention_map(attn_map, filename=f"pred{len(prev)}_layer{k}.png")
                     continue
                     # extract the attention map for image tokens
                     ii = dummy_token_index_obj
