@@ -243,7 +243,7 @@ def main(
 
                 print(f"visualizing attention map for {k}")
                 attn_map = cached_tensors[k]
-                get_last_token_attention_map(attn_map, filename=f"layer{k}.png")
+                # get_last_token_attention_map(attn_map, filename=f"layer{k}.png")
                 continue
                 # extract the attention map for image tokens
                 ii = dummy_token_index_obj

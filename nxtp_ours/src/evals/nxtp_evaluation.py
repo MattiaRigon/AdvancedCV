@@ -644,7 +644,7 @@ if __name__ == "__main__":
                 "metrics": vals,
             }
 
-            output_file = "evalutation_ours_coco_00000.json"
+            output_file = "evalutation_nxtp_coco_00000.json"
             if os.path.exists(output_file):
                 with open(output_file, "r") as f:
                     data = json.load(f)

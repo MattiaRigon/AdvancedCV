@@ -13,7 +13,6 @@ from tqdm import tqdm
 from nxtp_ours.src.decoding import OneShotDecoder
 from nxtp_ours.src.encoding import construct_embd_inputs, construct_text_inputs
 
-from lang_sam import LangSAM
 import torchvision.transforms as T
 
 from nxtp_ours.src.evals.engine import encode_cap_to_objs
@@ -22,6 +21,15 @@ from nxtp_ours.src.functions import load_clip, load_llama
 from nxtp_ours.src.models.classifier import LangClassifier
 from nxtp_ours.src.utils import load_checkpoint, load_config, set_dtype
 
+
+from matplotlib import pyplot as plt
+import numpy as np
+import torch
+from sam2.build_sam import build_sam2
+from sam2.sam2_image_predictor import SAM2ImagePredictor
+from PIL import Image
+from sam2.build_sam import build_sam2
+from sam2.automatic_mask_generator import SAM2AutomaticMaskGenerator
 
 class CustomDataset(Dataset):
     def __init__(self, root_dir, transform=None):
@@ -91,78 +99,42 @@ def build_preprocess(input_size):
         ),
     ]
     return T.Compose([*resized_crop, *to_rgb, *norm])
+
+def create_tensor_from_mask(mask, patch_size):
+    """Create a 16x16 tensor for the given mask, dividing it into patches."""
+    h, w = mask.shape
+    tensor = torch.zeros((patch_size, patch_size))
     
-def compute_sam_mask(model_lang_sam : LangSAM, label : str, image_path, masked_input,save_mask=False,save_mask_patches=False):
+    patch_h, patch_w = h // patch_size, w // patch_size
+    for i in range(patch_size):
+        for j in range(patch_size):
+            patch = mask[i * patch_h:(i + 1) * patch_h, j * patch_w:(j + 1) * patch_w]
+            if np.any(patch):
+                tensor[i, j] = 1
 
+    return tensor
+    
+def compute_masks(mask_generator,image_path):
+    try:
+        image = Image.open(image_path)
+        image = build_preprocess_sam(224)(image)    
+        image = np.array(image.convert("RGB"))
+        masks = mask_generator.generate(image)
+        tensors = []
+        patch_size = 16
+        
+        for idx, mask in enumerate(masks):
+            # Get the segmentation and convert it to a tensor
+            segmentation = mask['segmentation']
+            tensor = create_tensor_from_mask(segmentation, patch_size)
+            tensors.append(tensor)
 
-    if label == "" : return masked_input
-    image = Image.open(image_path).convert("RGB")
-    image = build_preprocess_sam(224)(image)
-    output_dir = "./output/"
-    filename = os.path.basename(image_path).replace(".jpg", "").replace(".png", "")
-    output_dir = os.path.join(output_dir, filename)
-    os.makedirs(output_dir, exist_ok=True)
-    results = model_lang_sam.predict([image], [label])
-    patches_masked = None
-    for idx, result in enumerate(results):
-        # Salvataggio delle maschere come immagini
-        for mask_idx, mask in enumerate(result["masks"]):
-            mask_img = Image.fromarray((mask * 255).astype(np.uint8))  # Convertire in scala di grigi 8-bit
-            mask_path = f"{output_dir}/mask_{idx}_{mask_idx}.png"
-            if save_mask:
-                mask_img.save(mask_path)
+        return tensors
+    except Exception as e:
+        print(f"Error: {e}")
+        return []
 
-            # Carica l'immagine in bianco e nero
-            mask_array = np.array(mask_img) // 255  # Converti in binario (0 o 1)
-
-            # Definisci dimensioni delle patch
-            patch_size = 14
-            h, w = mask_array.shape
-            matrix_height = h // patch_size
-            matrix_width = w // patch_size
-
-            # Inizializza matrice di patch
-            patch_matrix = np.zeros((matrix_height, matrix_width), dtype=int)
-
-            # Calcola i valori delle patch
-            for i in range(matrix_height):
-                for j in range(matrix_width):
-                    patch = mask_array[i * patch_size:(i + 1) * patch_size, j * patch_size:(j + 1) * patch_size]
-                    patch_value = 1 if np.sum(patch) >= (patch_size * patch_size / 2) else 0
-                    patch_matrix[i, j] = patch_value
-
-            # Visualizza la matrice come immagine
-            # Trasforma la matrice in un tensore torch
-
-            patch_matrix_tensor = torch.tensor(patch_matrix, dtype=torch.int)
-            if patches_masked is None:
-                patches_masked = patch_matrix_tensor
-            else:
-                patches_masked += patch_matrix_tensor
-                patches_masked = torch.where(patches_masked > 0, 1, 0)
-
-
-    if patches_masked is None:
-        return masked_input
-    elif masked_input is None:
-        return patches_masked
-    else:
-        patches_masked = masked_input + patches_masked
-        patches_masked = torch.where(patches_masked > 0, 1, 0)
-
-    if save_mask_patches:
-        patch_matrix_tensor = patches_masked
-        patch_matrix = patch_matrix_tensor.numpy()
-        patch_matrix = (patch_matrix * 255).astype(np.uint8)
-        mask_img = Image.fromarray(patch_matrix)
-        num = len([name for name in os.listdir(output_dir) if os.path.isfile(os.path.join(output_dir, name))])
-        mask_path = f"{output_dir}/mask_{num}.png"
-        mask_img.save(mask_path)
-
-    return patches_masked
-
-
-def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=10):
+def predict(model,mask_generator,tokenizer,img_path,args,device = "cuda",num_labels=10):
 
     # load image
     img = Image.open(img_path).convert("RGB")
@@ -232,10 +204,13 @@ def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=1
 
         # start sampling
         x = input_embds
-        all_pred = {}
+        all_preds = {}
         prev = []
         masked_input = None
-        while len(prev) < 10:
+
+        masks = compute_masks(mask_generator,img_path)
+        for mask in masks:
+            masked_input = 1- mask
             x = input_embds
             logits = model.language_decoder.forward(
                 x,
@@ -360,32 +335,23 @@ def predict(model,model_sam,tokenizer,img_path,args,device = "cuda",num_labels=1
             batch_preds = batch_preds[0]
             batch_probs = batch_probs[0]
 
-            for pred, prob in zip(batch_preds, batch_probs):
-                if pred not in all_pred.keys():
-                    all_pred[pred] = prob
-                elif all_pred[pred] < prob:
-                    all_pred[pred] = prob
+            prev.append(batch_preds)
+            # print(batch_preds, batch_probs)
+            text_decoder.reset()
 
+            for pred,prob in zip(batch_preds,batch_probs):
+                if pred not in all_preds.keys():
+                    all_preds[pred] = prob
+                elif prob > all_preds[pred]:
+                    all_preds[pred] = prob
             
-            for pred, prob in zip(batch_preds, batch_probs):
-                # print(f"| prob: {prob:.5f} - {pred}")
-                if pred not in prev:
-                    prev.append(pred)
-                    text_decoder.reset()
-                    if masked_input is not None:
-                        percentage_of_masked = masked_input.sum() / 256
-                        if percentage_of_masked > 0.8:
-                            sorted_keys = sorted(all_pred, key=all_pred.get, reverse=True)
-                            sorted_keys = [k for k in sorted_keys if k not in prev]
-                            return prev + sorted_keys[:10 - len(prev)]
-                            
-                    
-                    masked_input = compute_sam_mask(model_sam,pred, img_path, masked_input)
-                    break
+      
 
 
         # print(f"final predictions: {prev}")  
-        return prev
+        sorted_preds = dict(sorted(all_preds.items(), key=lambda item: item[1], reverse=True))
+        return list(sorted_preds.keys())[:10]
+        # print(f"final predictions: {sorted_preds}")
 
 
 
@@ -408,9 +374,24 @@ if __name__ == "__main__":
     model = LangClassifier(vision_encoder=clip_model, language_decoder=llama_model)
     model = model.to(device)
 
-    model_lang_sam = LangSAM()
+    checkpoint = "sam2/checkpoints/sam2.1_hiera_small.pt"
+    model_cfg = "configs/sam2.1/sam2.1_hiera_s.yaml"
+    sam2 = build_sam2(model_cfg, checkpoint, device="cuda", apply_postprocessing=False)
 
-    # load ckpt
+    mask_generator = SAM2AutomaticMaskGenerator(
+        model=sam2,
+        points_per_side=16,  # Coarser grid
+        points_per_batch=64,  # Reduce batch size for coarser segmentation
+        pred_iou_thresh=0.8,  # High-quality masks
+        stability_score_thresh=0.95,  # Focus on stable masks
+        stability_score_offset=0.7,  # Keep default
+        crop_n_layers=1,  # Minimal cropping for larger masks
+        box_nms_thresh=0.5,  # Reduce overlap for distinct objects
+        crop_n_points_downscale_factor=2,  # Balance detail and computation
+        min_mask_region_area=500.0,  # Focus on larger objects
+        use_m2m=True,  # Merge masks for the same object
+    )
+# load ckpt
     load_checkpoint(args, model, strict=False)
     model.eval()
 
@@ -444,7 +425,9 @@ if __name__ == "__main__":
             image_path = image_paths[i]
 
             # Esegui la predizione
-            predictions = predict(model,model_lang_sam,tokenizer,image_path,args,device = "cuda",num_labels=10)
+            predictions = predict(model,mask_generator,tokenizer,image_path,args,device = "cuda",num_labels=10)
+            if predictions == []:
+                continue
             ground_truth = encode_cap_to_objs(args,[text])
             ground_truth = list(set(ground_truth[0]))
             # print(f"Predictions: {predictions}")
@@ -476,7 +459,7 @@ if __name__ == "__main__":
                 "metrics": vals,
             }
 
-            output_file = "evalutation_ours_coco_00000.json"
+            output_file = "evalutation_ours_coco_00000_2.json"
             if os.path.exists(output_file):
                 with open(output_file, "r") as f:
                     data = json.load(f)

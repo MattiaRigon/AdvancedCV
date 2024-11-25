@@ -38,7 +38,7 @@
             "program": "${workspaceFolder}/nxtp/src/infer.py",
             "args": [
                 "--ckpt-path", "nxtp/dev_root/ckpt_epoch_03_iter_0021360.pth",
-                "--img-path", "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg",
+                "--img-path", "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001268.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],
@@ -67,6 +67,20 @@
             "args": [
                 "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
                 "--img-path", "nxtp/assets/gattino_paper.png",
+                "--num-labels", "10",
+                "--save-attention-map", "True",
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },        
+        {
+            "name": "Python: INPUT Debug infer.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/nxtp_ours/src/infer_input_sam.py",
+            "args": [
+                "--ckpt-path", "nxtp_ours/dev_root/ckpt_epoch_03_iter_0021360.pth",
+                "--img-path", "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001268.jpg",
                 "--num-labels", "10",
                 "--save-attention-map", "True",
             ],

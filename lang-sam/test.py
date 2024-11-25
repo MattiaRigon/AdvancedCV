@@ -27,7 +27,7 @@ if __name__ == "__main__":
     image_pil = Image.open(f"nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg").convert("RGB")
     image_pil = build_preprocess(224)(image_pil)
 
-    text_prompt = "people."
+    text_prompt = "segmetn all the objects in the image."
     results = model.predict([image_pil], [text_prompt])
 
     # Directory for output files

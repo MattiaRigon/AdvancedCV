@@ -1,0 +1,3354 @@
+[
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008021.jpg",
+        "predictions": [
+            "event",
+            "stage",
+            "business",
+            "audience",
+            "speech",
+            "speaks",
+            "man",
+            "politician",
+            "talk",
+            "crowd"
+        ],
+        "ground_truth": [
+            "wall",
+            "gentleman",
+            "people",
+            "film",
+            "presentation",
+            "suit",
+            "audience",
+            "screen",
+            "man",
+            "lecture",
+            "presenter",
+            "conference"
+        ],
+        "metrics": {
+            "sscr_R": 0.578125,
+            "sscr_P": 0.5859375,
+            "sscr_F": 0.58203125,
+            "sscr_div_avg": 0.337890625,
+            "sscr_div_std": 0.109375
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001993.jpg",
+        "predictions": [
+            "bedroom",
+            "room",
+            "house",
+            "apartment",
+            "wall",
+            "window",
+            "view",
+            "floor",
+            "hotel",
+            "master"
+        ],
+        "ground_truth": [
+            "bed",
+            "bedroom",
+            "wall",
+            "chair",
+            "apartment",
+            "carpet",
+            "table",
+            "sheet",
+            "room",
+            "view",
+            "comforter",
+            "window"
+        ],
+        "metrics": {
+            "sscr_R": 0.66015625,
+            "sscr_P": 0.708984375,
+            "sscr_F": 0.681640625,
+            "sscr_div_avg": 0.3818359375,
+            "sscr_div_std": 0.13037109375
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007281.jpg",
+        "predictions": [
+            "horse",
+            "beach",
+            "people",
+            "ride",
+            "men",
+            "sea",
+            "couple",
+            "man",
+            "rider",
+            "group"
+        ],
+        "ground_truth": [
+            "playing",
+            "men",
+            "riding",
+            "shore",
+            "horse",
+            "people",
+            "horseback",
+            "beach",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.7044270634651184,
+            "sscr_P": 0.7369791865348816,
+            "sscr_F": 0.71875,
+            "sscr_div_avg": 0.365234375,
+            "sscr_div_std": 0.1295572966337204
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007816.jpg",
+        "predictions": [
+            "motorcycle",
+            "road",
+            "rider",
+            "race",
+            "man",
+            "bike",
+            "speed",
+            "industry",
+            "line",
+            "biker"
+        ],
+        "ground_truth": [
+            "road",
+            "motorcycle",
+            "corner",
+            "rider",
+            "people",
+            "guy",
+            "travel",
+            "fence",
+            "bike",
+            "motor",
+            "group"
+        ],
+        "metrics": {
+            "sscr_R": 0.6982421875,
+            "sscr_P": 0.734375,
+            "sscr_F": 0.71484375,
+            "sscr_div_avg": 0.36962890625,
+            "sscr_div_std": 0.13525390625
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001490.jpg",
+        "predictions": [
+            "board",
+            "water",
+            "man",
+            "kayak",
+            "sea",
+            "woman",
+            "sport",
+            "beach",
+            "ocean",
+            "surf"
+        ],
+        "ground_truth": [
+            "wetsuit",
+            "middle",
+            "paddle",
+            "suit",
+            "outside",
+            "water",
+            "man",
+            "sea",
+            "body",
+            "surfboard",
+            "racquet",
+            "boarder"
+        ],
+        "metrics": {
+            "sscr_R": 0.692187488079071,
+            "sscr_P": 0.741406261920929,
+            "sscr_F": 0.715624988079071,
+            "sscr_div_avg": 0.375,
+            "sscr_div_std": 0.13730469346046448
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002923.jpg",
+        "predictions": [
+            "boat",
+            "fishing",
+            "bird",
+            "seagull",
+            "water",
+            "marsh",
+            "sky",
+            "crane",
+            "tide",
+            "dock"
+        ],
+        "ground_truth": [
+            "field",
+            "dock",
+            "sail",
+            "overcast",
+            "grass",
+            "couple",
+            "area",
+            "sea",
+            "shrimp",
+            "marsh",
+            "bird",
+            "distance",
+            "ship",
+            "egret",
+            "boat",
+            "harbor"
+        ],
+        "metrics": {
+            "sscr_R": 0.6751301884651184,
+            "sscr_P": 0.7376301884651184,
+            "sscr_F": 0.7037760615348816,
+            "sscr_div_avg": 0.3720703125,
+            "sscr_div_std": 0.1280110627412796
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008762.jpg",
+        "predictions": [
+            "light",
+            "street",
+            "traffic",
+            "night",
+            "road",
+            "intersection",
+            "city",
+            "time",
+            "view",
+            "sunset"
+        ],
+        "ground_truth": [
+            "car",
+            "city",
+            "sign",
+            "street",
+            "light",
+            "twilight",
+            "intersection",
+            "lit",
+            "night",
+            "traffic",
+            "evening",
+            "building",
+            "silhouette",
+            "scene"
+        ],
+        "metrics": {
+            "sscr_R": 0.6852678656578064,
+            "sscr_P": 0.7505580186843872,
+            "sscr_F": 0.71484375,
+            "sscr_div_avg": 0.3694196343421936,
+            "sscr_div_std": 0.1275111585855484
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002592.jpg",
+        "predictions": [
+            "mug",
+            "cup",
+            "coffee",
+            "tea",
+            "skull",
+            "teapot",
+            "sugar",
+            "sits",
+            "spice",
+            "tug"
+        ],
+        "ground_truth": [
+            "bone",
+            "coffee",
+            "counter",
+            "mug",
+            "skull",
+            "knife",
+            "surface",
+            "cup",
+            "crossbones"
+        ],
+        "metrics": {
+            "sscr_R": 0.6845703125,
+            "sscr_P": 0.7412109375,
+            "sscr_F": 0.7099609375,
+            "sscr_div_avg": 0.367431640625,
+            "sscr_div_std": 0.1300048828125
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002431.jpg",
+        "predictions": [
+            "table",
+            "food",
+            "bread",
+            "restaurant",
+            "dinner",
+            "lunch",
+            "meal",
+            "wine",
+            "dish",
+            "oven"
+        ],
+        "ground_truth": [
+            "food",
+            "glass",
+            "slice",
+            "bread",
+            "meal",
+            "side",
+            "table",
+            "plate",
+            "condiment",
+            "tray",
+            "item",
+            "toast"
+        ],
+        "metrics": {
+            "sscr_R": 0.6809895634651184,
+            "sscr_P": 0.7452256679534912,
+            "sscr_F": 0.7100694179534912,
+            "sscr_div_avg": 0.3786892294883728,
+            "sscr_div_std": 0.1307508647441864
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009378.jpg",
+        "predictions": [
+            "artist",
+            "event",
+            "performance",
+            "man",
+            "actor",
+            "festival",
+            "competition",
+            "part",
+            "air",
+            "hand"
+        ],
+        "ground_truth": [
+            "frisbee",
+            "trick",
+            "adult",
+            "audience",
+            "man",
+            "disc",
+            "disk",
+            "ability",
+            "toy",
+            "hair"
+        ],
+        "metrics": {
+            "sscr_R": 0.6585937738418579,
+            "sscr_P": 0.7173827886581421,
+            "sscr_F": 0.6851562261581421,
+            "sscr_div_avg": 0.37089842557907104,
+            "sscr_div_std": 0.12539061903953552
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006460.jpg",
+        "predictions": [
+            "surfer",
+            "wave",
+            "trick",
+            "air",
+            "jump",
+            "water",
+            "man",
+            "round",
+            "ocean",
+            "board"
+        ],
+        "ground_truth": [
+            "safety",
+            "surf",
+            "man",
+            "board",
+            "surfboard",
+            "line",
+            "wave",
+            "surfer"
+        ],
+        "metrics": {
+            "sscr_R": 0.6690340638160706,
+            "sscr_P": 0.7118253111839294,
+            "sscr_F": 0.6875,
+            "sscr_div_avg": 0.3670099377632141,
+            "sscr_div_std": 0.12260298430919647
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002261.jpg",
+        "predictions": [
+            "wave",
+            "water",
+            "surfer",
+            "boy",
+            "beach",
+            "ocean",
+            "sea",
+            "man",
+            "top",
+            "board"
+        ],
+        "ground_truth": [
+            "raft",
+            "ride",
+            "boy",
+            "boogie",
+            "shirt",
+            "man",
+            "board",
+            "water",
+            "ocean",
+            "play",
+            "wave"
+        ],
+        "metrics": {
+            "sscr_R": 0.6761067509651184,
+            "sscr_P": 0.7244465947151184,
+            "sscr_F": 0.6975911259651184,
+            "sscr_div_avg": 0.36767578125,
+            "sscr_div_std": 0.12451171875
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001000.jpg",
+        "predictions": [
+            "tennis",
+            "player",
+            "tournament",
+            "team",
+            "boy",
+            "people",
+            "kid",
+            "court",
+            "trophy",
+            "competition"
+        ],
+        "ground_truth": [
+            "tennis",
+            "family",
+            "people",
+            "pose",
+            "photo",
+            "net",
+            "child",
+            "court",
+            "kid",
+            "group",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.6772836446762085,
+            "sscr_P": 0.7252103090286255,
+            "sscr_F": 0.6989182829856873,
+            "sscr_div_avg": 0.3685396611690521,
+            "sscr_div_std": 0.12484975904226303
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008899.jpg",
+        "predictions": [
+            "building",
+            "neighborhood",
+            "street",
+            "door",
+            "graffiti",
+            "apartment",
+            "house",
+            "side",
+            "city",
+            "corner"
+        ],
+        "ground_truth": [
+            "city",
+            "curbside",
+            "street",
+            "side",
+            "fire",
+            "hydrant",
+            "door",
+            "building",
+            "brick",
+            "graffiti"
+        ],
+        "metrics": {
+            "sscr_R": 0.6838727593421936,
+            "sscr_P": 0.7320033311843872,
+            "sscr_F": 0.7056361436843872,
+            "sscr_div_avg": 0.3717913031578064,
+            "sscr_div_std": 0.1235700324177742
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007088.jpg",
+        "predictions": [
+            "rain",
+            "umbrella",
+            "street",
+            "girl",
+            "yard",
+            "road",
+            "walk",
+            "child",
+            "school",
+            "sidewalk"
+        ],
+        "ground_truth": [
+            "rain",
+            "umbrella",
+            "pose",
+            "stand",
+            "girl",
+            "child",
+            "wet"
+        ],
+        "metrics": {
+            "sscr_R": 0.6895833611488342,
+            "sscr_P": 0.7259114384651184,
+            "sscr_F": 0.7052083611488342,
+            "sscr_div_avg": 0.37252604961395264,
+            "sscr_div_std": 0.12340494990348816
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003156.jpg",
+        "predictions": [
+            "man",
+            "bathroom",
+            "room",
+            "house",
+            "hand",
+            "sink",
+            "toilet",
+            "worker",
+            "water",
+            "dish"
+        ],
+        "ground_truth": [
+            "floor",
+            "toilet",
+            "photo",
+            "man"
+        ],
+        "metrics": {
+            "sscr_R": 0.693603515625,
+            "sscr_P": 0.7181396484375,
+            "sscr_F": 0.702880859375,
+            "sscr_div_avg": 0.3721923828125,
+            "sscr_div_std": 0.123504638671875
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000632.jpg",
+        "predictions": [
+            "bedroom",
+            "window",
+            "room",
+            "book",
+            "house",
+            "view",
+            "wall",
+            "home",
+            "tree",
+            "shelf"
+        ],
+        "ground_truth": [
+            "bed",
+            "bedroom",
+            "bookcase",
+            "book",
+            "mirror",
+            "sheet",
+            "shelf",
+            "room",
+            "comforter",
+            "window",
+            "scene"
+        ],
+        "metrics": {
+            "sscr_R": 0.6953125,
+            "sscr_P": 0.7209329009056091,
+            "sscr_F": 0.7054228186607361,
+            "sscr_div_avg": 0.3746553361415863,
+            "sscr_div_std": 0.1238798275589943
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003501.jpg",
+        "predictions": [
+            "bean",
+            "recipe",
+            "dish",
+            "food",
+            "bowl",
+            "chicken",
+            "rice",
+            "broccoli",
+            "vegetable",
+            "cranberry"
+        ],
+        "ground_truth": [
+            "dish",
+            "broccoli",
+            "vegetable",
+            "relish",
+            "rice",
+            "meal",
+            "bowl",
+            "corn",
+            "mixture",
+            "plate",
+            "meat",
+            "bean"
+        ],
+        "metrics": {
+            "sscr_R": 0.7005208134651184,
+            "sscr_P": 0.7281901240348816,
+            "sscr_F": 0.7118055820465088,
+            "sscr_div_avg": 0.3776041567325592,
+            "sscr_div_std": 0.1222873255610466
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008629.jpg",
+        "predictions": [
+            "pizza",
+            "slice",
+            "food",
+            "cheese",
+            "piece",
+            "plate",
+            "pie",
+            "dish",
+            "pepperoni",
+            "mushroom"
+        ],
+        "ground_truth": [
+            "sauce",
+            "slice",
+            "quiche",
+            "plate",
+            "type",
+            "picture",
+            "pizza"
+        ],
+        "metrics": {
+            "sscr_R": 0.6988075375556946,
+            "sscr_P": 0.7272820472717285,
+            "sscr_F": 0.7107319235801697,
+            "sscr_div_avg": 0.38199013471603394,
+            "sscr_div_std": 0.12001439183950424
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009772.jpg",
+        "predictions": [
+            "bathroom",
+            "hotel",
+            "room",
+            "mirror",
+            "sink",
+            "view",
+            "toilet",
+            "picture",
+            "tub",
+            "shower"
+        ],
+        "ground_truth": [
+            "sink",
+            "picture",
+            "guy",
+            "hotel",
+            "bathroom",
+            "view",
+            "television"
+        ],
+        "metrics": {
+            "sscr_R": 0.705859363079071,
+            "sscr_P": 0.7315429449081421,
+            "sscr_F": 0.7164062261581421,
+            "sscr_div_avg": 0.3818359375,
+            "sscr_div_std": 0.12114258110523224
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003553.jpg",
+        "predictions": [
+            "skateboard",
+            "foot",
+            "board",
+            "park",
+            "shoe",
+            "boy",
+            "leg",
+            "man",
+            "sneaker",
+            "stair"
+        ],
+        "ground_truth": [
+            "skateboard",
+            "platform",
+            "grass",
+            "ramp",
+            "park",
+            "man",
+            "board",
+            "skating",
+            "concrete",
+            "piece",
+            "sneaker",
+            "skateboarder",
+            "wood",
+            "leg"
+        ],
+        "metrics": {
+            "sscr_R": 0.7081473469734192,
+            "sscr_P": 0.7374442219734192,
+            "sscr_F": 0.7204241156578064,
+            "sscr_div_avg": 0.3813244104385376,
+            "sscr_div_std": 0.1219773069024086
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006894.jpg",
+        "predictions": [
+            "elephant",
+            "man",
+            "face",
+            "animal",
+            "head",
+            "smile",
+            "photo",
+            "baby",
+            "male",
+            "tourist"
+        ],
+        "ground_truth": [
+            "field",
+            "truck",
+            "baby",
+            "face",
+            "man",
+            "neck",
+            "trunk",
+            "touch",
+            "head",
+            "kiss",
+            "elephant"
+        ],
+        "metrics": {
+            "sscr_R": 0.7073863744735718,
+            "sscr_P": 0.7374822497367859,
+            "sscr_F": 0.7201704382896423,
+            "sscr_div_avg": 0.37979403138160706,
+            "sscr_div_std": 0.12060546875
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007818.jpg",
+        "predictions": [
+            "flower",
+            "restaurant",
+            "window",
+            "table",
+            "glass",
+            "room",
+            "view",
+            "vase",
+            "setting",
+            "arrangement"
+        ],
+        "ground_truth": [
+            "centerpiece",
+            "glass",
+            "flour",
+            "stemware",
+            "display",
+            "photo",
+            "vase",
+            "dining",
+            "wine",
+            "arrangement",
+            "table",
+            "room",
+            "dinner"
+        ],
+        "metrics": {
+            "sscr_R": 0.70652174949646,
+            "sscr_P": 0.7392153739929199,
+            "sscr_F": 0.7206181883811951,
+            "sscr_div_avg": 0.3771229684352875,
+            "sscr_div_std": 0.11954398453235626
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007386.jpg",
+        "predictions": [
+            "motorcycle",
+            "dog",
+            "wheel",
+            "bike",
+            "photo",
+            "trailer",
+            "grass",
+            "truck",
+            "bicycle",
+            "paddock"
+        ],
+        "ground_truth": [
+            "driveway",
+            "frame",
+            "outside",
+            "motor",
+            "home",
+            "tricycle",
+            "garage",
+            "motorcycle",
+            "trike"
+        ],
+        "metrics": {
+            "sscr_R": 0.7013346552848816,
+            "sscr_P": 0.732177734375,
+            "sscr_F": 0.7145182490348816,
+            "sscr_div_avg": 0.37890625,
+            "sscr_div_std": 0.1203409805893898
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000139.jpg",
+        "predictions": [
+            "kitchen",
+            "room",
+            "house",
+            "home",
+            "living",
+            "apartment",
+            "window",
+            "table",
+            "floor",
+            "woman"
+        ],
+        "ground_truth": [
+            "standing",
+            "kitchen",
+            "chair",
+            "area",
+            "woman",
+            "table",
+            "room",
+            "television",
+            "window"
+        ],
+        "metrics": {
+            "sscr_R": 0.7042187452316284,
+            "sscr_P": 0.7339843511581421,
+            "sscr_F": 0.7170312404632568,
+            "sscr_div_avg": 0.37992188334465027,
+            "sscr_div_std": 0.12091796845197678
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002153.jpg",
+        "predictions": [
+            "game",
+            "player",
+            "baseball",
+            "pitch",
+            "home",
+            "sport",
+            "team",
+            "inning",
+            "plate",
+            "ball"
+        ],
+        "ground_truth": [
+            "batter",
+            "ball",
+            "pitch",
+            "male",
+            "player",
+            "base",
+            "home",
+            "pitcher",
+            "plate",
+            "baseball",
+            "bat",
+            "tennis",
+            "hand",
+            "game"
+        ],
+        "metrics": {
+            "sscr_R": 0.7071815133094788,
+            "sscr_P": 0.7404597401618958,
+            "sscr_F": 0.7214543223381042,
+            "sscr_div_avg": 0.38303786516189575,
+            "sscr_div_std": 0.12086839228868484
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001503.jpg",
+        "predictions": [
+            "computer",
+            "keyboard",
+            "laptop",
+            "desk",
+            "monitor",
+            "desktop",
+            "mouse",
+            "technology",
+            "table",
+            "office"
+        ],
+        "ground_truth": [
+            "lap",
+            "computer",
+            "imac",
+            "equipment",
+            "piece",
+            "desk",
+            "apple",
+            "picture",
+            "mac"
+        ],
+        "metrics": {
+            "sscr_R": 0.7041377425193787,
+            "sscr_P": 0.7380642294883728,
+            "sscr_F": 0.7188946604728699,
+            "sscr_div_avg": 0.38534432649612427,
+            "sscr_div_std": 0.12091290205717087
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003255.jpg",
+        "predictions": [
+            "snow",
+            "people",
+            "mountain",
+            "slope",
+            "winter",
+            "trail",
+            "skier",
+            "group",
+            "range",
+            "ridge"
+        ],
+        "ground_truth": [
+            "skier",
+            "people",
+            "path",
+            "slope",
+            "trail",
+            "snowy",
+            "hill",
+            "ski",
+            "snow",
+            "bottom",
+            "mountain",
+            "snowboarder",
+            "group",
+            "surface"
+        ],
+        "metrics": {
+            "sscr_R": 0.7075892686843872,
+            "sscr_P": 0.7425362467765808,
+            "sscr_F": 0.7229352593421936,
+            "sscr_div_avg": 0.3828125,
+            "sscr_div_std": 0.1211983785033226
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009590.jpg",
+        "predictions": [
+            "tea",
+            "table",
+            "room",
+            "friend",
+            "breakfast",
+            "coffee",
+            "house",
+            "people",
+            "lunch",
+            "group"
+        ],
+        "ground_truth": [
+            "men",
+            "people",
+            "eating",
+            "meal",
+            "guy",
+            "male",
+            "table",
+            "drink",
+            "group",
+            "laughing"
+        ],
+        "metrics": {
+            "sscr_R": 0.7062230706214905,
+            "sscr_P": 0.7406384944915771,
+            "sscr_F": 0.721309244632721,
+            "sscr_div_avg": 0.38126346468925476,
+            "sscr_div_std": 0.12119477242231369
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001761.jpg",
+        "predictions": [
+            "airplane",
+            "sky",
+            "plane",
+            "bridge",
+            "flight",
+            "gate",
+            "city",
+            "view",
+            "shot",
+            "cloud"
+        ],
+        "ground_truth": [
+            "sky",
+            "plane",
+            "bridge",
+            "sydney",
+            "water",
+            "photo",
+            "house",
+            "airplane",
+            "opera",
+            "australia",
+            "jet"
+        ],
+        "metrics": {
+            "sscr_R": 0.7049478888511658,
+            "sscr_P": 0.740039050579071,
+            "sscr_F": 0.7204427123069763,
+            "sscr_div_avg": 0.38066405057907104,
+            "sscr_div_std": 0.12194010615348816
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009769.jpg",
+        "predictions": [
+            "snow",
+            "street",
+            "truck",
+            "road",
+            "storm",
+            "winter",
+            "city",
+            "vehicle",
+            "drive",
+            "side"
+        ],
+        "ground_truth": [
+            "blade",
+            "road",
+            "truck",
+            "neighbor",
+            "street",
+            "drive",
+            "driver",
+            "snow",
+            "plow",
+            "pick"
+        ],
+        "metrics": {
+            "sscr_R": 0.7055191397666931,
+            "sscr_P": 0.7421244978904724,
+            "sscr_F": 0.7217742204666138,
+            "sscr_div_avg": 0.3818044364452362,
+            "sscr_div_std": 0.1225743442773819
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002149.jpg",
+        "predictions": [
+            "apple",
+            "bowl",
+            "fruit",
+            "table",
+            "plate",
+            "food",
+            "glass",
+            "view",
+            "ripe",
+            "pear"
+        ],
+        "ground_truth": [
+            "smith",
+            "granny",
+            "apple",
+            "bowl"
+        ],
+        "metrics": {
+            "sscr_R": 0.704345703125,
+            "sscr_P": 0.73516845703125,
+            "sscr_F": 0.717529296875,
+            "sscr_div_avg": 0.38092041015625,
+            "sscr_div_std": 0.1224517822265625
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003934.jpg",
+        "predictions": [
+            "family",
+            "room",
+            "house",
+            "game",
+            "living",
+            "video",
+            "girl",
+            "home",
+            "kid",
+            "fun"
+        ],
+        "ground_truth": [
+            "nintendo",
+            "dress",
+            "adult",
+            "photo",
+            "woman",
+            "girl",
+            "wii",
+            "controller",
+            "others",
+            "party",
+            "video",
+            "goer",
+            "game"
+        ],
+        "metrics": {
+            "sscr_R": 0.7005208134651184,
+            "sscr_P": 0.7319483757019043,
+            "sscr_F": 0.7141335010528564,
+            "sscr_div_avg": 0.38145121932029724,
+            "sscr_div_std": 0.12217389047145844
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002157.jpg",
+        "predictions": [
+            "cake",
+            "party",
+            "food",
+            "table",
+            "birth",
+            "dinner",
+            "dessert",
+            "fruit",
+            "plate",
+            "wedding"
+        ],
+        "ground_truth": [
+            "food",
+            "finger",
+            "sandwich",
+            "table",
+            "plate",
+            "berry",
+            "cake",
+            "blue",
+            "raspberry",
+            "cheese",
+            "fruit"
+        ],
+        "metrics": {
+            "sscr_R": 0.7014016509056091,
+            "sscr_P": 0.7323644161224365,
+            "sscr_F": 0.714958667755127,
+            "sscr_div_avg": 0.3815487027168274,
+            "sscr_div_std": 0.12185489386320114
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008532.jpg",
+        "predictions": [
+            "man",
+            "hat",
+            "portrait",
+            "smile",
+            "shirt",
+            "camera",
+            "glass",
+            "business",
+            "tie",
+            "photo"
+        ],
+        "ground_truth": [
+            "glass",
+            "hat",
+            "shirt",
+            "man",
+            "neck",
+            "tie",
+            "plaid",
+            "camera",
+            "cat"
+        ],
+        "metrics": {
+            "sscr_R": 0.7047991156578064,
+            "sscr_P": 0.7337611317634583,
+            "sscr_F": 0.7174107432365417,
+            "sscr_div_avg": 0.3800223171710968,
+            "sscr_div_std": 0.12113559991121292
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001296.jpg",
+        "predictions": [
+            "phone",
+            "girl",
+            "woman",
+            "photo",
+            "picture",
+            "message",
+            "smile",
+            "people",
+            "smartphone",
+            "pink"
+        ],
+        "ground_truth": [
+            "case",
+            "cellphone",
+            "phone",
+            "hello",
+            "cell",
+            "shirt",
+            "face",
+            "woman",
+            "girl",
+            "kitty",
+            "hand"
+        ],
+        "metrics": {
+            "sscr_R": 0.7025824785232544,
+            "sscr_P": 0.7316080927848816,
+            "sscr_F": 0.7152777910232544,
+            "sscr_div_avg": 0.3792317807674408,
+            "sscr_div_std": 0.1214328333735466
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005477.jpg",
+        "predictions": [
+            "airport",
+            "flight",
+            "plane",
+            "passenger",
+            "runway",
+            "tarmac",
+            "aircraft",
+            "country",
+            "jet",
+            "sits"
+        ],
+        "ground_truth": [
+            "gold",
+            "tarmac",
+            "runway",
+            "airport",
+            "airplane",
+            "jetliner",
+            "lot"
+        ],
+        "metrics": {
+            "sscr_R": 0.7038640379905701,
+            "sscr_P": 0.7321051359176636,
+            "sscr_F": 0.7162162065505981,
+            "sscr_div_avg": 0.3798036277294159,
+            "sscr_div_std": 0.12245301902294159
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005001.jpg",
+        "predictions": [
+            "people",
+            "child",
+            "street",
+            "crowd",
+            "family",
+            "balloon",
+            "bicycle",
+            "birth",
+            "event",
+            "helmet"
+        ],
+        "ground_truth": [
+            "sidewalk",
+            "ribbon",
+            "scissors",
+            "people",
+            "street",
+            "man",
+            "child",
+            "ceremony",
+            "pair",
+            "group",
+            "pink"
+        ],
+        "metrics": {
+            "sscr_R": 0.7006579041481018,
+            "sscr_P": 0.7293893694877625,
+            "sscr_F": 0.7131990194320679,
+            "sscr_div_avg": 0.37854647636413574,
+            "sscr_div_std": 0.12163343280553818
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001532.jpg",
+        "predictions": [
+            "sign",
+            "traffic",
+            "road",
+            "bridge",
+            "car",
+            "location",
+            "street",
+            "highway",
+            "way",
+            "city"
+        ],
+        "ground_truth": [
+            "freeway",
+            "exit",
+            "car",
+            "hollywood",
+            "road",
+            "truck",
+            "focus",
+            "underpass",
+            "street",
+            "overpass",
+            "traffic",
+            "blvd",
+            "sign",
+            "california",
+            "scene"
+        ],
+        "metrics": {
+            "sscr_R": 0.6999198794364929,
+            "sscr_P": 0.7307191491127014,
+            "sscr_F": 0.7133413553237915,
+            "sscr_div_avg": 0.37965744733810425,
+            "sscr_div_std": 0.12249599397182465
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006213.jpg",
+        "predictions": [
+            "bathroom",
+            "tile",
+            "master",
+            "design",
+            "sink",
+            "shower",
+            "example",
+            "home",
+            "house",
+            "floor"
+        ],
+        "ground_truth": [
+            "sits",
+            "sink",
+            "corner",
+            "tub",
+            "curtain",
+            "shower",
+            "mirror",
+            "bathtub",
+            "bathroom",
+            "view",
+            "wit"
+        ],
+        "metrics": {
+            "sscr_R": 0.697949230670929,
+            "sscr_P": 0.727490246295929,
+            "sscr_F": 0.7108398675918579,
+            "sscr_div_avg": 0.37919920682907104,
+            "sscr_div_std": 0.12239990383386612
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006763.jpg",
+        "predictions": [
+            "bar",
+            "people",
+            "friend",
+            "man",
+            "actor",
+            "restaurant",
+            "picture",
+            "event",
+            "photo",
+            "smile"
+        ],
+        "ground_truth": [
+            "restaurant",
+            "man",
+            "bar",
+            "woman",
+            "hugging",
+            "table",
+            "picture",
+            "sport"
+        ],
+        "metrics": {
+            "sscr_R": 0.6982660293579102,
+            "sscr_P": 0.7266101241111755,
+            "sscr_F": 0.7105563879013062,
+            "sscr_div_avg": 0.3774294853210449,
+            "sscr_div_std": 0.1222132220864296
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002299.jpg",
+        "predictions": [
+            "school",
+            "child",
+            "photo",
+            "photograph",
+            "group",
+            "class",
+            "student",
+            "pupil",
+            "picture",
+            "grade"
+        ],
+        "ground_truth": [
+            "school",
+            "photo",
+            "child",
+            "kid",
+            "group",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.704706072807312,
+            "sscr_P": 0.7282831072807312,
+            "sscr_F": 0.714471697807312,
+            "sscr_div_avg": 0.3786272406578064,
+            "sscr_div_std": 0.12255859375
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009483.jpg",
+        "predictions": [
+            "room",
+            "computer",
+            "office",
+            "desk",
+            "man",
+            "glass",
+            "monitor",
+            "window",
+            "control",
+            "work"
+        ],
+        "ground_truth": [
+            "computer",
+            "equipment",
+            "control",
+            "suit",
+            "board",
+            "man",
+            "keyboard",
+            "desk",
+            "table",
+            "monitor",
+            "electronics"
+        ],
+        "metrics": {
+            "sscr_R": 0.7053052186965942,
+            "sscr_P": 0.7286064624786377,
+            "sscr_F": 0.7150254249572754,
+            "sscr_div_avg": 0.3783157765865326,
+            "sscr_div_std": 0.12233148515224457
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004495.jpg",
+        "predictions": [
+            "room",
+            "living",
+            "wall",
+            "television",
+            "couch",
+            "home",
+            "view",
+            "house",
+            "sofa",
+            "chair"
+        ],
+        "ground_truth": [
+            "chair",
+            "corner",
+            "area",
+            "living",
+            "room",
+            "couch",
+            "television",
+            "type",
+            "sofa"
+        ],
+        "metrics": {
+            "sscr_R": 0.7081853747367859,
+            "sscr_P": 0.7306019067764282,
+            "sscr_F": 0.7175071239471436,
+            "sscr_div_avg": 0.37930575013160706,
+            "sscr_div_std": 0.12261407822370529
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001584.jpg",
+        "predictions": [
+            "decker",
+            "bus",
+            "road",
+            "street",
+            "city",
+            "tourist",
+            "london",
+            "passenger",
+            "building",
+            "side"
+        ],
+        "ground_truth": [
+            "middle",
+            "road",
+            "city",
+            "street",
+            "bus",
+            "roll",
+            "decker"
+        ],
+        "metrics": {
+            "sscr_R": 0.7109375,
+            "sscr_P": 0.7311198115348816,
+            "sscr_F": 0.7191840410232544,
+            "sscr_div_avg": 0.37890625,
+            "sscr_div_std": 0.12294922024011612
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003845.jpg",
+        "predictions": [
+            "food",
+            "dish",
+            "meal",
+            "chicken",
+            "rice",
+            "lunch",
+            "plate",
+            "vegetable",
+            "meat",
+            "broccoli"
+        ],
+        "ground_truth": [
+            "fry",
+            "dish",
+            "chicken",
+            "food",
+            "broccoli",
+            "vegetable",
+            "rice",
+            "meal",
+            "table",
+            "plate",
+            "carrot",
+            "drink",
+            "dinner"
+        ],
+        "metrics": {
+            "sscr_R": 0.713739812374115,
+            "sscr_P": 0.735691249370575,
+            "sscr_F": 0.7228260636329651,
+            "sscr_div_avg": 0.38124150037765503,
+            "sscr_div_std": 0.12289826571941376
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005586.jpg",
+        "predictions": [
+            "player",
+            "match",
+            "tennis",
+            "tournament",
+            "ball",
+            "game",
+            "court",
+            "racquet",
+            "round",
+            "racket"
+        ],
+        "ground_truth": [
+            "racket",
+            "ball",
+            "volley",
+            "indoor",
+            "match",
+            "man",
+            "arena",
+            "player",
+            "crowd",
+            "spectator",
+            "court",
+            "racquet",
+            "wait",
+            "tennis"
+        ],
+        "metrics": {
+            "sscr_R": 0.7137632966041565,
+            "sscr_P": 0.7384059429168701,
+            "sscr_F": 0.7240691781044006,
+            "sscr_div_avg": 0.38227227330207825,
+            "sscr_div_std": 0.12271443009376526
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006040.jpg",
+        "predictions": [
+            "tram",
+            "train",
+            "city",
+            "car",
+            "street",
+            "station",
+            "line",
+            "transit",
+            "track",
+            "transportation"
+        ],
+        "ground_truth": [
+            "car",
+            "passenger",
+            "road",
+            "track",
+            "rail",
+            "close-up",
+            "blue",
+            "train"
+        ],
+        "metrics": {
+            "sscr_R": 0.7137858271598816,
+            "sscr_P": 0.7371012568473816,
+            "sscr_F": 0.7234700322151184,
+            "sscr_div_avg": 0.3826090395450592,
+            "sscr_div_std": 0.122161865234375
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000285.jpg",
+        "predictions": [
+            "bear",
+            "animal",
+            "photo",
+            "face",
+            "camera",
+            "grizzly",
+            "head",
+            "portrait",
+            "forest",
+            "dog"
+        ],
+        "ground_truth": [
+            "grass",
+            "area",
+            "bear",
+            "face",
+            "closeup",
+            "nose",
+            "grizzly",
+            "burly",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.7130101919174194,
+            "sscr_P": 0.736328125,
+            "sscr_F": 0.7227359414100647,
+            "sscr_div_avg": 0.3826132118701935,
+            "sscr_div_std": 0.12233936786651611
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002532.jpg",
+        "predictions": [
+            "snow",
+            "mountain",
+            "sky",
+            "ski",
+            "woman",
+            "summit",
+            "hill",
+            "trail",
+            "slope",
+            "top"
+        ],
+        "ground_truth": [
+            "sky",
+            "skier",
+            "pole",
+            "slope",
+            "plateau",
+            "snowy",
+            "ski",
+            "hill",
+            "skiis",
+            "snow",
+            "blue"
+        ],
+        "metrics": {
+            "sscr_R": 0.7149218916893005,
+            "sscr_P": 0.7362109422683716,
+            "sscr_F": 0.7235937714576721,
+            "sscr_div_avg": 0.38203126192092896,
+            "sscr_div_std": 0.12230468541383743
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007795.jpg",
+        "predictions": [
+            "bedroom",
+            "room",
+            "view",
+            "hotel",
+            "suite",
+            "master",
+            "house",
+            "guest",
+            "floor",
+            "bathroom"
+        ],
+        "ground_truth": [
+            "bed",
+            "couple",
+            "side",
+            "hotel",
+            "room",
+            "setting",
+            "type"
+        ],
+        "metrics": {
+            "sscr_R": 0.7122395634651184,
+            "sscr_P": 0.7339537143707275,
+            "sscr_F": 0.7211244106292725,
+            "sscr_div_avg": 0.38235294818878174,
+            "sscr_div_std": 0.12264475971460342
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg",
+        "predictions": [
+            "laptop",
+            "people",
+            "table",
+            "computer",
+            "business",
+            "student",
+            "meeting",
+            "room",
+            "video",
+            "work"
+        ],
+        "ground_truth": [
+            "lap",
+            "computer",
+            "people",
+            "screen",
+            "table",
+            "room",
+            "sever",
+            "group"
+        ],
+        "metrics": {
+            "sscr_R": 0.7131159901618958,
+            "sscr_P": 0.7332857847213745,
+            "sscr_F": 0.7213040590286255,
+            "sscr_div_avg": 0.38202375173568726,
+            "sscr_div_std": 0.12184495478868484
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006723.jpg",
+        "predictions": [
+            "road",
+            "car",
+            "building",
+            "street",
+            "city",
+            "traffic",
+            "view",
+            "centre",
+            "area",
+            "apartment"
+        ],
+        "ground_truth": [
+            "lane",
+            "city",
+            "pole",
+            "path",
+            "street",
+            "side",
+            "business",
+            "walk",
+            "row",
+            "traffic",
+            "bike",
+            "building",
+            "brick"
+        ],
+        "metrics": {
+            "sscr_R": 0.7116745114326477,
+            "sscr_P": 0.7333062887191772,
+            "sscr_F": 0.7205188870429993,
+            "sscr_div_avg": 0.3823334276676178,
+            "sscr_div_std": 0.12194133549928665
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005600.jpg",
+        "predictions": [
+            "food",
+            "dish",
+            "bowl",
+            "plate",
+            "restaurant",
+            "soup",
+            "chicken",
+            "holi",
+            "potato",
+            "sardine"
+        ],
+        "ground_truth": [
+            "support",
+            "food",
+            "silver",
+            "pan",
+            "look",
+            "bowl",
+            "spoon",
+            "plate",
+            "table",
+            "onion",
+            "stew",
+            "meat",
+            "type"
+        ],
+        "metrics": {
+            "sscr_R": 0.7092737555503845,
+            "sscr_P": 0.7322410345077515,
+            "sscr_F": 0.71875,
+            "sscr_div_avg": 0.38263165950775146,
+            "sscr_div_std": 0.12167245149612427
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005060.jpg",
+        "predictions": [
+            "mirror",
+            "picture",
+            "house",
+            "room",
+            "man",
+            "home",
+            "photo",
+            "door",
+            "living",
+            "dad"
+        ],
+        "ground_truth": [
+            "cellphone",
+            "shirt",
+            "floor",
+            "man",
+            "mirror",
+            "selfie",
+            "cross",
+            "room",
+            "portrait",
+            "picture",
+            "self"
+        ],
+        "metrics": {
+            "sscr_R": 0.7088068127632141,
+            "sscr_P": 0.7323508262634277,
+            "sscr_F": 0.718536913394928,
+            "sscr_div_avg": 0.38277697563171387,
+            "sscr_div_std": 0.1217862218618393
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005503.jpg",
+        "predictions": [
+            "toilet",
+            "seat",
+            "bathroom",
+            "room",
+            "bowl",
+            "lid",
+            "restroom",
+            "paper",
+            "dirty",
+            "stall"
+        ],
+        "ground_truth": [
+            "duvet",
+            "standing",
+            "piss",
+            "water",
+            "man",
+            "point",
+            "photo",
+            "style",
+            "airplane",
+            "toilet",
+            "restroom",
+            "view"
+        ],
+        "metrics": {
+            "sscr_R": 0.70556640625,
+            "sscr_P": 0.7306431531906128,
+            "sscr_F": 0.7160295844078064,
+            "sscr_div_avg": 0.3836495578289032,
+            "sscr_div_std": 0.1220005601644516
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007977.jpg",
+        "predictions": [
+            "skateboard",
+            "man",
+            "park",
+            "ramp",
+            "boy",
+            "trick",
+            "city",
+            "street",
+            "board",
+            "stair"
+        ],
+        "ground_truth": [
+            "skateboard",
+            "trick",
+            "boy",
+            "park",
+            "man",
+            "wheelie",
+            "skatepark",
+            "teenager"
+        ],
+        "metrics": {
+            "sscr_R": 0.7075109481811523,
+            "sscr_P": 0.7307085990905762,
+            "sscr_F": 0.7170367240905762,
+            "sscr_div_avg": 0.3824698328971863,
+            "sscr_div_std": 0.12191611528396606
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008844.jpg",
+        "predictions": [
+            "banana",
+            "market",
+            "woman",
+            "sale",
+            "vendor",
+            "street",
+            "fruit",
+            "people",
+            "bunch",
+            "smile"
+        ],
+        "ground_truth": [
+            "banana",
+            "woman",
+            "table",
+            "lady",
+            "bunch",
+            "group",
+            "bushel"
+        ],
+        "metrics": {
+            "sscr_R": 0.707637369632721,
+            "sscr_P": 0.7283472418785095,
+            "sscr_F": 0.7157866358757019,
+            "sscr_div_avg": 0.38122978806495667,
+            "sscr_div_std": 0.12175040692090988
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000802.jpg",
+        "predictions": [
+            "kitchen",
+            "door",
+            "cabinet",
+            "room",
+            "appliance",
+            "refrigerator",
+            "fridge",
+            "home",
+            "house",
+            "stove"
+        ],
+        "ground_truth": [
+            "opening",
+            "cabinet",
+            "kitchen",
+            "refrigerator",
+            "stove",
+            "brand",
+            "oven",
+            "appliance"
+        ],
+        "metrics": {
+            "sscr_R": 0.7095471620559692,
+            "sscr_P": 0.7297073602676392,
+            "sscr_F": 0.7174920439720154,
+            "sscr_div_avg": 0.38264697790145874,
+            "sscr_div_std": 0.12188824266195297
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005193.jpg",
+        "predictions": [
+            "boy",
+            "photo",
+            "beach",
+            "board",
+            "family",
+            "friend",
+            "picture",
+            "people",
+            "kid",
+            "surfboard"
+        ],
+        "ground_truth": [
+            "boy",
+            "people",
+            "surf",
+            "board",
+            "man",
+            "surfboard",
+            "room",
+            "group",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.7114583253860474,
+            "sscr_P": 0.7312825322151184,
+            "sscr_F": 0.7192708253860474,
+            "sscr_div_avg": 0.3820638060569763,
+            "sscr_div_std": 0.12216796725988388
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000872.jpg",
+        "predictions": [
+            "baseball",
+            "game",
+            "ball",
+            "player",
+            "field",
+            "team",
+            "pitch",
+            "man",
+            "home",
+            "catch"
+        ],
+        "ground_truth": [
+            "men",
+            "field",
+            "batter",
+            "back",
+            "couple",
+            "guy",
+            "base",
+            "player",
+            "baseball",
+            "tree"
+        ],
+        "metrics": {
+            "sscr_R": 0.7102971076965332,
+            "sscr_P": 0.7306288480758667,
+            "sscr_F": 0.7184298038482666,
+            "sscr_div_avg": 0.3823001980781555,
+            "sscr_div_std": 0.12211033701896667
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001675.jpg",
+        "predictions": [
+            "cat",
+            "laptop",
+            "computer",
+            "keyboard",
+            "top",
+            "desk",
+            "animal",
+            "screen",
+            "kitten",
+            "box"
+        ],
+        "ground_truth": [
+            "lap",
+            "computer",
+            "platform",
+            "screen",
+            "keyboard",
+            "metal",
+            "cat",
+            "fluffy"
+        ],
+        "metrics": {
+            "sscr_R": 0.7113155126571655,
+            "sscr_P": 0.7312563061714172,
+            "sscr_F": 0.7192540168762207,
+            "sscr_div_avg": 0.3828125,
+            "sscr_div_std": 0.1221018135547638
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002685.jpg",
+        "predictions": [
+            "wine",
+            "people",
+            "bar",
+            "bottle",
+            "event",
+            "customer",
+            "beer",
+            "food",
+            "shirt",
+            "waiter"
+        ],
+        "ground_truth": [
+            "people",
+            "couple",
+            "man",
+            "bar",
+            "wine",
+            "crowd",
+            "bottle",
+            "line",
+            "group"
+        ],
+        "metrics": {
+            "sscr_R": 0.7116815447807312,
+            "sscr_P": 0.7304377555847168,
+            "sscr_F": 0.7190600037574768,
+            "sscr_div_avg": 0.3827815055847168,
+            "sscr_div_std": 0.1216982901096344
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005529.jpg",
+        "predictions": [
+            "snow",
+            "ski",
+            "trail",
+            "slope",
+            "skier",
+            "way",
+            "mountain",
+            "man",
+            "powder",
+            "hill"
+        ],
+        "ground_truth": [
+            "skier",
+            "slope",
+            "man",
+            "snowy",
+            "ski",
+            "hill",
+            "snow",
+            "mountain",
+            "downhill"
+        ],
+        "metrics": {
+            "sscr_R": 0.71527099609375,
+            "sscr_P": 0.731964111328125,
+            "sscr_F": 0.7216796875,
+            "sscr_div_avg": 0.38189697265625,
+            "sscr_div_std": 0.1220703125
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000785.jpg",
+        "predictions": [
+            "skier",
+            "ski",
+            "slope",
+            "snow",
+            "mountain",
+            "resort",
+            "woman",
+            "sport",
+            "hill",
+            "gear"
+        ],
+        "ground_truth": [
+            "slope",
+            "way",
+            "woman",
+            "ski",
+            "snow",
+            "camera",
+            "skiis",
+            "mountain",
+            "jacket"
+        ],
+        "metrics": {
+            "sscr_R": 0.7160456776618958,
+            "sscr_P": 0.7328425645828247,
+            "sscr_F": 0.7225360870361328,
+            "sscr_div_avg": 0.3814302980899811,
+            "sscr_div_std": 0.12231069803237915
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002006.jpg",
+        "predictions": [
+            "bus",
+            "city",
+            "decker",
+            "passenger",
+            "stop",
+            "transit",
+            "station",
+            "road",
+            "transport",
+            "centre"
+        ],
+        "ground_truth": [
+            "city",
+            "area",
+            "street",
+            "spot",
+            "purple",
+            "bus",
+            "parking",
+            "crosswalk"
+        ],
+        "metrics": {
+            "sscr_R": 0.714784562587738,
+            "sscr_P": 0.7306166887283325,
+            "sscr_F": 0.7208214998245239,
+            "sscr_div_avg": 0.38044506311416626,
+            "sscr_div_std": 0.12252900004386902
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007574.jpg",
+        "predictions": [
+            "kitchen",
+            "sink",
+            "house",
+            "home",
+            "room",
+            "cabinet",
+            "dish",
+            "counter",
+            "apartment",
+            "holi"
+        ],
+        "ground_truth": [
+            "cabinet",
+            "sink",
+            "detergent",
+            "counter",
+            "refrigerator",
+            "kitchen",
+            "soap",
+            "stove",
+            "bottle",
+            "space",
+            "item",
+            "freezer"
+        ],
+        "metrics": {
+            "sscr_R": 0.7135611176490784,
+            "sscr_P": 0.7300314903259277,
+            "sscr_F": 0.719916045665741,
+            "sscr_div_avg": 0.3805970251560211,
+            "sscr_div_std": 0.12266790866851807
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004795.jpg",
+        "predictions": [
+            "cat",
+            "computer",
+            "laptop",
+            "screen",
+            "desk",
+            "keyboard",
+            "mouse",
+            "look",
+            "book",
+            "head"
+        ],
+        "ground_truth": [
+            "lap",
+            "computer",
+            "phone",
+            "screen",
+            "text",
+            "monitor",
+            "cat",
+            "cordless"
+        ],
+        "metrics": {
+            "sscr_R": 0.7136374115943909,
+            "sscr_P": 0.728888988494873,
+            "sscr_F": 0.7193818688392639,
+            "sscr_div_avg": 0.3805147111415863,
+            "sscr_div_std": 0.12268784642219543
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007991.jpg",
+        "predictions": [
+            "carrot",
+            "food",
+            "bowl",
+            "vegetable",
+            "orange",
+            "kitchen",
+            "dish",
+            "potato",
+            "cucumber",
+            "pork"
+        ],
+        "ground_truth": [
+            "counter",
+            "vegetable",
+            "baby",
+            "pile",
+            "table",
+            "plate",
+            "carrot",
+            "bean",
+            "peeler"
+        ],
+        "metrics": {
+            "sscr_R": 0.711277186870575,
+            "sscr_P": 0.7272701263427734,
+            "sscr_F": 0.7173346877098083,
+            "sscr_div_avg": 0.3812273442745209,
+            "sscr_div_std": 0.12255859375
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006012.jpg",
+        "predictions": [
+            "fruit",
+            "banana",
+            "apple",
+            "art",
+            "pear",
+            "blue",
+            "ripe",
+            "pattern",
+            "pomegranate",
+            "life"
+        ],
+        "ground_truth": [
+            "sits",
+            "middle",
+            "banana",
+            "piece",
+            "apple",
+            "blue",
+            "bunch",
+            "fruit",
+            "sight"
+        ],
+        "metrics": {
+            "sscr_R": 0.7103794813156128,
+            "sscr_P": 0.7267020344734192,
+            "sscr_F": 0.7166294455528259,
+            "sscr_div_avg": 0.3806082606315613,
+            "sscr_div_std": 0.12298409640789032
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002473.jpg",
+        "predictions": [
+            "jump",
+            "skier",
+            "air",
+            "sport",
+            "snow",
+            "trick",
+            "ski",
+            "competes",
+            "men",
+            "man"
+        ],
+        "ground_truth": [
+            "jump",
+            "trick",
+            "air",
+            "skier",
+            "man",
+            "twist",
+            "fly",
+            "ski"
+        ],
+        "metrics": {
+            "sscr_R": 0.7129731774330139,
+            "sscr_P": 0.7277453541755676,
+            "sscr_F": 0.7184199094772339,
+            "sscr_div_avg": 0.38025417923927307,
+            "sscr_div_std": 0.12292996048927307
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000724.jpg",
+        "predictions": [
+            "sign",
+            "street",
+            "road",
+            "stop",
+            "way",
+            "side",
+            "corner",
+            "parking",
+            "traffic",
+            "intersection"
+        ],
+        "ground_truth": [
+            "road",
+            "corner",
+            "pole",
+            "street",
+            "post",
+            "sign",
+            "metal"
+        ],
+        "metrics": {
+            "sscr_R": 0.7132161259651184,
+            "sscr_P": 0.7270236611366272,
+            "sscr_F": 0.7182074785232544,
+            "sscr_div_avg": 0.3798014223575592,
+            "sscr_div_std": 0.1230943500995636
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006471.jpg",
+        "predictions": [
+            "baseball",
+            "game",
+            "player",
+            "team",
+            "inning",
+            "home",
+            "sport",
+            "pitch",
+            "bat",
+            "ball"
+        ],
+        "ground_truth": [
+            "position",
+            "umpire",
+            "pitch",
+            "man",
+            "catcher",
+            "player",
+            "team",
+            "home",
+            "hitter",
+            "plate",
+            "dugout",
+            "baseball",
+            "bat",
+            "batting",
+            "wait",
+            "stance",
+            "base"
+        ],
+        "metrics": {
+            "sscr_R": 0.7126498222351074,
+            "sscr_P": 0.7290507555007935,
+            "sscr_F": 0.71875,
+            "sscr_div_avg": 0.3811536729335785,
+            "sscr_div_std": 0.12306025624275208
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001425.jpg",
+        "predictions": [
+            "food",
+            "breakfast",
+            "dish",
+            "plate",
+            "cream",
+            "fry",
+            "tray",
+            "chocolate",
+            "bun",
+            "cake"
+        ],
+        "ground_truth": [
+            "part",
+            "meal",
+            "bite",
+            "burger",
+            "sandwich",
+            "table",
+            "plate"
+        ],
+        "metrics": {
+            "sscr_R": 0.7110430598258972,
+            "sscr_P": 0.7271167635917664,
+            "sscr_F": 0.7170079946517944,
+            "sscr_div_avg": 0.38122889399528503,
+            "sscr_div_std": 0.12271035462617874
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000776.jpg",
+        "predictions": [
+            "bear",
+            "stuffed",
+            "bed",
+            "toy",
+            "animal",
+            "photo",
+            "child",
+            "friend",
+            "family",
+            "cute"
+        ],
+        "ground_truth": [
+            "animal",
+            "stuffed",
+            "bed",
+            "color",
+            "pillow",
+            "bear",
+            "hug",
+            "blue",
+            "group"
+        ],
+        "metrics": {
+            "sscr_R": 0.7110416889190674,
+            "sscr_P": 0.7263802289962769,
+            "sscr_F": 0.7166666388511658,
+            "sscr_div_avg": 0.38078126311302185,
+            "sscr_div_std": 0.12233073264360428
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007888.jpg",
+        "predictions": [
+            "clock",
+            "time",
+            "street",
+            "photo",
+            "city",
+            "sky",
+            "light",
+            "tower",
+            "post",
+            "cloud"
+        ],
+        "ground_truth": [
+            "cubed",
+            "poll",
+            "sky",
+            "pole",
+            "strike",
+            "post",
+            "square",
+            "clock"
+        ],
+        "metrics": {
+            "sscr_R": 0.7097039222717285,
+            "sscr_P": 0.7247892618179321,
+            "sscr_F": 0.7152035236358643,
+            "sscr_div_avg": 0.38021689653396606,
+            "sscr_div_std": 0.12185186892747879
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006771.jpg",
+        "predictions": [
+            "costume",
+            "character",
+            "crowd",
+            "fan",
+            "film",
+            "girl",
+            "event",
+            "actor",
+            "woman",
+            "people"
+        ],
+        "ground_truth": [
+            "cellphone",
+            "phone",
+            "people",
+            "cell",
+            "woman",
+            "speaks",
+            "costume",
+            "group",
+            "others"
+        ],
+        "metrics": {
+            "sscr_R": 0.7086546421051025,
+            "sscr_P": 0.7236455082893372,
+            "sscr_F": 0.7141335010528564,
+            "sscr_div_avg": 0.38017451763153076,
+            "sscr_div_std": 0.12136642634868622
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001353.jpg",
+        "predictions": [
+            "child",
+            "kid",
+            "fun",
+            "train",
+            "carousel",
+            "boy",
+            "girl",
+            "toy",
+            "playground",
+            "tube"
+        ],
+        "ground_truth": [
+            "ride",
+            "orange",
+            "indoor",
+            "child",
+            "group",
+            "train",
+            "kiddie",
+            "toy",
+            "mini"
+        ],
+        "metrics": {
+            "sscr_R": 0.7076321840286255,
+            "sscr_P": 0.7228315472602844,
+            "sscr_F": 0.7132411599159241,
+            "sscr_div_avg": 0.3798828125,
+            "sscr_div_std": 0.12162584811449051
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004765.jpg",
+        "predictions": [
+            "surfer",
+            "wave",
+            "round",
+            "water",
+            "suit",
+            "action",
+            "heat",
+            "board",
+            "man",
+            "wetsuit"
+        ],
+        "ground_truth": [
+            "wetsuit",
+            "shirt",
+            "man",
+            "surfing",
+            "surfboard",
+            "ocean",
+            "wave",
+            "surfer"
+        ],
+        "metrics": {
+            "sscr_R": 0.709157407283783,
+            "sscr_P": 0.7224337458610535,
+            "sscr_F": 0.7138053774833679,
+            "sscr_div_avg": 0.3791534900665283,
+            "sscr_div_std": 0.1212729960680008
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001268.jpg",
+        "predictions": [
+            "bridge",
+            "river",
+            "swan",
+            "city",
+            "people",
+            "photo",
+            "man",
+            "water",
+            "couple",
+            "photograph"
+        ],
+        "ground_truth": [
+            "phone",
+            "people",
+            "bridge",
+            "water",
+            "photo",
+            "river",
+            "woman",
+            "girl",
+            "waterway",
+            "picture"
+        ],
+        "metrics": {
+            "sscr_R": 0.710205078125,
+            "sscr_P": 0.7228759527206421,
+            "sscr_F": 0.714599609375,
+            "sscr_div_avg": 0.3785644471645355,
+            "sscr_div_std": 0.12123413383960724
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005037.jpg",
+        "predictions": [
+            "bus",
+            "decker",
+            "passenger",
+            "city",
+            "stop",
+            "transit",
+            "station",
+            "road",
+            "service",
+            "transport"
+        ],
+        "ground_truth": [
+            "passenger",
+            "city",
+            "road",
+            "street",
+            "side",
+            "bus"
+        ],
+        "metrics": {
+            "sscr_R": 0.7121431231498718,
+            "sscr_P": 0.7219569683074951,
+            "sscr_F": 0.7149401903152466,
+            "sscr_div_avg": 0.377941757440567,
+            "sscr_div_std": 0.12132884562015533
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005992.jpg",
+        "predictions": [
+            "sheep",
+            "flock",
+            "farm",
+            "animal",
+            "house",
+            "lamb",
+            "yard",
+            "camera",
+            "grass",
+            "view"
+        ],
+        "ground_truth": [
+            "standing",
+            "wall",
+            "grass",
+            "herd",
+            "building",
+            "group",
+            "brick",
+            "shaggy"
+        ],
+        "metrics": {
+            "sscr_R": 0.7098894715309143,
+            "sscr_P": 0.7193930745124817,
+            "sscr_F": 0.7125571370124817,
+            "sscr_div_avg": 0.3776438534259796,
+            "sscr_div_std": 0.1212664321064949
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004395.jpg",
+        "predictions": [
+            "man",
+            "shirt",
+            "suit",
+            "business",
+            "portrait",
+            "street",
+            "city",
+            "glass",
+            "guy",
+            "phone"
+        ],
+        "ground_truth": [
+            "dress",
+            "shirt",
+            "suit",
+            "motioning",
+            "man",
+            "look",
+            "tie",
+            "camera",
+            "hand"
+        ],
+        "metrics": {
+            "sscr_R": 0.7089608311653137,
+            "sscr_P": 0.7179734706878662,
+            "sscr_F": 0.7114081382751465,
+            "sscr_div_avg": 0.37704724073410034,
+            "sscr_div_std": 0.12094079703092575
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008277.jpg",
+        "predictions": [
+            "dish",
+            "chicken",
+            "food",
+            "recipe",
+            "plate",
+            "meal",
+            "meat",
+            "soup",
+            "turkey",
+            "broccoli"
+        ],
+        "ground_truth": [
+            "sauce",
+            "dish",
+            "chicken",
+            "food",
+            "broccoli",
+            "brocolli",
+            "guacamole",
+            "floor",
+            "meal",
+            "chopped",
+            "plate",
+            "cheese",
+            "cup"
+        ],
+        "metrics": {
+            "sscr_R": 0.7092633843421936,
+            "sscr_P": 0.7193778157234192,
+            "sscr_F": 0.7122395634651184,
+            "sscr_div_avg": 0.3780459463596344,
+            "sscr_div_std": 0.1209135502576828
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004134.jpg",
+        "predictions": [
+            "event",
+            "politician",
+            "people",
+            "meeting",
+            "hand",
+            "award",
+            "speaks",
+            "president",
+            "leader",
+            "ceremony"
+        ],
+        "ground_truth": [
+            "men",
+            "speech",
+            "gathering",
+            "man",
+            "dinner",
+            "hand"
+        ],
+        "metrics": {
+            "sscr_R": 0.7081801295280457,
+            "sscr_P": 0.7168887853622437,
+            "sscr_F": 0.7103860378265381,
+            "sscr_div_avg": 0.3776194751262665,
+            "sscr_div_std": 0.12041015923023224
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009448.jpg",
+        "predictions": [
+            "umbrella",
+            "girl",
+            "rain",
+            "child",
+            "street",
+            "portrait",
+            "camera",
+            "rainy",
+            "coat",
+            "pink"
+        ],
+        "ground_truth": [
+            "umbrella",
+            "arm",
+            "shirt",
+            "girl",
+            "blue",
+            "pink"
+        ],
+        "metrics": {
+            "sscr_R": 0.7087572813034058,
+            "sscr_P": 0.7158203125,
+            "sscr_F": 0.7100744843482971,
+            "sscr_div_avg": 0.3772710859775543,
+            "sscr_div_std": 0.1204124242067337
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007511.jpg",
+        "predictions": [
+            "beach",
+            "kite",
+            "man",
+            "surf",
+            "sea",
+            "people",
+            "sky",
+            "boy",
+            "shore",
+            "sand"
+        ],
+        "ground_truth": [
+            "playing",
+            "kite",
+            "people",
+            "sand",
+            "string",
+            "water",
+            "stand",
+            "man",
+            "body",
+            "beach",
+            "others"
+        ],
+        "metrics": {
+            "sscr_R": 0.7085129022598267,
+            "sscr_P": 0.716796875,
+            "sscr_F": 0.7104436159133911,
+            "sscr_div_avg": 0.3772225081920624,
+            "sscr_div_std": 0.1208019033074379
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007108.jpg",
+        "predictions": [
+            "elephant",
+            "baby",
+            "zoo",
+            "animal",
+            "camera",
+            "water",
+            "trunk",
+            "hole",
+            "face",
+            "shot"
+        ],
+        "ground_truth": [
+            "grass",
+            "sky",
+            "path",
+            "watering",
+            "view",
+            "forward",
+            "herd",
+            "hole",
+            "water",
+            "amongst",
+            "head",
+            "bush",
+            "line",
+            "knee",
+            "dirt",
+            "elephant"
+        ],
+        "metrics": {
+            "sscr_R": 0.7068092823028564,
+            "sscr_P": 0.716064453125,
+            "sscr_F": 0.7092063426971436,
+            "sscr_div_avg": 0.3769975006580353,
+            "sscr_div_std": 0.12050559371709824
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007784.jpg",
+        "predictions": [
+            "sky",
+            "kite",
+            "parachute",
+            "blue",
+            "wind",
+            "beach",
+            "air",
+            "fly",
+            "sea",
+            "sunny"
+        ],
+        "ground_truth": [
+            "kite",
+            "sky",
+            "orange",
+            "parachute",
+            "blue",
+            "parasail"
+        ],
+        "metrics": {
+            "sscr_R": 0.7083479762077332,
+            "sscr_P": 0.7159190773963928,
+            "sscr_F": 0.7098841071128845,
+            "sscr_div_avg": 0.3773042559623718,
+            "sscr_div_std": 0.12043539434671402
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003661.jpg",
+        "predictions": [
+            "banana",
+            "fruit",
+            "table",
+            "bunch",
+            "piece",
+            "pile",
+            "top",
+            "stack",
+            "shot",
+            "stalk"
+        ],
+        "ground_truth": [
+            "counter",
+            "banana",
+            "closeup",
+            "table",
+            "bunch",
+            "group"
+        ],
+        "metrics": {
+            "sscr_R": 0.7086371779441833,
+            "sscr_P": 0.7149522304534912,
+            "sscr_F": 0.7095485925674438,
+            "sscr_div_avg": 0.37697482109069824,
+            "sscr_div_std": 0.12024739384651184
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000885.jpg",
+        "predictions": [
+            "player",
+            "match",
+            "tennis",
+            "ball",
+            "tournament",
+            "shot",
+            "game",
+            "court",
+            "round",
+            "swing"
+        ],
+        "ground_truth": [
+            "playing",
+            "someone",
+            "racket",
+            "ball",
+            "volley",
+            "man",
+            "male",
+            "woman",
+            "player",
+            "short",
+            "crowd",
+            "tournament",
+            "tennis",
+            "leg"
+        ],
+        "metrics": {
+            "sscr_R": 0.7079756259918213,
+            "sscr_P": 0.7149510383605957,
+            "sscr_F": 0.7092204689979553,
+            "sscr_div_avg": 0.37742531299591064,
+            "sscr_div_std": 0.12000986933708191
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006954.jpg",
+        "predictions": [
+            "child",
+            "grass",
+            "kid",
+            "boy",
+            "field",
+            "group",
+            "frisbee",
+            "park",
+            "school",
+            "student"
+        ],
+        "ground_truth": [
+            "frisbee",
+            "boy",
+            "frisbe",
+            "grass",
+            "kid",
+            "child",
+            "bunch",
+            "group",
+            "hand"
+        ],
+        "metrics": {
+            "sscr_R": 0.709324061870575,
+            "sscr_P": 0.715714156627655,
+            "sscr_F": 0.710300624370575,
+            "sscr_div_avg": 0.377314031124115,
+            "sscr_div_std": 0.1201171875
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008690.jpg",
+        "predictions": [
+            "goat",
+            "child",
+            "kid",
+            "animal",
+            "girl",
+            "zoo",
+            "farm",
+            "family",
+            "photo",
+            "friend"
+        ],
+        "ground_truth": [
+            "animal",
+            "pen",
+            "goat",
+            "girl",
+            "child",
+            "zoo"
+        ],
+        "metrics": {
+            "sscr_R": 0.7112735509872437,
+            "sscr_P": 0.7160828113555908,
+            "sscr_F": 0.7113995552062988,
+            "sscr_div_avg": 0.3771211504936218,
+            "sscr_div_std": 0.12013819068670273
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001818.jpg",
+        "predictions": [
+            "zebra",
+            "baby",
+            "head",
+            "animal",
+            "mother",
+            "photo",
+            "eye",
+            "zoo",
+            "lion",
+            "hole"
+        ],
+        "ground_truth": [
+            "field",
+            "nursing",
+            "mother",
+            "grass",
+            "baby",
+            "adult",
+            "zebra",
+            "teat",
+            "milk",
+            "giraffe"
+        ],
+        "metrics": {
+            "sscr_R": 0.7100232839584351,
+            "sscr_P": 0.7149476408958435,
+            "sscr_F": 0.7102310657501221,
+            "sscr_div_avg": 0.37709856033325195,
+            "sscr_div_std": 0.11975876986980438
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006818.jpg",
+        "predictions": [
+            "bathroom",
+            "toilet",
+            "room",
+            "sink",
+            "floor",
+            "house",
+            "shower",
+            "restroom",
+            "view",
+            "hotel"
+        ],
+        "ground_truth": [
+            "holder",
+            "paper",
+            "floor",
+            "couple",
+            "soap",
+            "janitor",
+            "shower",
+            "toilet",
+            "room",
+            "bathroom",
+            "picture",
+            "bucket",
+            "window"
+        ],
+        "metrics": {
+            "sscr_R": 0.7091693878173828,
+            "sscr_P": 0.7159745097160339,
+            "sscr_F": 0.710238516330719,
+            "sscr_div_avg": 0.3776727020740509,
+            "sscr_div_std": 0.12026624381542206
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007278.jpg",
+        "predictions": [
+            "round",
+            "action",
+            "wave",
+            "heat",
+            "surfer",
+            "competes",
+            "world",
+            "event",
+            "shot",
+            "maneuver"
+        ],
+        "ground_truth": [
+            "crest",
+            "surf",
+            "suit",
+            "male",
+            "man",
+            "board",
+            "water",
+            "surfboard",
+            "ocean",
+            "wave",
+            "surfer"
+        ],
+        "metrics": {
+            "sscr_R": 0.7078043818473816,
+            "sscr_P": 0.7139689326286316,
+            "sscr_F": 0.7085774540901184,
+            "sscr_div_avg": 0.3771158754825592,
+            "sscr_div_std": 0.1198272705078125
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006614.jpg",
+        "predictions": [
+            "fruit",
+            "pile",
+            "peach",
+            "grapefruit",
+            "apple",
+            "photo",
+            "collection",
+            "orange",
+            "vegetable",
+            "art"
+        ],
+        "ground_truth": [
+            "grape",
+            "picture",
+            "peanut",
+            "orange",
+            "nut",
+            "photo",
+            "pile",
+            "object",
+            "apple",
+            "round",
+            "lot",
+            "surface",
+            "fruit"
+        ],
+        "metrics": {
+            "sscr_R": 0.7078366875648499,
+            "sscr_P": 0.7149847149848938,
+            "sscr_F": 0.7090850472450256,
+            "sscr_div_avg": 0.37701353430747986,
+            "sscr_div_std": 0.11989066749811172
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002587.jpg",
+        "predictions": [
+            "bagel",
+            "banana",
+            "donut",
+            "doughnut",
+            "breakfast",
+            "pastry",
+            "food",
+            "bite",
+            "package",
+            "tray"
+        ],
+        "ground_truth": [
+            "donut",
+            "doughnut",
+            "chocolate",
+            "baggie",
+            "closeup",
+            "banana",
+            "plastic",
+            "bag"
+        ],
+        "metrics": {
+            "sscr_R": 0.7077487111091614,
+            "sscr_P": 0.7143455147743225,
+            "sscr_F": 0.7087452411651611,
+            "sscr_div_avg": 0.3768136203289032,
+            "sscr_div_std": 0.11967872828245163
+        }
+    },
+    {
+        "image_path": "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008211.jpg",
+        "predictions": [
+            "street",
+            "people",
+            "road",
+            "man",
+            "sidewalk",
+            "worker",
+            "men",
+            "woman",
+            "market",
+            "city"
+        ],
+        "ground_truth": [
+            "men",
+            "chair",
+            "work",
+            "people",
+            "corner",
+            "street",
+            "rest",
+            "building",
+            "cleaner"
+        ],
+        "metrics": {
+            "sscr_R": 0.7070707082748413,
+            "sscr_P": 0.7142321467399597,
+            "sscr_F": 0.7083727717399597,
+            "sscr_div_avg": 0.3766177296638489,
+            "sscr_div_std": 0.1197916641831398
+        }
+    }
+]
