@@ -5,3 +5,4 @@ nxtp/dev_root/data/*
 .cache/*
 nxtp/src/__pycache__/*
 sam2/*
+sam2
