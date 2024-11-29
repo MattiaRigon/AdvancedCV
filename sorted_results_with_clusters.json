@@ -25,6 +25,7 @@
                 "building"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [
@@ -50,6 +51,7 @@
             "shaggy": [],
             "building": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002157.jpg": {
@@ -80,6 +82,7 @@
                 "dessert"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "food": [
@@ -109,6 +112,7 @@
                 "fruit"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009448.jpg": {
@@ -134,6 +138,7 @@
                 "child"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "umbrella": [
@@ -158,6 +163,7 @@
                 "street"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003501.jpg": {
@@ -193,6 +199,7 @@
             "relish": [],
             "corn": []
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "vegetable": [
@@ -226,6 +233,7 @@
             "relish": [],
             "corn": []
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002261.jpg": {
@@ -258,6 +266,7 @@
                 "girl"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "boogie": [],
@@ -290,6 +299,7 @@
                 "boy"
             ]
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006040.jpg": {
@@ -319,6 +329,7 @@
                 "car"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "track": [
@@ -345,6 +356,7 @@
                 "car"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001296.jpg": {
@@ -378,6 +390,7 @@
                 "girl"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "face": [
@@ -408,6 +421,7 @@
                 "girl"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008844.jpg": {
@@ -435,6 +449,7 @@
                 "customer"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "woman": [
@@ -461,6 +476,7 @@
                 "smile"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005503.jpg": {
@@ -492,6 +508,7 @@
                 "car"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "toilet": [
@@ -520,6 +537,7 @@
             "airplane": [],
             "water": []
         },
+        "num_clusters_full_2": 3,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003553.jpg": {
@@ -558,6 +576,7 @@
                 "foot"
             ]
         },
+        "num_clusters_full_1": 9,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [],
@@ -592,6 +611,7 @@
                 "leg"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004395.jpg": {
@@ -621,6 +641,7 @@
                 "restaurant"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "look": [],
@@ -647,6 +668,7 @@
             ],
             "dress": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000802.jpg": {
@@ -675,6 +697,7 @@
             ],
             "brand": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "appliance": [
@@ -702,6 +725,7 @@
             ],
             "brand": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009769.jpg": {
@@ -732,6 +756,7 @@
             ],
             "pick": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "neighbor": [],
@@ -760,6 +785,7 @@
             ],
             "pick": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005037.jpg": {
@@ -786,6 +812,7 @@
                 "station"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bus": [
@@ -809,6 +836,7 @@
                 "station"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001425.jpg": {
@@ -836,6 +864,7 @@
                 "cream"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "table": [],
@@ -860,6 +889,7 @@
                 "cream"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008277.jpg": {
@@ -894,6 +924,7 @@
                 "way"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "food": [
@@ -926,6 +957,7 @@
             "cheese": [],
             "cup": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007386.jpg": {
@@ -957,6 +989,7 @@
                 "grass"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "motorcycle": [
@@ -985,6 +1018,7 @@
                 "grass"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007818.jpg": {
@@ -1020,6 +1054,7 @@
                 "room"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "display": [
@@ -1053,6 +1088,7 @@
                 "room"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002592.jpg": {
@@ -1083,6 +1119,7 @@
             ],
             "surface": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "counter": [],
@@ -1111,6 +1148,7 @@
             ],
             "surface": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008532.jpg": {
@@ -1143,6 +1181,7 @@
                 "business"
             ]
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "glass": [
@@ -1172,6 +1211,7 @@
                 "business"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000785.jpg": {
@@ -1202,6 +1242,7 @@
             ],
             "jacket": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "skiis": [],
@@ -1230,6 +1271,7 @@
                 "gear"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009378.jpg": {
@@ -1262,6 +1304,7 @@
                 "performance"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "adult": [
@@ -1291,6 +1334,7 @@
                 "performance"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001490.jpg": {
@@ -1324,6 +1368,7 @@
                 "water"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "outside": [],
@@ -1356,6 +1401,7 @@
                 "water"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001818.jpg": {
@@ -1386,6 +1432,7 @@
                 "lion"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "adult": [],
@@ -1413,6 +1460,7 @@
                 "lion"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005600.jpg": {
@@ -1447,6 +1495,7 @@
             ],
             "support": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "food": [
@@ -1478,6 +1527,7 @@
             ],
             "support": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002431.jpg": {
@@ -1511,6 +1561,7 @@
             "condiment": [],
             "item": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "glass": [
@@ -1541,6 +1592,7 @@
             "condiment": [],
             "item": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002587.jpg": {
@@ -1569,6 +1621,7 @@
                 "donut"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "baggie": [],
@@ -1596,6 +1649,7 @@
                 "donut"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007816.jpg": {
@@ -1629,6 +1683,7 @@
             ],
             "fence": []
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "motorcycle": [
@@ -1660,6 +1715,7 @@
             ],
             "fence": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000285.jpg": {
@@ -1689,6 +1745,7 @@
             ],
             "closeup": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [
@@ -1716,6 +1773,7 @@
             ],
             "closeup": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006213.jpg": {
@@ -1747,6 +1805,7 @@
             ],
             "mirror": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bathtub": [],
@@ -1775,6 +1834,7 @@
             ],
             "mirror": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004765.jpg": {
@@ -1805,6 +1865,7 @@
                 "board"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "ocean": [
@@ -1833,6 +1894,7 @@
                 "board"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003934.jpg": {
@@ -1867,6 +1929,7 @@
                 "house"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "adult": [
@@ -1898,6 +1961,7 @@
                 "house"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006894.jpg": {
@@ -1930,6 +1994,7 @@
                 "people"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "trunk": [],
@@ -1960,6 +2025,7 @@
             ],
             "truck": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001000.jpg": {
@@ -1992,6 +2058,7 @@
             ],
             "family": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "group": [
@@ -2023,6 +2090,7 @@
             ],
             "family": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009483.jpg": {
@@ -2053,6 +2121,7 @@
                 "window"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "keyboard": [],
@@ -2082,6 +2151,7 @@
                 "work"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002006.jpg": {
@@ -2109,6 +2179,7 @@
                 "centre"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bus": [
@@ -2134,6 +2205,7 @@
                 "centre"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001268.jpg": {
@@ -2165,6 +2237,7 @@
                 "water"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "woman": [],
@@ -2195,6 +2268,7 @@
                 "water"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004495.jpg": {
@@ -2224,6 +2298,7 @@
                 "house"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "type": [],
@@ -2252,6 +2327,7 @@
                 "house"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002923.jpg": {
@@ -2291,6 +2367,7 @@
                 "fishing"
             ]
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [
@@ -2326,6 +2403,7 @@
                 "fishing"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005529.jpg": {
@@ -2357,6 +2435,7 @@
             ],
             "hill": []
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "snowy": [
@@ -2387,6 +2466,7 @@
                 "hill"
             ]
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007281.jpg": {
@@ -2418,6 +2498,7 @@
                 "beach"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "riding": [
@@ -2446,6 +2527,7 @@
                 "beach"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008762.jpg": {
@@ -2484,6 +2566,7 @@
             ],
             "silhouette": []
         },
+        "num_clusters_full_1": 9,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "light": [
@@ -2519,6 +2602,7 @@
             ],
             "silhouette": []
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006763.jpg": {
@@ -2550,6 +2634,7 @@
                 "night"
             ]
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bar": [
@@ -2578,6 +2663,7 @@
                 "restaurant"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007511.jpg": {
@@ -2609,6 +2695,7 @@
             ],
             "water": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "others": [],
@@ -2638,6 +2725,7 @@
             ],
             "water": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007977.jpg": {
@@ -2667,6 +2755,7 @@
                 "guy"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "park": [
@@ -2694,6 +2783,7 @@
                 "boy"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001353.jpg": {
@@ -2723,6 +2813,7 @@
                 "carousel"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "orange": [],
@@ -2749,6 +2840,7 @@
                 "carousel"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007108.jpg": {
@@ -2785,6 +2877,7 @@
             ],
             "knee": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [],
@@ -2820,6 +2913,7 @@
             ],
             "knee": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006460.jpg": {
@@ -2848,6 +2942,7 @@
             ],
             "surfboard": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "line": [
@@ -2875,6 +2970,7 @@
             ],
             "surfboard": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007574.jpg": {
@@ -2907,6 +3003,7 @@
             ],
             "item": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "kitchen": [
@@ -2938,6 +3035,7 @@
             ],
             "item": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005193.jpg": {
@@ -2969,6 +3067,7 @@
                 "friend"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "group": [],
@@ -2997,6 +3096,7 @@
                 "kid"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008629.jpg": {
@@ -3024,6 +3124,7 @@
             ],
             "sauce": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "type": [],
@@ -3047,6 +3148,7 @@
             "picture": [],
             "sauce": []
         },
+        "num_clusters_full_2": 3,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007991.jpg": {
@@ -3075,6 +3177,7 @@
             ],
             "bean": []
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "vegetable": [
@@ -3100,6 +3203,7 @@
             ],
             "bean": []
         },
+        "num_clusters_full_2": 3,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003156.jpg": {
@@ -3123,6 +3227,7 @@
                 "dish"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "man": [
@@ -3144,6 +3249,7 @@
                 "dish"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006614.jpg": {
@@ -3180,6 +3286,7 @@
             ],
             "surface": []
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "orange": [
@@ -3213,6 +3320,7 @@
             ],
             "surface": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001675.jpg": {
@@ -3240,6 +3348,7 @@
                 "desktop"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "keyboard": [
@@ -3265,6 +3374,7 @@
                 "box"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002685.jpg": {
@@ -3295,6 +3405,7 @@
                 "shirt"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bar": [
@@ -3323,6 +3434,7 @@
                 "shirt"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007888.jpg": {
@@ -3350,6 +3462,7 @@
             "cubed": [],
             "strike": []
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "post": [
@@ -3375,6 +3488,7 @@
             "cubed": [],
             "strike": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008690.jpg": {
@@ -3401,6 +3515,7 @@
                 "photo"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "zoo": [
@@ -3425,6 +3540,7 @@
                 "friend"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000872.jpg": {
@@ -3455,6 +3571,7 @@
             ],
             "batter": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "base": [],
@@ -3483,6 +3600,7 @@
             ],
             "batter": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007784.jpg": {
@@ -3508,6 +3626,7 @@
             ],
             "parasail": []
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "orange": [],
@@ -3531,6 +3650,7 @@
             ],
             "parasail": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003845.jpg": {
@@ -3567,6 +3687,7 @@
                 "rice"
             ]
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "vegetable": [
@@ -3601,6 +3722,7 @@
                 "rice"
             ]
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006954.jpg": {
@@ -3631,6 +3753,7 @@
                 "boy"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "grass": [
@@ -3659,6 +3782,7 @@
                 "boy"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001761.jpg": {
@@ -3691,6 +3815,7 @@
             "opera": [],
             "water": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "jet": [],
@@ -3721,6 +3846,7 @@
             "opera": [],
             "water": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004795.jpg": {
@@ -3747,6 +3873,7 @@
                 "mouse"
             ]
         },
+        "num_clusters_full_1": 3,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "text": [],
@@ -3771,6 +3898,7 @@
                 "book"
             ]
         },
+        "num_clusters_full_2": 3,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006818.jpg": {
@@ -3805,6 +3933,7 @@
             ],
             "bucket": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "soap": [],
@@ -3837,6 +3966,7 @@
             ],
             "bucket": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001993.jpg": {
@@ -3872,6 +4002,7 @@
             ],
             "sheet": []
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "wall": [
@@ -3904,6 +4035,7 @@
             ],
             "sheet": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006012.jpg": {
@@ -3934,6 +4066,7 @@
                 "food"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "middle": [],
@@ -3961,6 +4094,7 @@
                 "pomegranate"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008211.jpg": {
@@ -3990,6 +4124,7 @@
                 "sidewalk"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "work": [
@@ -4016,6 +4151,7 @@
                 "city"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001532.jpg": {
@@ -4054,6 +4190,7 @@
             ],
             "exit": []
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "sign": [
@@ -4089,6 +4226,7 @@
             ],
             "exit": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005477.jpg": {
@@ -4115,6 +4253,7 @@
                 "tarmac"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "jetliner": [
@@ -4140,6 +4279,7 @@
                 "tarmac"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005586.jpg": {
@@ -4176,6 +4316,7 @@
                 "racket"
             ]
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "match": [
@@ -4210,6 +4351,7 @@
                 "racket"
             ]
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003661.jpg": {
@@ -4235,6 +4377,7 @@
             ],
             "closeup": []
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "counter": [
@@ -4258,6 +4401,7 @@
             ],
             "closeup": []
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007278.jpg": {
@@ -4290,6 +4434,7 @@
                 "heat"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "ocean": [
@@ -4320,6 +4465,7 @@
                 "shot"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008021.jpg": {
@@ -4356,6 +4502,7 @@
             ],
             "screen": []
         },
+        "num_clusters_full_1": 9,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "wall": [],
@@ -4389,6 +4536,7 @@
             ],
             "screen": []
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002149.jpg": {
@@ -4410,6 +4558,7 @@
             ],
             "granny": []
         },
+        "num_clusters_full_1": 2,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "apple": [
@@ -4429,6 +4578,7 @@
             ],
             "granny": []
         },
+        "num_clusters_full_2": 2,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002473.jpg": {
@@ -4458,6 +4608,7 @@
             ],
             "fly": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "skier": [
@@ -4485,6 +4636,7 @@
             ],
             "fly": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001503.jpg": {
@@ -4511,6 +4663,7 @@
                 "mouse"
             ]
         },
+        "num_clusters_full_1": 2,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "mac": [],
@@ -4535,6 +4688,7 @@
                 "technology"
             ]
         },
+        "num_clusters_full_2": 2,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg": {
@@ -4564,6 +4718,7 @@
                 "business"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "table": [
@@ -4591,6 +4746,7 @@
                 "work"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000776.jpg": {
@@ -4621,6 +4777,7 @@
             ],
             "pillow": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bear": [
@@ -4650,6 +4807,7 @@
             ],
             "pillow": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006771.jpg": {
@@ -4679,6 +4837,7 @@
                 "fan"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "woman": [
@@ -4706,6 +4865,7 @@
                 "fan"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005060.jpg": {
@@ -4737,6 +4897,7 @@
                 "mirror"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "shirt": [],
@@ -4766,6 +4927,7 @@
                 "mirror"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000724.jpg": {
@@ -4793,6 +4955,7 @@
             ],
             "metal": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "post": [
@@ -4818,6 +4981,7 @@
             ],
             "metal": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007088.jpg": {
@@ -4844,6 +5008,7 @@
                 "girl"
             ]
         },
+        "num_clusters_full_1": 4,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "umbrella": [
@@ -4868,6 +5033,7 @@
                 "girl"
             ]
         },
+        "num_clusters_full_2": 4,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000632.jpg": {
@@ -4900,6 +5066,7 @@
             "mirror": [],
             "bookcase": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "window": [
@@ -4930,6 +5097,7 @@
             "mirror": [],
             "bookcase": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004134.jpg": {
@@ -4956,6 +5124,7 @@
                 "leader"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "men": [
@@ -4980,6 +5149,7 @@
                 "leader"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000139.jpg": {
@@ -5010,6 +5180,7 @@
                 "floor"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "kitchen": [
@@ -5038,6 +5209,7 @@
                 "floor"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008899.jpg": {
@@ -5069,6 +5241,7 @@
                 "city"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "fire": [],
@@ -5098,6 +5271,7 @@
                 "city"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009590.jpg": {
@@ -5129,6 +5303,7 @@
             ],
             "eating": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "drink": [
@@ -5158,6 +5333,7 @@
             ],
             "eating": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006471.jpg": {
@@ -5197,6 +5373,7 @@
             "man": [],
             "umpire": []
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "dugout": [],
@@ -5234,6 +5411,7 @@
             "man": [],
             "umpire": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000885.jpg": {
@@ -5269,6 +5447,7 @@
             "racket": [],
             "leg": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "volley": [],
@@ -5302,6 +5481,7 @@
             "racket": [],
             "leg": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003255.jpg": {
@@ -5339,6 +5519,7 @@
             "hill": [],
             "surface": []
         },
+        "num_clusters_full_1": 8,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "snowy": [
@@ -5374,6 +5555,7 @@
             "hill": [],
             "surface": []
         },
+        "num_clusters_full_2": 8,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002299.jpg": {
@@ -5400,6 +5582,7 @@
                 "picture"
             ]
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "group": [
@@ -5424,6 +5607,7 @@
                 "picture"
             ]
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006723.jpg": {
@@ -5458,6 +5642,7 @@
             ],
             "business": []
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bike": [
@@ -5490,6 +5675,7 @@
             ],
             "business": []
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001584.jpg": {
@@ -5518,6 +5704,7 @@
                 "london"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "bus": [
@@ -5544,6 +5731,7 @@
                 "building"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005001.jpg": {
@@ -5576,6 +5764,7 @@
                 "street"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "group": [],
@@ -5606,6 +5795,7 @@
                 "street"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009772.jpg": {
@@ -5633,6 +5823,7 @@
             ],
             "guy": []
         },
+        "num_clusters_full_1": 5,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "sink": [
@@ -5658,6 +5849,7 @@
             ],
             "guy": []
         },
+        "num_clusters_full_2": 5,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002532.jpg": {
@@ -5690,6 +5882,7 @@
                 "hill"
             ]
         },
+        "num_clusters_full_1": 6,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "snowy": [],
@@ -5720,6 +5913,7 @@
                 "hill"
             ]
         },
+        "num_clusters_full_2": 6,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007795.jpg": {
@@ -5745,6 +5939,7 @@
                 "bathroom"
             ]
         },
+        "num_clusters_full_1": 3,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "type": [],
@@ -5768,6 +5963,7 @@
                 "bathroom"
             ]
         },
+        "num_clusters_full_2": 3,
         "unassigned_words_2": 0
     },
     "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002153.jpg": {
@@ -5804,6 +6000,7 @@
             ],
             "batter": []
         },
+        "num_clusters_full_1": 7,
         "unassigned_words_1": 0,
         "cluster_assigned_2": {
             "base": [],
@@ -5838,6 +6035,7 @@
             ],
             "batter": []
         },
+        "num_clusters_full_2": 7,
         "unassigned_words_2": 0
     }
 }
