@@ -1,0 +1,5843 @@
+{
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005992.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "yard",
+                "garden",
+                "grass"
+            ],
+            "wall": [
+                "house",
+                "barn"
+            ],
+            "group": [
+                "flock"
+            ],
+            "standing": [],
+            "herd": [
+                "sheep",
+                "farm",
+                "herd"
+            ],
+            "brick": [],
+            "shaggy": [],
+            "building": [
+                "building"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [
+                "yard",
+                "grass"
+            ],
+            "wall": [
+                "house",
+                "lamb",
+                "camera"
+            ],
+            "group": [
+                "flock",
+                "view"
+            ],
+            "standing": [],
+            "herd": [
+                "sheep",
+                "farm",
+                "animal"
+            ],
+            "brick": [],
+            "shaggy": [],
+            "building": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002157.jpg": {
+        "cluster_assigned_1": {
+            "food": [
+                "food",
+                "dinner",
+                "birth",
+                "breakfast"
+            ],
+            "table": [
+                "table"
+            ],
+            "plate": [],
+            "raspberry": [],
+            "cake": [
+                "cake",
+                "party",
+                "idea",
+                "wedding"
+            ],
+            "sandwich": [],
+            "berry": [],
+            "blue": [],
+            "finger": [],
+            "cheese": [],
+            "fruit": [
+                "dessert"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "food": [
+                "food",
+                "birth",
+                "dinner"
+            ],
+            "table": [
+                "table"
+            ],
+            "plate": [
+                "plate"
+            ],
+            "raspberry": [],
+            "cake": [
+                "cake",
+                "party",
+                "wedding"
+            ],
+            "sandwich": [],
+            "berry": [],
+            "blue": [],
+            "finger": [],
+            "cheese": [],
+            "fruit": [
+                "dessert",
+                "fruit"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009448.jpg": {
+        "cluster_assigned_1": {
+            "umbrella": [
+                "umbrella",
+                "rain",
+                "park"
+            ],
+            "arm": [
+                "portrait",
+                "camera",
+                "side"
+            ],
+            "shirt": [
+                "hair"
+            ],
+            "pink": [],
+            "blue": [],
+            "girl": [
+                "girl",
+                "street",
+                "child"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "umbrella": [
+                "umbrella",
+                "rain",
+                "rainy"
+            ],
+            "arm": [
+                "portrait",
+                "camera"
+            ],
+            "shirt": [
+                "coat"
+            ],
+            "pink": [
+                "pink"
+            ],
+            "blue": [],
+            "girl": [
+                "girl",
+                "child",
+                "street"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003501.jpg": {
+        "cluster_assigned_1": {
+            "vegetable": [
+                "carrot"
+            ],
+            "broccoli": [
+                "broccoli"
+            ],
+            "meal": [
+                "food",
+                "way",
+                "recipe"
+            ],
+            "mixture": [
+                "round"
+            ],
+            "plate": [],
+            "rice": [],
+            "bean": [
+                "bean"
+            ],
+            "meat": [
+                "side"
+            ],
+            "dish": [
+                "dish"
+            ],
+            "bowl": [
+                "bowl"
+            ],
+            "relish": [],
+            "corn": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "vegetable": [
+                "vegetable",
+                "cranberry"
+            ],
+            "broccoli": [
+                "broccoli"
+            ],
+            "meal": [
+                "recipe",
+                "food"
+            ],
+            "mixture": [],
+            "plate": [],
+            "rice": [
+                "rice"
+            ],
+            "bean": [
+                "bean"
+            ],
+            "meat": [
+                "chicken"
+            ],
+            "dish": [
+                "dish"
+            ],
+            "bowl": [
+                "bowl"
+            ],
+            "relish": [],
+            "corn": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002261.jpg": {
+        "cluster_assigned_1": {
+            "boogie": [],
+            "ride": [],
+            "shirt": [
+                "hand"
+            ],
+            "raft": [
+                "surfer"
+            ],
+            "board": [],
+            "play": [],
+            "wave": [
+                "wave"
+            ],
+            "ocean": [
+                "surf",
+                "beach",
+                "ocean",
+                "sea"
+            ],
+            "man": [],
+            "water": [
+                "water"
+            ],
+            "boy": [
+                "boy",
+                "girl"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "boogie": [],
+            "ride": [],
+            "shirt": [
+                "top"
+            ],
+            "raft": [
+                "surfer"
+            ],
+            "board": [
+                "board"
+            ],
+            "play": [],
+            "wave": [
+                "wave"
+            ],
+            "ocean": [
+                "beach",
+                "ocean",
+                "sea"
+            ],
+            "man": [
+                "man"
+            ],
+            "water": [
+                "water"
+            ],
+            "boy": [
+                "boy"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006040.jpg": {
+        "cluster_assigned_1": {
+            "track": [
+                "track"
+            ],
+            "blue": [
+                "blue"
+            ],
+            "road": [
+                "city",
+                "street",
+                "line",
+                "road"
+            ],
+            "close-up": [],
+            "passenger": [],
+            "rail": [
+                "tram"
+            ],
+            "train": [
+                "train",
+                "station"
+            ],
+            "car": [
+                "car"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "track": [
+                "track"
+            ],
+            "blue": [],
+            "road": [
+                "city",
+                "street",
+                "line",
+                "transit"
+            ],
+            "close-up": [],
+            "passenger": [],
+            "rail": [
+                "tram"
+            ],
+            "train": [
+                "train",
+                "station",
+                "transportation"
+            ],
+            "car": [
+                "car"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001296.jpg": {
+        "cluster_assigned_1": {
+            "face": [
+                "picture"
+            ],
+            "woman": [
+                "woman"
+            ],
+            "case": [],
+            "shirt": [
+                "photo",
+                "shirt"
+            ],
+            "cell": [],
+            "hello": [],
+            "kitty": [],
+            "cellphone": [
+                "smartphone"
+            ],
+            "hand": [
+                "hand"
+            ],
+            "phone": [
+                "phone",
+                "message",
+                "street"
+            ],
+            "girl": [
+                "girl"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "face": [
+                "picture",
+                "smile"
+            ],
+            "woman": [
+                "woman",
+                "people"
+            ],
+            "case": [],
+            "shirt": [
+                "photo",
+                "pink"
+            ],
+            "cell": [],
+            "hello": [],
+            "kitty": [],
+            "cellphone": [
+                "smartphone"
+            ],
+            "hand": [],
+            "phone": [
+                "phone",
+                "message"
+            ],
+            "girl": [
+                "girl"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008844.jpg": {
+        "cluster_assigned_1": {
+            "woman": [
+                "woman",
+                "seller"
+            ],
+            "table": [
+                "market"
+            ],
+            "group": [],
+            "bushel": [],
+            "bunch": [
+                "sale"
+            ],
+            "banana": [
+                "banana",
+                "fruit"
+            ],
+            "lady": [
+                "street",
+                "vendor",
+                "smile",
+                "customer"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "woman": [
+                "woman"
+            ],
+            "table": [
+                "market"
+            ],
+            "group": [
+                "people"
+            ],
+            "bushel": [],
+            "bunch": [
+                "sale",
+                "bunch"
+            ],
+            "banana": [
+                "banana",
+                "fruit"
+            ],
+            "lady": [
+                "vendor",
+                "street",
+                "smile"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005503.jpg": {
+        "cluster_assigned_1": {
+            "toilet": [
+                "toilet",
+                "seat",
+                "room",
+                "bowl",
+                "house"
+            ],
+            "restroom": [
+                "bathroom",
+                "restroom"
+            ],
+            "standing": [],
+            "photo": [],
+            "style": [],
+            "duvet": [],
+            "piss": [],
+            "point": [],
+            "man": [
+                "man"
+            ],
+            "view": [],
+            "airplane": [],
+            "water": [
+                "water",
+                "car"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "toilet": [
+                "toilet",
+                "seat",
+                "room",
+                "bowl",
+                "lid",
+                "dirty",
+                "stall"
+            ],
+            "restroom": [
+                "bathroom",
+                "restroom"
+            ],
+            "standing": [],
+            "photo": [
+                "paper"
+            ],
+            "style": [],
+            "duvet": [],
+            "piss": [],
+            "point": [],
+            "man": [],
+            "view": [],
+            "airplane": [],
+            "water": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003553.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "air"
+            ],
+            "platform": [],
+            "park": [
+                "park"
+            ],
+            "sneaker": [
+                "shoe"
+            ],
+            "board": [
+                "board"
+            ],
+            "skating": [
+                "trick"
+            ],
+            "wood": [],
+            "skateboarder": [],
+            "concrete": [],
+            "piece": [],
+            "ramp": [
+                "step"
+            ],
+            "man": [
+                "boy",
+                "man"
+            ],
+            "skateboard": [
+                "skateboard"
+            ],
+            "leg": [
+                "foot"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [],
+            "platform": [],
+            "park": [
+                "park"
+            ],
+            "sneaker": [
+                "shoe",
+                "sneaker"
+            ],
+            "board": [
+                "board"
+            ],
+            "skating": [],
+            "wood": [],
+            "skateboarder": [],
+            "concrete": [],
+            "piece": [],
+            "ramp": [
+                "stair"
+            ],
+            "man": [
+                "boy",
+                "man"
+            ],
+            "skateboard": [
+                "skateboard"
+            ],
+            "leg": [
+                "foot",
+                "leg"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004395.jpg": {
+        "cluster_assigned_1": {
+            "look": [],
+            "shirt": [
+                "shirt",
+                "business"
+            ],
+            "motioning": [],
+            "suit": [],
+            "camera": [
+                "street",
+                "glass",
+                "phone",
+                "portrait"
+            ],
+            "tie": [
+                "building"
+            ],
+            "hand": [],
+            "man": [
+                "man",
+                "city"
+            ],
+            "dress": [
+                "restaurant"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "look": [],
+            "shirt": [
+                "shirt",
+                "business"
+            ],
+            "motioning": [],
+            "suit": [
+                "suit"
+            ],
+            "camera": [
+                "portrait",
+                "street",
+                "glass",
+                "phone"
+            ],
+            "tie": [],
+            "hand": [],
+            "man": [
+                "man",
+                "city",
+                "guy"
+            ],
+            "dress": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000802.jpg": {
+        "cluster_assigned_1": {
+            "appliance": [
+                "appliance"
+            ],
+            "kitchen": [
+                "kitchen",
+                "floor",
+                "room",
+                "home",
+                "house"
+            ],
+            "stove": [],
+            "oven": [],
+            "opening": [
+                "door"
+            ],
+            "refrigerator": [
+                "fridge"
+            ],
+            "cabinet": [
+                "cabinet",
+                "wall"
+            ],
+            "brand": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "appliance": [
+                "appliance"
+            ],
+            "kitchen": [
+                "kitchen",
+                "room",
+                "home",
+                "house"
+            ],
+            "stove": [
+                "stove"
+            ],
+            "oven": [],
+            "opening": [
+                "door"
+            ],
+            "refrigerator": [
+                "refrigerator",
+                "fridge"
+            ],
+            "cabinet": [
+                "cabinet"
+            ],
+            "brand": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009769.jpg": {
+        "cluster_assigned_1": {
+            "neighbor": [],
+            "driver": [],
+            "blade": [],
+            "drive": [
+                "satur"
+            ],
+            "plow": [],
+            "road": [
+                "road",
+                "side",
+                "morning"
+            ],
+            "snow": [
+                "snow",
+                "storm",
+                "winter"
+            ],
+            "truck": [
+                "truck"
+            ],
+            "street": [
+                "street",
+                "city"
+            ],
+            "pick": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "neighbor": [],
+            "driver": [],
+            "blade": [],
+            "drive": [
+                "drive"
+            ],
+            "plow": [],
+            "road": [
+                "road",
+                "side"
+            ],
+            "snow": [
+                "snow",
+                "storm",
+                "winter"
+            ],
+            "truck": [
+                "truck",
+                "vehicle"
+            ],
+            "street": [
+                "street",
+                "city"
+            ],
+            "pick": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005037.jpg": {
+        "cluster_assigned_1": {
+            "bus": [
+                "bus",
+                "decker",
+                "transit"
+            ],
+            "side": [
+                "side"
+            ],
+            "road": [
+                "stop",
+                "road",
+                "roundabout"
+            ],
+            "passenger": [
+                "passenger"
+            ],
+            "street": [],
+            "city": [
+                "city",
+                "station"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bus": [
+                "bus",
+                "decker",
+                "transit",
+                "service",
+                "transport"
+            ],
+            "side": [],
+            "road": [
+                "stop",
+                "road"
+            ],
+            "passenger": [
+                "passenger"
+            ],
+            "street": [],
+            "city": [
+                "city",
+                "station"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001425.jpg": {
+        "cluster_assigned_1": {
+            "table": [
+                "table"
+            ],
+            "meal": [
+                "food",
+                "restaurant",
+                "breakfast",
+                "dish",
+                "cake"
+            ],
+            "burger": [
+                "bun"
+            ],
+            "plate": [
+                "plate",
+                "tray"
+            ],
+            "part": [],
+            "sandwich": [],
+            "bite": [
+                "cream"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "table": [],
+            "meal": [
+                "food",
+                "breakfast",
+                "dish",
+                "chocolate",
+                "cake"
+            ],
+            "burger": [
+                "fry",
+                "bun"
+            ],
+            "plate": [
+                "plate",
+                "tray"
+            ],
+            "part": [],
+            "sandwich": [],
+            "bite": [
+                "cream"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008277.jpg": {
+        "cluster_assigned_1": {
+            "food": [
+                "food"
+            ],
+            "broccoli": [],
+            "guacamole": [],
+            "meal": [
+                "meal",
+                "lunch",
+                "oven",
+                "recipe"
+            ],
+            "chopped": [],
+            "plate": [
+                "plate"
+            ],
+            "floor": [],
+            "brocolli": [],
+            "chicken": [
+                "chicken",
+                "turkey"
+            ],
+            "sauce": [],
+            "dish": [
+                "dish"
+            ],
+            "cheese": [],
+            "cup": [
+                "way"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "food": [
+                "food",
+                "meat"
+            ],
+            "broccoli": [
+                "broccoli"
+            ],
+            "guacamole": [],
+            "meal": [
+                "recipe",
+                "meal",
+                "soup"
+            ],
+            "chopped": [],
+            "plate": [
+                "plate"
+            ],
+            "floor": [],
+            "brocolli": [],
+            "chicken": [
+                "chicken",
+                "turkey"
+            ],
+            "sauce": [],
+            "dish": [
+                "dish"
+            ],
+            "cheese": [],
+            "cup": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007386.jpg": {
+        "cluster_assigned_1": {
+            "motorcycle": [
+                "motorcycle",
+                "bike"
+            ],
+            "trike": [],
+            "home": [
+                "dog"
+            ],
+            "tricycle": [
+                "wheel"
+            ],
+            "driveway": [
+                "road",
+                "yard"
+            ],
+            "motor": [],
+            "garage": [
+                "garage",
+                "trailer"
+            ],
+            "frame": [
+                "photo"
+            ],
+            "outside": [
+                "grass"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "motorcycle": [
+                "motorcycle",
+                "bike",
+                "bicycle"
+            ],
+            "trike": [],
+            "home": [
+                "dog"
+            ],
+            "tricycle": [
+                "wheel"
+            ],
+            "driveway": [],
+            "motor": [],
+            "garage": [
+                "trailer",
+                "truck"
+            ],
+            "frame": [
+                "photo",
+                "paddock"
+            ],
+            "outside": [
+                "grass"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007818.jpg": {
+        "cluster_assigned_1": {
+            "display": [],
+            "glass": [
+                "window",
+                "glass"
+            ],
+            "flour": [],
+            "arrangement": [
+                "arrangement"
+            ],
+            "stemware": [],
+            "table": [
+                "table"
+            ],
+            "dining": [
+                "restaurant",
+                "dining"
+            ],
+            "vase": [
+                "flower",
+                "vase"
+            ],
+            "photo": [],
+            "centerpiece": [],
+            "dinner": [
+                "dinner"
+            ],
+            "wine": [],
+            "room": [
+                "room"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "display": [
+                "view",
+                "setting"
+            ],
+            "glass": [
+                "window",
+                "glass"
+            ],
+            "flour": [],
+            "arrangement": [
+                "arrangement"
+            ],
+            "stemware": [],
+            "table": [
+                "table"
+            ],
+            "dining": [
+                "restaurant"
+            ],
+            "vase": [
+                "flower",
+                "vase"
+            ],
+            "photo": [],
+            "centerpiece": [],
+            "dinner": [],
+            "wine": [],
+            "room": [
+                "room"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002592.jpg": {
+        "cluster_assigned_1": {
+            "counter": [
+                "table"
+            ],
+            "mug": [
+                "mug"
+            ],
+            "coffee": [
+                "coffee",
+                "tea"
+            ],
+            "crossbones": [],
+            "skull": [
+                "skull"
+            ],
+            "bone": [],
+            "knife": [
+                "knife",
+                "kitchen",
+                "piece"
+            ],
+            "cup": [
+                "cup",
+                "time"
+            ],
+            "surface": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "counter": [],
+            "mug": [
+                "mug",
+                "teapot"
+            ],
+            "coffee": [
+                "coffee",
+                "tea",
+                "sugar",
+                "spice"
+            ],
+            "crossbones": [],
+            "skull": [
+                "skull"
+            ],
+            "bone": [
+                "sits"
+            ],
+            "knife": [
+                "tug"
+            ],
+            "cup": [
+                "cup"
+            ],
+            "surface": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008532.jpg": {
+        "cluster_assigned_1": {
+            "glass": [
+                "building",
+                "glass"
+            ],
+            "shirt": [
+                "shirt"
+            ],
+            "hat": [
+                "hat"
+            ],
+            "neck": [],
+            "camera": [
+                "camera",
+                "portrait"
+            ],
+            "tie": [
+                "smile"
+            ],
+            "plaid": [
+                "blue"
+            ],
+            "man": [
+                "man"
+            ],
+            "cat": [
+                "business"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "glass": [
+                "glass"
+            ],
+            "shirt": [
+                "shirt"
+            ],
+            "hat": [
+                "hat"
+            ],
+            "neck": [],
+            "camera": [
+                "portrait",
+                "camera",
+                "photo"
+            ],
+            "tie": [
+                "smile",
+                "tie"
+            ],
+            "plaid": [],
+            "man": [
+                "man"
+            ],
+            "cat": [
+                "business"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000785.jpg": {
+        "cluster_assigned_1": {
+            "skiis": [],
+            "woman": [
+                "woman"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [
+                "skier",
+                "ski",
+                "resort",
+                "sport"
+            ],
+            "mountain": [
+                "mountain",
+                "hill"
+            ],
+            "camera": [],
+            "way": [
+                "way"
+            ],
+            "snow": [
+                "snow"
+            ],
+            "jacket": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "skiis": [],
+            "woman": [
+                "woman"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [
+                "skier",
+                "ski",
+                "resort",
+                "sport"
+            ],
+            "mountain": [
+                "mountain",
+                "hill"
+            ],
+            "camera": [],
+            "way": [],
+            "snow": [
+                "snow"
+            ],
+            "jacket": [
+                "gear"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009378.jpg": {
+        "cluster_assigned_1": {
+            "adult": [
+                "actor"
+            ],
+            "toy": [
+                "part"
+            ],
+            "frisbee": [
+                "frisbee"
+            ],
+            "trick": [],
+            "audience": [
+                "event",
+                "festival",
+                "competition"
+            ],
+            "disk": [],
+            "disc": [],
+            "man": [
+                "man"
+            ],
+            "hair": [
+                "artist",
+                "hand"
+            ],
+            "ability": [
+                "performance"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "adult": [
+                "actor"
+            ],
+            "toy": [
+                "part"
+            ],
+            "frisbee": [],
+            "trick": [],
+            "audience": [
+                "event",
+                "festival",
+                "competition"
+            ],
+            "disk": [],
+            "disc": [],
+            "man": [
+                "man"
+            ],
+            "hair": [
+                "artist",
+                "air",
+                "hand"
+            ],
+            "ability": [
+                "performance"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001490.jpg": {
+        "cluster_assigned_1": {
+            "outside": [
+                "sunny"
+            ],
+            "racquet": [],
+            "middle": [],
+            "sea": [
+                "beach",
+                "wave",
+                "boat",
+                "ocean"
+            ],
+            "suit": [],
+            "wetsuit": [],
+            "boarder": [
+                "board"
+            ],
+            "body": [
+                "woman",
+                "sport"
+            ],
+            "paddle": [],
+            "man": [
+                "man"
+            ],
+            "surfboard": [],
+            "water": [
+                "water"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "outside": [],
+            "racquet": [],
+            "middle": [],
+            "sea": [
+                "sea",
+                "beach",
+                "ocean"
+            ],
+            "suit": [],
+            "wetsuit": [],
+            "boarder": [
+                "board"
+            ],
+            "body": [
+                "woman",
+                "sport"
+            ],
+            "paddle": [
+                "kayak"
+            ],
+            "man": [
+                "man"
+            ],
+            "surfboard": [
+                "surf"
+            ],
+            "water": [
+                "water"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001818.jpg": {
+        "cluster_assigned_1": {
+            "adult": [],
+            "grass": [
+                "grass"
+            ],
+            "baby": [
+                "baby",
+                "side"
+            ],
+            "teat": [],
+            "giraffe": [
+                "zoo"
+            ],
+            "nursing": [],
+            "field": [],
+            "mother": [
+                "mother",
+                "head",
+                "eye"
+            ],
+            "milk": [],
+            "zebra": [
+                "zebra",
+                "animal",
+                "lion"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "adult": [],
+            "grass": [],
+            "baby": [
+                "baby",
+                "hole"
+            ],
+            "teat": [],
+            "giraffe": [
+                "zoo"
+            ],
+            "nursing": [],
+            "field": [],
+            "mother": [
+                "head",
+                "mother",
+                "photo",
+                "eye"
+            ],
+            "milk": [],
+            "zebra": [
+                "zebra",
+                "animal",
+                "lion"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005600.jpg": {
+        "cluster_assigned_1": {
+            "food": [
+                "food",
+                "restaurant",
+                "soup",
+                "vegetable"
+            ],
+            "type": [],
+            "table": [
+                "table"
+            ],
+            "onion": [],
+            "plate": [
+                "plate"
+            ],
+            "silver": [],
+            "pan": [],
+            "stew": [],
+            "spoon": [
+                "dish"
+            ],
+            "look": [],
+            "meat": [
+                "chicken"
+            ],
+            "bowl": [
+                "bowl",
+                "holi"
+            ],
+            "support": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "food": [
+                "food",
+                "restaurant",
+                "soup",
+                "potato"
+            ],
+            "type": [],
+            "table": [],
+            "onion": [],
+            "plate": [
+                "plate"
+            ],
+            "silver": [],
+            "pan": [],
+            "stew": [],
+            "spoon": [
+                "dish"
+            ],
+            "look": [],
+            "meat": [
+                "chicken",
+                "sardine"
+            ],
+            "bowl": [
+                "bowl",
+                "holi"
+            ],
+            "support": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002431.jpg": {
+        "cluster_assigned_1": {
+            "glass": [
+                "glass",
+                "wine"
+            ],
+            "food": [
+                "food"
+            ],
+            "table": [
+                "table"
+            ],
+            "meal": [
+                "dinner",
+                "restaurant",
+                "lunch",
+                "dish"
+            ],
+            "slice": [],
+            "plate": [],
+            "side": [],
+            "bread": [
+                "bread"
+            ],
+            "toast": [
+                "toast"
+            ],
+            "tray": [],
+            "condiment": [],
+            "item": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "glass": [
+                "wine"
+            ],
+            "food": [
+                "food"
+            ],
+            "table": [
+                "table"
+            ],
+            "meal": [
+                "restaurant",
+                "dinner",
+                "lunch",
+                "meal",
+                "dish"
+            ],
+            "slice": [],
+            "plate": [],
+            "side": [],
+            "bread": [
+                "bread",
+                "oven"
+            ],
+            "toast": [],
+            "tray": [],
+            "condiment": [],
+            "item": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002587.jpg": {
+        "cluster_assigned_1": {
+            "baggie": [],
+            "doughnut": [
+                "doughnut",
+                "pastry"
+            ],
+            "bag": [
+                "bagel",
+                "bag",
+                "package",
+                "box"
+            ],
+            "banana": [
+                "banana"
+            ],
+            "chocolate": [
+                "food",
+                "breakfast"
+            ],
+            "plastic": [],
+            "closeup": [],
+            "donut": [
+                "donut"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "baggie": [],
+            "doughnut": [
+                "doughnut",
+                "pastry"
+            ],
+            "bag": [
+                "bagel",
+                "package"
+            ],
+            "banana": [
+                "banana",
+                "bite"
+            ],
+            "chocolate": [
+                "breakfast",
+                "food"
+            ],
+            "plastic": [
+                "tray"
+            ],
+            "closeup": [],
+            "donut": [
+                "donut"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007816.jpg": {
+        "cluster_assigned_1": {
+            "motorcycle": [
+                "motorcycle"
+            ],
+            "bike": [
+                "bike",
+                "biker"
+            ],
+            "rider": [
+                "rider"
+            ],
+            "group": [],
+            "motor": [
+                "industry"
+            ],
+            "corner": [],
+            "road": [
+                "road",
+                "line"
+            ],
+            "people": [
+                "race",
+                "people"
+            ],
+            "travel": [],
+            "guy": [
+                "man"
+            ],
+            "fence": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "motorcycle": [
+                "motorcycle"
+            ],
+            "bike": [
+                "bike",
+                "biker"
+            ],
+            "rider": [
+                "rider"
+            ],
+            "group": [],
+            "motor": [
+                "speed",
+                "industry"
+            ],
+            "corner": [],
+            "road": [
+                "road",
+                "line"
+            ],
+            "people": [
+                "race"
+            ],
+            "travel": [],
+            "guy": [
+                "man"
+            ],
+            "fence": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000285.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "grass",
+                "park",
+                "forest"
+            ],
+            "nose": [],
+            "face": [
+                "face",
+                "head"
+            ],
+            "bear": [
+                "bear"
+            ],
+            "grizzly": [
+                "grizzly"
+            ],
+            "burly": [],
+            "area": [],
+            "picture": [
+                "camera",
+                "shot",
+                "photo"
+            ],
+            "closeup": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [
+                "forest"
+            ],
+            "nose": [],
+            "face": [
+                "face",
+                "head",
+                "portrait"
+            ],
+            "bear": [
+                "bear",
+                "animal",
+                "dog"
+            ],
+            "grizzly": [
+                "grizzly"
+            ],
+            "burly": [],
+            "area": [],
+            "picture": [
+                "photo",
+                "camera"
+            ],
+            "closeup": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006213.jpg": {
+        "cluster_assigned_1": {
+            "bathtub": [],
+            "wit": [],
+            "tub": [
+                "tub"
+            ],
+            "sink": [
+                "master",
+                "sink"
+            ],
+            "sits": [],
+            "corner": [],
+            "bathroom": [
+                "bathroom",
+                "tile",
+                "floor",
+                "house"
+            ],
+            "curtain": [],
+            "shower": [
+                "shower"
+            ],
+            "view": [
+                "example",
+                "design"
+            ],
+            "mirror": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bathtub": [],
+            "wit": [],
+            "tub": [],
+            "sink": [
+                "master",
+                "sink"
+            ],
+            "sits": [],
+            "corner": [],
+            "bathroom": [
+                "bathroom",
+                "tile",
+                "home",
+                "house",
+                "floor"
+            ],
+            "curtain": [],
+            "shower": [
+                "shower"
+            ],
+            "view": [
+                "design",
+                "example"
+            ],
+            "mirror": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004765.jpg": {
+        "cluster_assigned_1": {
+            "ocean": [
+                "water"
+            ],
+            "shirt": [
+                "round",
+                "action",
+                "heat",
+                "top"
+            ],
+            "wetsuit": [
+                "suit"
+            ],
+            "wave": [
+                "wave"
+            ],
+            "surfer": [
+                "surfer"
+            ],
+            "surfing": [],
+            "man": [
+                "man"
+            ],
+            "surfboard": [
+                "board"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "ocean": [
+                "water"
+            ],
+            "shirt": [
+                "round",
+                "action",
+                "heat"
+            ],
+            "wetsuit": [
+                "suit",
+                "wetsuit"
+            ],
+            "wave": [
+                "wave"
+            ],
+            "surfer": [
+                "surfer"
+            ],
+            "surfing": [],
+            "man": [
+                "man"
+            ],
+            "surfboard": [
+                "board"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003934.jpg": {
+        "cluster_assigned_1": {
+            "adult": [
+                "living"
+            ],
+            "woman": [],
+            "controller": [],
+            "others": [],
+            "photo": [],
+            "girl": [
+                "girl",
+                "kid"
+            ],
+            "video": [
+                "video"
+            ],
+            "nintendo": [],
+            "wii": [],
+            "goer": [],
+            "game": [
+                "game",
+                "home"
+            ],
+            "dress": [
+                "dress"
+            ],
+            "party": [
+                "family",
+                "room",
+                "house"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "adult": [
+                "living"
+            ],
+            "woman": [],
+            "controller": [],
+            "others": [],
+            "photo": [],
+            "girl": [
+                "girl",
+                "kid"
+            ],
+            "video": [
+                "video"
+            ],
+            "nintendo": [],
+            "wii": [],
+            "goer": [],
+            "game": [
+                "game",
+                "home",
+                "fun"
+            ],
+            "dress": [],
+            "party": [
+                "family",
+                "room",
+                "house"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006894.jpg": {
+        "cluster_assigned_1": {
+            "trunk": [],
+            "baby": [
+                "baby"
+            ],
+            "face": [
+                "face",
+                "photo"
+            ],
+            "touch": [],
+            "elephant": [
+                "elephant",
+                "animal",
+                "jungle"
+            ],
+            "neck": [
+                "river"
+            ],
+            "field": [],
+            "kiss": [],
+            "man": [
+                "man"
+            ],
+            "head": [],
+            "truck": [
+                "forest",
+                "people"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "trunk": [],
+            "baby": [
+                "baby"
+            ],
+            "face": [
+                "face",
+                "photo"
+            ],
+            "touch": [],
+            "elephant": [
+                "elephant",
+                "animal"
+            ],
+            "neck": [],
+            "field": [],
+            "kiss": [
+                "smile",
+                "tourist"
+            ],
+            "man": [
+                "man",
+                "male"
+            ],
+            "head": [
+                "head"
+            ],
+            "truck": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001000.jpg": {
+        "cluster_assigned_1": {
+            "group": [
+                "team"
+            ],
+            "net": [],
+            "court": [
+                "court"
+            ],
+            "photo": [],
+            "pose": [],
+            "tennis": [
+                "tennis",
+                "tournament",
+                "racquet"
+            ],
+            "people": [
+                "people"
+            ],
+            "kid": [
+                "boy",
+                "kid"
+            ],
+            "picture": [],
+            "child": [
+                "player",
+                "child"
+            ],
+            "family": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "group": [
+                "team"
+            ],
+            "net": [],
+            "court": [
+                "court"
+            ],
+            "photo": [],
+            "pose": [],
+            "tennis": [
+                "tennis",
+                "tournament",
+                "competition"
+            ],
+            "people": [
+                "people"
+            ],
+            "kid": [
+                "boy",
+                "kid"
+            ],
+            "picture": [
+                "trophy"
+            ],
+            "child": [
+                "player"
+            ],
+            "family": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009483.jpg": {
+        "cluster_assigned_1": {
+            "keyboard": [],
+            "equipment": [],
+            "control": [],
+            "desk": [
+                "room",
+                "office",
+                "desk"
+            ],
+            "table": [],
+            "monitor": [
+                "monitor"
+            ],
+            "board": [],
+            "suit": [],
+            "electronics": [],
+            "man": [
+                "man"
+            ],
+            "computer": [
+                "computer",
+                "glass",
+                "laptop",
+                "work",
+                "window"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "keyboard": [],
+            "equipment": [],
+            "control": [
+                "control"
+            ],
+            "desk": [
+                "room",
+                "office",
+                "desk"
+            ],
+            "table": [],
+            "monitor": [
+                "monitor"
+            ],
+            "board": [],
+            "suit": [],
+            "electronics": [],
+            "man": [
+                "man"
+            ],
+            "computer": [
+                "computer",
+                "glass",
+                "window",
+                "work"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002006.jpg": {
+        "cluster_assigned_1": {
+            "bus": [
+                "bus",
+                "decker",
+                "passenger",
+                "transit"
+            ],
+            "parking": [],
+            "area": [],
+            "spot": [
+                "stop"
+            ],
+            "crosswalk": [],
+            "purple": [],
+            "street": [
+                "road",
+                "street"
+            ],
+            "city": [
+                "city",
+                "station",
+                "centre"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bus": [
+                "bus",
+                "decker",
+                "passenger",
+                "transit",
+                "transport"
+            ],
+            "parking": [],
+            "area": [],
+            "spot": [
+                "stop"
+            ],
+            "crosswalk": [],
+            "purple": [],
+            "street": [
+                "road"
+            ],
+            "city": [
+                "city",
+                "station",
+                "centre"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001268.jpg": {
+        "cluster_assigned_1": {
+            "woman": [],
+            "photo": [
+                "photo",
+                "photograph"
+            ],
+            "bridge": [
+                "bridge"
+            ],
+            "waterway": [],
+            "river": [
+                "river",
+                "city"
+            ],
+            "picture": [
+                "swan",
+                "picture"
+            ],
+            "people": [
+                "people",
+                "couple"
+            ],
+            "phone": [],
+            "girl": [],
+            "water": [
+                "water"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "woman": [],
+            "photo": [
+                "photo",
+                "photograph"
+            ],
+            "bridge": [
+                "bridge"
+            ],
+            "waterway": [],
+            "river": [
+                "river",
+                "city"
+            ],
+            "picture": [
+                "swan"
+            ],
+            "people": [
+                "people",
+                "couple"
+            ],
+            "phone": [],
+            "girl": [
+                "man"
+            ],
+            "water": [
+                "water"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004495.jpg": {
+        "cluster_assigned_1": {
+            "type": [],
+            "sofa": [],
+            "living": [
+                "living",
+                "home"
+            ],
+            "area": [],
+            "couch": [
+                "couch"
+            ],
+            "corner": [],
+            "television": [
+                "television",
+                "view"
+            ],
+            "chair": [
+                "chair",
+                "table"
+            ],
+            "room": [
+                "room",
+                "wall",
+                "house"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "type": [],
+            "sofa": [
+                "sofa"
+            ],
+            "living": [
+                "living",
+                "home"
+            ],
+            "area": [],
+            "couch": [
+                "couch"
+            ],
+            "corner": [],
+            "television": [
+                "television",
+                "view"
+            ],
+            "chair": [
+                "chair"
+            ],
+            "room": [
+                "room",
+                "wall",
+                "house"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002923.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "sky"
+            ],
+            "shrimp": [],
+            "ship": [],
+            "bird": [
+                "bird",
+                "seagull"
+            ],
+            "area": [
+                "city"
+            ],
+            "marsh": [
+                "marsh"
+            ],
+            "sea": [
+                "water"
+            ],
+            "harbor": [],
+            "distance": [],
+            "egret": [],
+            "couple": [],
+            "field": [
+                "view"
+            ],
+            "dock": [],
+            "overcast": [],
+            "sail": [
+                "flight"
+            ],
+            "boat": [
+                "boat",
+                "fishing"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [
+                "sky"
+            ],
+            "shrimp": [],
+            "ship": [],
+            "bird": [
+                "bird",
+                "seagull",
+                "crane"
+            ],
+            "area": [],
+            "marsh": [
+                "marsh"
+            ],
+            "sea": [
+                "water",
+                "tide"
+            ],
+            "harbor": [],
+            "distance": [],
+            "egret": [],
+            "couple": [],
+            "field": [],
+            "dock": [
+                "dock"
+            ],
+            "overcast": [],
+            "sail": [],
+            "boat": [
+                "boat",
+                "fishing"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005529.jpg": {
+        "cluster_assigned_1": {
+            "snowy": [
+                "winter",
+                "jacket"
+            ],
+            "skier": [
+                "skier"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [
+                "ski"
+            ],
+            "downhill": [],
+            "mountain": [
+                "trail",
+                "mountain"
+            ],
+            "snow": [
+                "snow"
+            ],
+            "man": [
+                "way",
+                "man"
+            ],
+            "hill": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "snowy": [
+                "powder"
+            ],
+            "skier": [
+                "skier"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [
+                "ski"
+            ],
+            "downhill": [],
+            "mountain": [
+                "trail",
+                "mountain"
+            ],
+            "snow": [
+                "snow"
+            ],
+            "man": [
+                "way",
+                "man"
+            ],
+            "hill": [
+                "hill"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007281.jpg": {
+        "cluster_assigned_1": {
+            "riding": [
+                "ride"
+            ],
+            "men": [
+                "men",
+                "man"
+            ],
+            "horse": [
+                "horse"
+            ],
+            "shore": [
+                "sea"
+            ],
+            "people": [
+                "people",
+                "couple",
+                "woman"
+            ],
+            "horseback": [],
+            "picture": [],
+            "playing": [
+                "friend"
+            ],
+            "beach": [
+                "beach"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "riding": [
+                "ride",
+                "rider"
+            ],
+            "men": [
+                "men",
+                "man"
+            ],
+            "horse": [
+                "horse"
+            ],
+            "shore": [
+                "sea"
+            ],
+            "people": [
+                "people",
+                "couple",
+                "group"
+            ],
+            "horseback": [],
+            "picture": [],
+            "playing": [],
+            "beach": [
+                "beach"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008762.jpg": {
+        "cluster_assigned_1": {
+            "light": [
+                "light"
+            ],
+            "sign": [],
+            "intersection": [
+                "intersection"
+            ],
+            "evening": [
+                "hour"
+            ],
+            "twilight": [],
+            "scene": [
+                "view"
+            ],
+            "lit": [],
+            "night": [
+                "night"
+            ],
+            "street": [
+                "street",
+                "road"
+            ],
+            "traffic": [
+                "traffic"
+            ],
+            "building": [],
+            "car": [
+                "car"
+            ],
+            "city": [
+                "city"
+            ],
+            "silhouette": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "light": [
+                "light"
+            ],
+            "sign": [],
+            "intersection": [
+                "intersection"
+            ],
+            "evening": [
+                "sunset"
+            ],
+            "twilight": [],
+            "scene": [
+                "view"
+            ],
+            "lit": [],
+            "night": [
+                "night",
+                "time"
+            ],
+            "street": [
+                "street",
+                "road"
+            ],
+            "traffic": [
+                "traffic"
+            ],
+            "building": [],
+            "car": [],
+            "city": [
+                "city"
+            ],
+            "silhouette": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006763.jpg": {
+        "cluster_assigned_1": {
+            "bar": [
+                "bar"
+            ],
+            "table": [
+                "table"
+            ],
+            "woman": [
+                "people"
+            ],
+            "sport": [
+                "event"
+            ],
+            "hugging": [
+                "bite"
+            ],
+            "picture": [
+                "picture",
+                "actor"
+            ],
+            "man": [
+                "friend"
+            ],
+            "restaurant": [
+                "restaurant",
+                "night"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bar": [
+                "bar"
+            ],
+            "table": [],
+            "woman": [
+                "people"
+            ],
+            "sport": [
+                "event"
+            ],
+            "hugging": [
+                "smile"
+            ],
+            "picture": [
+                "actor",
+                "picture",
+                "photo"
+            ],
+            "man": [
+                "friend",
+                "man"
+            ],
+            "restaurant": [
+                "restaurant"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007511.jpg": {
+        "cluster_assigned_1": {
+            "others": [],
+            "stand": [],
+            "playing": [],
+            "sand": [
+                "sand"
+            ],
+            "string": [],
+            "people": [
+                "people"
+            ],
+            "body": [],
+            "man": [
+                "man"
+            ],
+            "beach": [
+                "beach",
+                "sunny",
+                "summer",
+                "sea"
+            ],
+            "kite": [
+                "kite",
+                "sky",
+                "parachute"
+            ],
+            "water": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "others": [],
+            "stand": [],
+            "playing": [],
+            "sand": [
+                "sand"
+            ],
+            "string": [],
+            "people": [
+                "people"
+            ],
+            "body": [],
+            "man": [
+                "man",
+                "boy"
+            ],
+            "beach": [
+                "beach",
+                "surf",
+                "sea",
+                "shore"
+            ],
+            "kite": [
+                "kite",
+                "sky"
+            ],
+            "water": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007977.jpg": {
+        "cluster_assigned_1": {
+            "park": [
+                "park",
+                "ramp",
+                "street"
+            ],
+            "trick": [
+                "trick"
+            ],
+            "teenager": [],
+            "man": [
+                "man"
+            ],
+            "skateboard": [
+                "skateboard",
+                "skateboarder"
+            ],
+            "skatepark": [
+                "city"
+            ],
+            "wheelie": [],
+            "boy": [
+                "boy",
+                "guy"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "park": [
+                "park",
+                "ramp",
+                "street"
+            ],
+            "trick": [
+                "trick"
+            ],
+            "teenager": [],
+            "man": [
+                "man"
+            ],
+            "skateboard": [
+                "skateboard",
+                "board",
+                "stair"
+            ],
+            "skatepark": [
+                "city"
+            ],
+            "wheelie": [],
+            "boy": [
+                "boy"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001353.jpg": {
+        "cluster_assigned_1": {
+            "orange": [],
+            "group": [
+                "people"
+            ],
+            "kiddie": [],
+            "toy": [
+                "toy",
+                "playground"
+            ],
+            "mini": [],
+            "indoor": [],
+            "child": [
+                "child",
+                "kid",
+                "boy",
+                "girl"
+            ],
+            "train": [
+                "train"
+            ],
+            "ride": [
+                "fun",
+                "carousel"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "orange": [],
+            "group": [],
+            "kiddie": [],
+            "toy": [
+                "toy",
+                "playground",
+                "tube"
+            ],
+            "mini": [],
+            "indoor": [],
+            "child": [
+                "child",
+                "kid",
+                "boy",
+                "girl"
+            ],
+            "train": [
+                "train"
+            ],
+            "ride": [
+                "fun",
+                "carousel"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007108.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "area"
+            ],
+            "forward": [],
+            "watering": [],
+            "line": [],
+            "sky": [],
+            "amongst": [],
+            "hole": [
+                "shot",
+                "hole"
+            ],
+            "view": [],
+            "elephant": [
+                "elephant",
+                "zoo",
+                "trunk",
+                "animal",
+                "gorilla"
+            ],
+            "herd": [
+                "baby"
+            ],
+            "bush": [],
+            "path": [],
+            "head": [],
+            "dirt": [],
+            "water": [
+                "water"
+            ],
+            "knee": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [],
+            "forward": [],
+            "watering": [],
+            "line": [],
+            "sky": [],
+            "amongst": [],
+            "hole": [
+                "hole",
+                "shot"
+            ],
+            "view": [
+                "camera"
+            ],
+            "elephant": [
+                "elephant",
+                "zoo",
+                "animal",
+                "trunk"
+            ],
+            "herd": [
+                "baby"
+            ],
+            "bush": [],
+            "path": [],
+            "head": [
+                "face"
+            ],
+            "dirt": [],
+            "water": [
+                "water"
+            ],
+            "knee": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006460.jpg": {
+        "cluster_assigned_1": {
+            "line": [
+                "round"
+            ],
+            "board": [],
+            "surf": [
+                "trick",
+                "surf",
+                "water",
+                "ocean"
+            ],
+            "safety": [],
+            "wave": [
+                "wave",
+                "air"
+            ],
+            "surfer": [
+                "surfer",
+                "jump"
+            ],
+            "man": [
+                "man"
+            ],
+            "surfboard": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "line": [
+                "round"
+            ],
+            "board": [
+                "board"
+            ],
+            "surf": [
+                "trick",
+                "water",
+                "ocean"
+            ],
+            "safety": [],
+            "wave": [
+                "wave",
+                "air"
+            ],
+            "surfer": [
+                "surfer",
+                "jump"
+            ],
+            "man": [
+                "man"
+            ],
+            "surfboard": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007574.jpg": {
+        "cluster_assigned_1": {
+            "kitchen": [
+                "kitchen",
+                "house",
+                "home",
+                "dish",
+                "appliance",
+                "apartment"
+            ],
+            "soap": [],
+            "bottle": [],
+            "stove": [],
+            "detergent": [],
+            "counter": [
+                "counter"
+            ],
+            "freezer": [],
+            "space": [
+                "room"
+            ],
+            "sink": [
+                "sink"
+            ],
+            "refrigerator": [],
+            "cabinet": [
+                "cabinet"
+            ],
+            "item": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "kitchen": [
+                "kitchen",
+                "house",
+                "home",
+                "dish",
+                "apartment"
+            ],
+            "soap": [],
+            "bottle": [
+                "holi"
+            ],
+            "stove": [],
+            "detergent": [],
+            "counter": [
+                "counter"
+            ],
+            "freezer": [],
+            "space": [
+                "room"
+            ],
+            "sink": [
+                "sink"
+            ],
+            "refrigerator": [],
+            "cabinet": [
+                "cabinet"
+            ],
+            "item": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005193.jpg": {
+        "cluster_assigned_1": {
+            "group": [
+                "event"
+            ],
+            "board": [
+                "board"
+            ],
+            "surf": [
+                "beach"
+            ],
+            "people": [
+                "family",
+                "people"
+            ],
+            "picture": [
+                "photo",
+                "picture"
+            ],
+            "man": [],
+            "room": [],
+            "surfboard": [
+                "surfboard"
+            ],
+            "boy": [
+                "boy",
+                "friend"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "group": [],
+            "board": [
+                "board"
+            ],
+            "surf": [
+                "beach"
+            ],
+            "people": [
+                "family",
+                "people"
+            ],
+            "picture": [
+                "photo",
+                "picture"
+            ],
+            "man": [],
+            "room": [],
+            "surfboard": [
+                "surfboard"
+            ],
+            "boy": [
+                "boy",
+                "friend",
+                "kid"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008629.jpg": {
+        "cluster_assigned_1": {
+            "type": [
+                "table"
+            ],
+            "pizza": [
+                "pizza",
+                "food",
+                "cheese",
+                "pie"
+            ],
+            "slice": [
+                "slice"
+            ],
+            "plate": [
+                "plate",
+                "piece",
+                "dish"
+            ],
+            "quiche": [],
+            "picture": [
+                "cute"
+            ],
+            "sauce": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "type": [],
+            "pizza": [
+                "pizza",
+                "food",
+                "cheese",
+                "pie",
+                "pepperoni",
+                "mushroom"
+            ],
+            "slice": [
+                "slice"
+            ],
+            "plate": [
+                "piece",
+                "plate",
+                "dish"
+            ],
+            "quiche": [],
+            "picture": [],
+            "sauce": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007991.jpg": {
+        "cluster_assigned_1": {
+            "vegetable": [
+                "food",
+                "kitchen",
+                "bowl",
+                "vegetable",
+                "cucumber"
+            ],
+            "pile": [],
+            "baby": [
+                "home"
+            ],
+            "counter": [],
+            "table": [],
+            "plate": [
+                "dish"
+            ],
+            "peeler": [],
+            "carrot": [
+                "carrot",
+                "orange",
+                "tooth"
+            ],
+            "bean": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "vegetable": [
+                "food",
+                "bowl",
+                "vegetable",
+                "kitchen",
+                "potato",
+                "cucumber",
+                "pork"
+            ],
+            "pile": [],
+            "baby": [],
+            "counter": [],
+            "table": [],
+            "plate": [
+                "dish"
+            ],
+            "peeler": [],
+            "carrot": [
+                "carrot",
+                "orange"
+            ],
+            "bean": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003156.jpg": {
+        "cluster_assigned_1": {
+            "man": [
+                "man",
+                "boy"
+            ],
+            "photo": [
+                "hand"
+            ],
+            "floor": [
+                "room",
+                "house"
+            ],
+            "toilet": [
+                "bathroom",
+                "toilet",
+                "sink",
+                "water",
+                "dish"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "man": [
+                "man"
+            ],
+            "photo": [
+                "hand",
+                "worker"
+            ],
+            "floor": [
+                "room",
+                "house"
+            ],
+            "toilet": [
+                "bathroom",
+                "sink",
+                "toilet",
+                "water",
+                "dish"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006614.jpg": {
+        "cluster_assigned_1": {
+            "orange": [
+                "orange"
+            ],
+            "pile": [
+                "pile"
+            ],
+            "lot": [
+                "collection"
+            ],
+            "round": [],
+            "photo": [
+                "paper",
+                "photo"
+            ],
+            "peanut": [],
+            "grape": [
+                "grapefruit"
+            ],
+            "picture": [],
+            "nut": [],
+            "object": [
+                "card"
+            ],
+            "apple": [
+                "apple"
+            ],
+            "fruit": [
+                "fruit",
+                "peach"
+            ],
+            "surface": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "orange": [
+                "orange"
+            ],
+            "pile": [
+                "pile"
+            ],
+            "lot": [
+                "collection"
+            ],
+            "round": [],
+            "photo": [
+                "photo",
+                "art"
+            ],
+            "peanut": [],
+            "grape": [
+                "grapefruit"
+            ],
+            "picture": [],
+            "nut": [],
+            "object": [],
+            "apple": [
+                "apple"
+            ],
+            "fruit": [
+                "fruit",
+                "peach",
+                "vegetable"
+            ],
+            "surface": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001675.jpg": {
+        "cluster_assigned_1": {
+            "keyboard": [
+                "keyboard"
+            ],
+            "platform": [],
+            "fluffy": [],
+            "lap": [],
+            "screen": [
+                "screen"
+            ],
+            "cat": [
+                "cat",
+                "animal",
+                "kitten"
+            ],
+            "metal": [],
+            "computer": [
+                "laptop",
+                "computer",
+                "top",
+                "desk",
+                "desktop"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "keyboard": [
+                "keyboard"
+            ],
+            "platform": [],
+            "fluffy": [],
+            "lap": [],
+            "screen": [
+                "screen"
+            ],
+            "cat": [
+                "cat",
+                "animal",
+                "kitten"
+            ],
+            "metal": [],
+            "computer": [
+                "laptop",
+                "computer",
+                "top",
+                "desk",
+                "box"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002685.jpg": {
+        "cluster_assigned_1": {
+            "bar": [
+                "bar"
+            ],
+            "line": [
+                "customer"
+            ],
+            "group": [
+                "event"
+            ],
+            "crowd": [],
+            "wine": [
+                "wine",
+                "beer",
+                "tasting"
+            ],
+            "couple": [],
+            "people": [
+                "people",
+                "food"
+            ],
+            "man": [],
+            "bottle": [
+                "bottle",
+                "shirt"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bar": [
+                "bar",
+                "waiter"
+            ],
+            "line": [
+                "customer"
+            ],
+            "group": [
+                "event"
+            ],
+            "crowd": [],
+            "wine": [
+                "wine",
+                "beer"
+            ],
+            "couple": [],
+            "people": [
+                "people",
+                "food"
+            ],
+            "man": [],
+            "bottle": [
+                "bottle",
+                "shirt"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007888.jpg": {
+        "cluster_assigned_1": {
+            "post": [
+                "photo",
+                "post"
+            ],
+            "clock": [
+                "clock",
+                "time"
+            ],
+            "sky": [
+                "street",
+                "window",
+                "sky",
+                "roof",
+                "city"
+            ],
+            "square": [
+                "side"
+            ],
+            "pole": [],
+            "poll": [],
+            "cubed": [],
+            "strike": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "post": [
+                "photo",
+                "post"
+            ],
+            "clock": [
+                "clock",
+                "time"
+            ],
+            "sky": [
+                "street",
+                "city",
+                "sky",
+                "light",
+                "cloud"
+            ],
+            "square": [],
+            "pole": [
+                "tower"
+            ],
+            "poll": [],
+            "cubed": [],
+            "strike": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008690.jpg": {
+        "cluster_assigned_1": {
+            "zoo": [
+                "zoo"
+            ],
+            "pen": [],
+            "goat": [
+                "goat",
+                "farm",
+                "bar"
+            ],
+            "child": [
+                "kid",
+                "child",
+                "family"
+            ],
+            "animal": [
+                "animal"
+            ],
+            "girl": [
+                "girl",
+                "photo"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "zoo": [
+                "zoo"
+            ],
+            "pen": [],
+            "goat": [
+                "goat",
+                "farm"
+            ],
+            "child": [
+                "child",
+                "kid",
+                "family"
+            ],
+            "animal": [
+                "animal"
+            ],
+            "girl": [
+                "girl",
+                "photo",
+                "friend"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000872.jpg": {
+        "cluster_assigned_1": {
+            "base": [],
+            "player": [
+                "game",
+                "player",
+                "team"
+            ],
+            "men": [
+                "people"
+            ],
+            "back": [],
+            "field": [
+                "field"
+            ],
+            "baseball": [
+                "baseball",
+                "ball",
+                "pitch",
+                "catch"
+            ],
+            "couple": [],
+            "tree": [],
+            "guy": [
+                "man"
+            ],
+            "batter": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "base": [],
+            "player": [
+                "game",
+                "player",
+                "team"
+            ],
+            "men": [],
+            "back": [
+                "home"
+            ],
+            "field": [
+                "field"
+            ],
+            "baseball": [
+                "baseball",
+                "ball",
+                "pitch",
+                "catch"
+            ],
+            "couple": [],
+            "tree": [],
+            "guy": [
+                "man"
+            ],
+            "batter": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007784.jpg": {
+        "cluster_assigned_1": {
+            "orange": [],
+            "sky": [
+                "sky",
+                "beach",
+                "fly",
+                "air",
+                "sea"
+            ],
+            "blue": [
+                "blue",
+                "water"
+            ],
+            "parachute": [
+                "parachute"
+            ],
+            "kite": [
+                "kite",
+                "wind"
+            ],
+            "parasail": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "orange": [],
+            "sky": [
+                "sky",
+                "beach",
+                "air",
+                "fly",
+                "sea",
+                "sunny"
+            ],
+            "blue": [
+                "blue"
+            ],
+            "parachute": [
+                "parachute"
+            ],
+            "kite": [
+                "kite",
+                "wind"
+            ],
+            "parasail": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003845.jpg": {
+        "cluster_assigned_1": {
+            "vegetable": [
+                "vegetable"
+            ],
+            "food": [
+                "food"
+            ],
+            "drink": [],
+            "broccoli": [],
+            "table": [
+                "table"
+            ],
+            "meal": [
+                "meal",
+                "lunch",
+                "restaurant"
+            ],
+            "plate": [
+                "plate"
+            ],
+            "dinner": [],
+            "carrot": [],
+            "dish": [
+                "dish"
+            ],
+            "fry": [],
+            "chicken": [
+                "chicken"
+            ],
+            "rice": [
+                "rice"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "vegetable": [
+                "vegetable"
+            ],
+            "food": [
+                "food",
+                "meat"
+            ],
+            "drink": [],
+            "broccoli": [
+                "broccoli"
+            ],
+            "table": [],
+            "meal": [
+                "meal",
+                "lunch"
+            ],
+            "plate": [
+                "plate"
+            ],
+            "dinner": [],
+            "carrot": [],
+            "dish": [
+                "dish"
+            ],
+            "fry": [],
+            "chicken": [
+                "chicken"
+            ],
+            "rice": [
+                "rice"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006954.jpg": {
+        "cluster_assigned_1": {
+            "grass": [
+                "grass",
+                "field",
+                "park"
+            ],
+            "group": [
+                "group",
+                "community"
+            ],
+            "frisbe": [],
+            "frisbee": [
+                "frisbee"
+            ],
+            "bunch": [],
+            "kid": [
+                "kid"
+            ],
+            "child": [
+                "child",
+                "photo"
+            ],
+            "hand": [],
+            "boy": [
+                "boy"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "grass": [
+                "grass",
+                "field",
+                "park"
+            ],
+            "group": [
+                "group"
+            ],
+            "frisbe": [],
+            "frisbee": [
+                "frisbee"
+            ],
+            "bunch": [],
+            "kid": [
+                "kid"
+            ],
+            "child": [
+                "child",
+                "school",
+                "student"
+            ],
+            "hand": [],
+            "boy": [
+                "boy"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001761.jpg": {
+        "cluster_assigned_1": {
+            "jet": [],
+            "sky": [
+                "sky"
+            ],
+            "plane": [
+                "plane",
+                "gate"
+            ],
+            "photo": [
+                "side",
+                "view",
+                "shot"
+            ],
+            "bridge": [
+                "bridge"
+            ],
+            "sydney": [
+                "city"
+            ],
+            "house": [],
+            "australia": [],
+            "airplane": [
+                "airplane",
+                "flight"
+            ],
+            "opera": [],
+            "water": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "jet": [],
+            "sky": [
+                "sky",
+                "cloud"
+            ],
+            "plane": [
+                "plane",
+                "gate"
+            ],
+            "photo": [
+                "view",
+                "shot"
+            ],
+            "bridge": [
+                "bridge"
+            ],
+            "sydney": [
+                "city"
+            ],
+            "house": [],
+            "australia": [],
+            "airplane": [
+                "airplane",
+                "flight"
+            ],
+            "opera": [],
+            "water": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004795.jpg": {
+        "cluster_assigned_1": {
+            "text": [],
+            "cordless": [],
+            "monitor": [],
+            "lap": [],
+            "screen": [
+                "screen",
+                "video"
+            ],
+            "phone": [],
+            "cat": [
+                "cat",
+                "look"
+            ],
+            "computer": [
+                "computer",
+                "laptop",
+                "keyboard",
+                "desk",
+                "room",
+                "mouse"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "text": [],
+            "cordless": [],
+            "monitor": [],
+            "lap": [],
+            "screen": [
+                "screen"
+            ],
+            "phone": [],
+            "cat": [
+                "cat",
+                "look",
+                "head"
+            ],
+            "computer": [
+                "computer",
+                "laptop",
+                "desk",
+                "keyboard",
+                "mouse",
+                "book"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006818.jpg": {
+        "cluster_assigned_1": {
+            "soap": [],
+            "toilet": [
+                "toilet"
+            ],
+            "window": [
+                "view"
+            ],
+            "holder": [],
+            "janitor": [],
+            "floor": [
+                "floor"
+            ],
+            "couple": [],
+            "paper": [],
+            "bathroom": [
+                "bathroom",
+                "sink",
+                "restroom"
+            ],
+            "picture": [],
+            "shower": [
+                "shower"
+            ],
+            "room": [
+                "room",
+                "house",
+                "wall"
+            ],
+            "bucket": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "soap": [],
+            "toilet": [
+                "toilet"
+            ],
+            "window": [
+                "view"
+            ],
+            "holder": [],
+            "janitor": [],
+            "floor": [
+                "floor"
+            ],
+            "couple": [],
+            "paper": [],
+            "bathroom": [
+                "bathroom",
+                "sink",
+                "restroom"
+            ],
+            "picture": [],
+            "shower": [
+                "shower"
+            ],
+            "room": [
+                "room",
+                "house",
+                "hotel"
+            ],
+            "bucket": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001993.jpg": {
+        "cluster_assigned_1": {
+            "wall": [
+                "wall"
+            ],
+            "window": [
+                "window"
+            ],
+            "apartment": [
+                "apartment"
+            ],
+            "table": [],
+            "bedroom": [
+                "bedroom",
+                "house"
+            ],
+            "carpet": [
+                "floor"
+            ],
+            "comforter": [],
+            "bed": [
+                "home"
+            ],
+            "chair": [],
+            "view": [
+                "view"
+            ],
+            "room": [
+                "room",
+                "master"
+            ],
+            "sheet": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "wall": [
+                "wall"
+            ],
+            "window": [
+                "window"
+            ],
+            "apartment": [
+                "apartment"
+            ],
+            "table": [],
+            "bedroom": [
+                "bedroom",
+                "house",
+                "hotel"
+            ],
+            "carpet": [
+                "floor"
+            ],
+            "comforter": [],
+            "bed": [],
+            "chair": [],
+            "view": [
+                "view"
+            ],
+            "room": [
+                "room",
+                "master"
+            ],
+            "sheet": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006012.jpg": {
+        "cluster_assigned_1": {
+            "middle": [],
+            "bunch": [
+                ""
+            ],
+            "banana": [
+                "banana"
+            ],
+            "sits": [],
+            "blue": [
+                "blue"
+            ],
+            "piece": [
+                "art",
+                "pattern"
+            ],
+            "sight": [],
+            "apple": [
+                "apple",
+                "vector"
+            ],
+            "fruit": [
+                "fruit",
+                "pear",
+                "food"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "middle": [],
+            "bunch": [],
+            "banana": [
+                "banana"
+            ],
+            "sits": [],
+            "blue": [
+                "blue"
+            ],
+            "piece": [
+                "art",
+                "pattern",
+                "life"
+            ],
+            "sight": [],
+            "apple": [
+                "apple"
+            ],
+            "fruit": [
+                "fruit",
+                "pear",
+                "ripe",
+                "pomegranate"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008211.jpg": {
+        "cluster_assigned_1": {
+            "work": [
+                "worker"
+            ],
+            "building": [],
+            "cleaner": [],
+            "men": [
+                "men",
+                "man"
+            ],
+            "corner": [],
+            "people": [
+                "people"
+            ],
+            "chair": [
+                "scooter"
+            ],
+            "rest": [],
+            "street": [
+                "street",
+                "road",
+                "market",
+                "city",
+                "sidewalk"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "work": [
+                "worker"
+            ],
+            "building": [],
+            "cleaner": [],
+            "men": [
+                "man",
+                "men"
+            ],
+            "corner": [],
+            "people": [
+                "people",
+                "woman"
+            ],
+            "chair": [],
+            "rest": [],
+            "street": [
+                "street",
+                "road",
+                "sidewalk",
+                "market",
+                "city"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001532.jpg": {
+        "cluster_assigned_1": {
+            "sign": [
+                "sign"
+            ],
+            "blvd": [],
+            "hollywood": [],
+            "underpass": [],
+            "scene": [],
+            "focus": [
+                "view"
+            ],
+            "road": [
+                "road",
+                "bridge",
+                "way"
+            ],
+            "freeway": [
+                "highway"
+            ],
+            "traffic": [
+                "traffic"
+            ],
+            "overpass": [],
+            "california": [
+                "location"
+            ],
+            "truck": [],
+            "street": [
+                "street"
+            ],
+            "car": [
+                "car"
+            ],
+            "exit": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "sign": [
+                "sign"
+            ],
+            "blvd": [],
+            "hollywood": [],
+            "underpass": [],
+            "scene": [],
+            "focus": [],
+            "road": [
+                "road",
+                "bridge",
+                "way"
+            ],
+            "freeway": [
+                "highway"
+            ],
+            "traffic": [
+                "traffic"
+            ],
+            "overpass": [],
+            "california": [
+                "location"
+            ],
+            "truck": [],
+            "street": [
+                "street",
+                "city"
+            ],
+            "car": [
+                "car"
+            ],
+            "exit": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005477.jpg": {
+        "cluster_assigned_1": {
+            "jetliner": [],
+            "runway": [
+                "runway",
+                "ground"
+            ],
+            "gold": [],
+            "lot": [],
+            "airport": [
+                "airport",
+                "country"
+            ],
+            "airplane": [
+                "flight",
+                "plane",
+                "passenger",
+                "sky",
+                "aircraft"
+            ],
+            "tarmac": [
+                "tarmac"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "jetliner": [
+                "jet"
+            ],
+            "runway": [
+                "runway"
+            ],
+            "gold": [],
+            "lot": [],
+            "airport": [
+                "airport",
+                "country"
+            ],
+            "airplane": [
+                "flight",
+                "plane",
+                "passenger",
+                "aircraft",
+                "sits"
+            ],
+            "tarmac": [
+                "tarmac"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005586.jpg": {
+        "cluster_assigned_1": {
+            "match": [
+                "match"
+            ],
+            "volley": [],
+            "racquet": [
+                "racquet"
+            ],
+            "player": [
+                "player",
+                "game"
+            ],
+            "court": [
+                "court"
+            ],
+            "crowd": [],
+            "indoor": [],
+            "wait": [],
+            "tennis": [
+                "tennis",
+                "tournament"
+            ],
+            "spectator": [],
+            "arena": [],
+            "man": [],
+            "ball": [
+                "ball",
+                "shot"
+            ],
+            "racket": [
+                "racket"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "match": [
+                "match"
+            ],
+            "volley": [],
+            "racquet": [
+                "racquet"
+            ],
+            "player": [
+                "player",
+                "game"
+            ],
+            "court": [
+                "court"
+            ],
+            "crowd": [],
+            "indoor": [],
+            "wait": [],
+            "tennis": [
+                "tennis",
+                "tournament"
+            ],
+            "spectator": [],
+            "arena": [],
+            "man": [],
+            "ball": [
+                "ball",
+                "round"
+            ],
+            "racket": [
+                "racket"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003661.jpg": {
+        "cluster_assigned_1": {
+            "counter": [],
+            "table": [
+                "table",
+                "paper"
+            ],
+            "group": [
+                "hand"
+            ],
+            "bunch": [
+                "piece",
+                "bunch",
+                "top",
+                "pile"
+            ],
+            "banana": [
+                "banana",
+                "fruit",
+                "food"
+            ],
+            "closeup": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "counter": [
+                "stack"
+            ],
+            "table": [
+                "table"
+            ],
+            "group": [],
+            "bunch": [
+                "bunch",
+                "piece",
+                "pile",
+                "top",
+                "shot",
+                "stalk"
+            ],
+            "banana": [
+                "banana",
+                "fruit"
+            ],
+            "closeup": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007278.jpg": {
+        "cluster_assigned_1": {
+            "ocean": [
+                "world"
+            ],
+            "male": [],
+            "board": [
+                "round",
+                "action",
+                "competes",
+                "event"
+            ],
+            "suit": [],
+            "surf": [
+                "sport"
+            ],
+            "wave": [
+                "wave"
+            ],
+            "surfer": [
+                "surfer"
+            ],
+            "surfboard": [],
+            "man": [],
+            "crest": [],
+            "water": [
+                "shot",
+                "heat"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "ocean": [
+                "world"
+            ],
+            "male": [],
+            "board": [
+                "round",
+                "action",
+                "competes",
+                "event"
+            ],
+            "suit": [
+                "maneuver"
+            ],
+            "surf": [],
+            "wave": [
+                "wave"
+            ],
+            "surfer": [
+                "surfer"
+            ],
+            "surfboard": [],
+            "man": [],
+            "crest": [],
+            "water": [
+                "heat",
+                "shot"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008021.jpg": {
+        "cluster_assigned_1": {
+            "wall": [
+                "line"
+            ],
+            "lecture": [
+                "speaks"
+            ],
+            "presentation": [
+                "speech"
+            ],
+            "audience": [
+                "stage",
+                "audience"
+            ],
+            "suit": [],
+            "gentleman": [],
+            "conference": [
+                "event"
+            ],
+            "presenter": [
+                "politician"
+            ],
+            "film": [
+                "business"
+            ],
+            "people": [
+                "crowd"
+            ],
+            "man": [
+                "man"
+            ],
+            "screen": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "wall": [],
+            "lecture": [
+                "speaks",
+                "talk"
+            ],
+            "presentation": [
+                "speech"
+            ],
+            "audience": [
+                "stage",
+                "audience"
+            ],
+            "suit": [],
+            "gentleman": [],
+            "conference": [
+                "event"
+            ],
+            "presenter": [
+                "politician"
+            ],
+            "film": [
+                "business"
+            ],
+            "people": [
+                "crowd"
+            ],
+            "man": [
+                "man"
+            ],
+            "screen": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002149.jpg": {
+        "cluster_assigned_1": {
+            "apple": [
+                "apple",
+                "fruit",
+                "view"
+            ],
+            "smith": [],
+            "bowl": [
+                "bowl",
+                "food",
+                "kitchen",
+                "piece",
+                "table",
+                "plate",
+                "glass"
+            ],
+            "granny": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "apple": [
+                "apple",
+                "fruit",
+                "view",
+                "ripe",
+                "pear"
+            ],
+            "smith": [],
+            "bowl": [
+                "bowl",
+                "table",
+                "plate",
+                "food",
+                "glass"
+            ],
+            "granny": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002473.jpg": {
+        "cluster_assigned_1": {
+            "skier": [
+                "skier"
+            ],
+            "air": [
+                "air",
+                "sky"
+            ],
+            "ski": [
+                "sport",
+                "snow",
+                "ski"
+            ],
+            "trick": [
+                "trick"
+            ],
+            "jump": [
+                "jump",
+                "competes"
+            ],
+            "twist": [],
+            "man": [
+                "man"
+            ],
+            "fly": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "skier": [
+                "skier"
+            ],
+            "air": [
+                "air"
+            ],
+            "ski": [
+                "sport",
+                "snow",
+                "ski"
+            ],
+            "trick": [
+                "trick"
+            ],
+            "jump": [
+                "jump",
+                "competes"
+            ],
+            "twist": [],
+            "man": [
+                "men",
+                "man"
+            ],
+            "fly": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001503.jpg": {
+        "cluster_assigned_1": {
+            "mac": [],
+            "equipment": [],
+            "desk": [
+                "desk",
+                "office",
+                "room",
+                "table"
+            ],
+            "lap": [],
+            "piece": [],
+            "picture": [],
+            "imac": [],
+            "apple": [],
+            "computer": [
+                "computer",
+                "keyboard",
+                "laptop",
+                "monitor",
+                "desktop",
+                "mouse"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "mac": [],
+            "equipment": [],
+            "desk": [
+                "desk",
+                "table",
+                "office"
+            ],
+            "lap": [],
+            "piece": [],
+            "picture": [],
+            "imac": [],
+            "apple": [],
+            "computer": [
+                "computer",
+                "keyboard",
+                "laptop",
+                "monitor",
+                "desktop",
+                "mouse",
+                "technology"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg": {
+        "cluster_assigned_1": {
+            "table": [
+                "table"
+            ],
+            "group": [
+                "meeting"
+            ],
+            "lap": [],
+            "people": [
+                "people"
+            ],
+            "sever": [],
+            "screen": [
+                "video"
+            ],
+            "room": [
+                "room",
+                "night"
+            ],
+            "computer": [
+                "laptop",
+                "computer",
+                "student",
+                "business"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "table": [
+                "table"
+            ],
+            "group": [
+                "meeting"
+            ],
+            "lap": [],
+            "people": [
+                "people"
+            ],
+            "sever": [],
+            "screen": [
+                "video"
+            ],
+            "room": [
+                "room"
+            ],
+            "computer": [
+                "laptop",
+                "computer",
+                "business",
+                "student",
+                "work"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000776.jpg": {
+        "cluster_assigned_1": {
+            "bear": [
+                "bear"
+            ],
+            "group": [],
+            "bed": [
+                "bed"
+            ],
+            "color": [
+                "photo",
+                "something"
+            ],
+            "hug": [
+                "friend",
+                "cute"
+            ],
+            "blue": [],
+            "stuffed": [
+                "stuffed"
+            ],
+            "animal": [
+                "toy",
+                "child",
+                "animal"
+            ],
+            "pillow": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bear": [
+                "bear"
+            ],
+            "group": [
+                "family"
+            ],
+            "bed": [
+                "bed"
+            ],
+            "color": [
+                "photo"
+            ],
+            "hug": [
+                "friend",
+                "cute"
+            ],
+            "blue": [],
+            "stuffed": [
+                "stuffed"
+            ],
+            "animal": [
+                "toy",
+                "animal",
+                "child"
+            ],
+            "pillow": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006771.jpg": {
+        "cluster_assigned_1": {
+            "woman": [
+                "woman",
+                "girl"
+            ],
+            "group": [
+                "event"
+            ],
+            "others": [],
+            "costume": [
+                "costume",
+                "character",
+                "film",
+                "parade"
+            ],
+            "cell": [],
+            "cellphone": [],
+            "people": [
+                "crowd",
+                "people"
+            ],
+            "speaks": [],
+            "phone": [
+                "fan"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "woman": [
+                "girl",
+                "woman"
+            ],
+            "group": [
+                "event"
+            ],
+            "others": [],
+            "costume": [
+                "costume",
+                "character",
+                "film",
+                "actor"
+            ],
+            "cell": [],
+            "cellphone": [],
+            "people": [
+                "crowd",
+                "people"
+            ],
+            "speaks": [],
+            "phone": [
+                "fan"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005060.jpg": {
+        "cluster_assigned_1": {
+            "shirt": [],
+            "cross": [],
+            "floor": [],
+            "self": [
+                "dad"
+            ],
+            "portrait": [],
+            "selfie": [],
+            "cellphone": [],
+            "picture": [
+                "picture",
+                "photo"
+            ],
+            "man": [
+                "man"
+            ],
+            "room": [
+                "house",
+                "room",
+                "home",
+                "bathroom",
+                "door"
+            ],
+            "mirror": [
+                "mirror"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "shirt": [],
+            "cross": [],
+            "floor": [],
+            "self": [
+                "living",
+                "dad"
+            ],
+            "portrait": [],
+            "selfie": [],
+            "cellphone": [],
+            "picture": [
+                "picture",
+                "photo"
+            ],
+            "man": [
+                "man"
+            ],
+            "room": [
+                "house",
+                "room",
+                "home",
+                "door"
+            ],
+            "mirror": [
+                "mirror"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000724.jpg": {
+        "cluster_assigned_1": {
+            "post": [
+                "stop",
+                "lot"
+            ],
+            "sign": [
+                "sign"
+            ],
+            "pole": [],
+            "corner": [
+                "side",
+                "corner"
+            ],
+            "road": [
+                "road",
+                "way"
+            ],
+            "street": [
+                "street",
+                "city",
+                "parking"
+            ],
+            "metal": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "post": [
+                "stop"
+            ],
+            "sign": [
+                "sign"
+            ],
+            "pole": [],
+            "corner": [
+                "side",
+                "corner"
+            ],
+            "road": [
+                "road",
+                "way",
+                "traffic",
+                "intersection"
+            ],
+            "street": [
+                "street",
+                "parking"
+            ],
+            "metal": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007088.jpg": {
+        "cluster_assigned_1": {
+            "umbrella": [
+                "umbrella",
+                "sidewalk"
+            ],
+            "rain": [
+                "rain",
+                "street",
+                "yard",
+                "road",
+                "city"
+            ],
+            "stand": [],
+            "pose": [],
+            "wet": [],
+            "child": [
+                "school",
+                "child"
+            ],
+            "girl": [
+                "girl"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "umbrella": [
+                "umbrella",
+                "sidewalk"
+            ],
+            "rain": [
+                "rain",
+                "street",
+                "yard",
+                "road",
+                "walk"
+            ],
+            "stand": [],
+            "pose": [],
+            "wet": [],
+            "child": [
+                "child",
+                "school"
+            ],
+            "girl": [
+                "girl"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000632.jpg": {
+        "cluster_assigned_1": {
+            "window": [
+                "window",
+                "view"
+            ],
+            "bedroom": [
+                "bedroom",
+                "house"
+            ],
+            "book": [
+                "book"
+            ],
+            "bed": [
+                "home"
+            ],
+            "comforter": [],
+            "scene": [],
+            "shelf": [
+                "tree",
+                "shelf"
+            ],
+            "room": [
+                "room",
+                "wall"
+            ],
+            "sheet": [],
+            "mirror": [],
+            "bookcase": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "window": [
+                "window",
+                "view"
+            ],
+            "bedroom": [
+                "bedroom",
+                "house"
+            ],
+            "book": [
+                "book"
+            ],
+            "bed": [
+                "home"
+            ],
+            "comforter": [],
+            "scene": [],
+            "shelf": [
+                "tree",
+                "shelf"
+            ],
+            "room": [
+                "room",
+                "wall"
+            ],
+            "sheet": [],
+            "mirror": [],
+            "bookcase": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000004134.jpg": {
+        "cluster_assigned_1": {
+            "men": [
+                "people"
+            ],
+            "dinner": [],
+            "gathering": [
+                "event",
+                "meeting",
+                "ceremony"
+            ],
+            "speech": [
+                "politician",
+                "speaks",
+                "president",
+                "award"
+            ],
+            "hand": [
+                "hand"
+            ],
+            "man": [
+                "leader"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "men": [
+                "people"
+            ],
+            "dinner": [],
+            "gathering": [
+                "event",
+                "meeting",
+                "ceremony"
+            ],
+            "speech": [
+                "politician",
+                "award",
+                "speaks",
+                "president"
+            ],
+            "hand": [
+                "hand"
+            ],
+            "man": [
+                "leader"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000139.jpg": {
+        "cluster_assigned_1": {
+            "kitchen": [
+                "kitchen",
+                "home"
+            ],
+            "woman": [
+                "woman"
+            ],
+            "table": [
+                "table"
+            ],
+            "window": [
+                "window"
+            ],
+            "standing": [],
+            "area": [],
+            "television": [
+                "living"
+            ],
+            "chair": [],
+            "room": [
+                "room",
+                "house",
+                "apartment",
+                "floor"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "kitchen": [
+                "kitchen",
+                "home"
+            ],
+            "woman": [
+                "woman"
+            ],
+            "table": [
+                "table"
+            ],
+            "window": [
+                "window"
+            ],
+            "standing": [],
+            "area": [],
+            "television": [
+                "living"
+            ],
+            "chair": [],
+            "room": [
+                "room",
+                "house",
+                "apartment",
+                "floor"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000008899.jpg": {
+        "cluster_assigned_1": {
+            "fire": [],
+            "building": [
+                "building",
+                "apartment"
+            ],
+            "hydrant": [],
+            "door": [
+                "door",
+                "house"
+            ],
+            "side": [
+                "side",
+                "corner"
+            ],
+            "brick": [],
+            "curbside": [],
+            "graffiti": [
+                "graffiti"
+            ],
+            "street": [
+                "street"
+            ],
+            "city": [
+                "neighborhood",
+                "city"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "fire": [],
+            "building": [
+                "building",
+                "apartment"
+            ],
+            "hydrant": [],
+            "door": [
+                "door",
+                "house"
+            ],
+            "side": [
+                "side",
+                "corner"
+            ],
+            "brick": [],
+            "curbside": [],
+            "graffiti": [
+                "graffiti"
+            ],
+            "street": [
+                "street"
+            ],
+            "city": [
+                "neighborhood",
+                "city"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009590.jpg": {
+        "cluster_assigned_1": {
+            "drink": [
+                "tea",
+                "coffee"
+            ],
+            "male": [],
+            "table": [
+                "table"
+            ],
+            "men": [],
+            "group": [
+                "room",
+                "group"
+            ],
+            "meal": [
+                "breakfast",
+                "house",
+                "lunch"
+            ],
+            "laughing": [],
+            "people": [
+                "people"
+            ],
+            "guy": [
+                "friend"
+            ],
+            "eating": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "drink": [
+                "tea",
+                "coffee"
+            ],
+            "male": [],
+            "table": [
+                "table"
+            ],
+            "men": [],
+            "group": [
+                "room",
+                "group"
+            ],
+            "meal": [
+                "breakfast",
+                "house",
+                "lunch"
+            ],
+            "laughing": [],
+            "people": [
+                "people"
+            ],
+            "guy": [
+                "friend"
+            ],
+            "eating": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006471.jpg": {
+        "cluster_assigned_1": {
+            "dugout": [],
+            "base": [],
+            "stance": [],
+            "player": [
+                "game",
+                "player"
+            ],
+            "home": [
+                "home"
+            ],
+            "plate": [],
+            "pitch": [
+                "pitch"
+            ],
+            "batting": [],
+            "team": [
+                "team"
+            ],
+            "position": [],
+            "wait": [],
+            "baseball": [
+                "baseball",
+                "sport",
+                "ball"
+            ],
+            "catcher": [],
+            "bat": [
+                "bat"
+            ],
+            "hitter": [
+                "inning"
+            ],
+            "man": [],
+            "umpire": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "dugout": [],
+            "base": [],
+            "stance": [],
+            "player": [
+                "game",
+                "player"
+            ],
+            "home": [
+                "home"
+            ],
+            "plate": [],
+            "pitch": [
+                "pitch"
+            ],
+            "batting": [],
+            "team": [
+                "team"
+            ],
+            "position": [],
+            "wait": [],
+            "baseball": [
+                "baseball",
+                "sport",
+                "ball"
+            ],
+            "catcher": [],
+            "bat": [
+                "bat"
+            ],
+            "hitter": [
+                "inning"
+            ],
+            "man": [],
+            "umpire": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000000885.jpg": {
+        "cluster_assigned_1": {
+            "volley": [],
+            "woman": [],
+            "player": [
+                "player"
+            ],
+            "short": [
+                "round"
+            ],
+            "male": [],
+            "tournament": [
+                "match",
+                "tournament"
+            ],
+            "playing": [
+                "shot",
+                "game"
+            ],
+            "crowd": [],
+            "someone": [],
+            "tennis": [
+                "tennis",
+                "court"
+            ],
+            "man": [],
+            "ball": [
+                "ball",
+                "swing"
+            ],
+            "racket": [],
+            "leg": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "volley": [],
+            "woman": [],
+            "player": [
+                "player"
+            ],
+            "short": [
+                "round"
+            ],
+            "male": [],
+            "tournament": [
+                "match",
+                "tournament"
+            ],
+            "playing": [
+                "shot",
+                "game"
+            ],
+            "crowd": [],
+            "someone": [],
+            "tennis": [
+                "tennis",
+                "court"
+            ],
+            "man": [],
+            "ball": [
+                "ball",
+                "swing"
+            ],
+            "racket": [],
+            "leg": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000003255.jpg": {
+        "cluster_assigned_1": {
+            "snowy": [
+                "winter"
+            ],
+            "snowboarder": [],
+            "skier": [
+                "skier"
+            ],
+            "group": [
+                "group"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [],
+            "mountain": [
+                "mountain",
+                "range",
+                "ridge"
+            ],
+            "path": [],
+            "people": [
+                "people"
+            ],
+            "bottom": [],
+            "snow": [
+                "snow"
+            ],
+            "trail": [
+                "trail"
+            ],
+            "hill": [],
+            "surface": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "snowy": [
+                "winter"
+            ],
+            "snowboarder": [],
+            "skier": [
+                "skier"
+            ],
+            "group": [
+                "group"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "ski": [],
+            "mountain": [
+                "mountain",
+                "range",
+                "ridge"
+            ],
+            "path": [],
+            "people": [
+                "people"
+            ],
+            "bottom": [],
+            "snow": [
+                "snow"
+            ],
+            "trail": [
+                "trail"
+            ],
+            "hill": [],
+            "surface": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002299.jpg": {
+        "cluster_assigned_1": {
+            "group": [
+                "group"
+            ],
+            "school": [
+                "school",
+                "class",
+                "student",
+                "grade"
+            ],
+            "photo": [
+                "photo",
+                "photograph"
+            ],
+            "kid": [],
+            "child": [
+                "child",
+                "pupil"
+            ],
+            "picture": [
+                "picture"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "group": [
+                "group"
+            ],
+            "school": [
+                "school",
+                "class",
+                "student",
+                "grade"
+            ],
+            "photo": [
+                "photo",
+                "photograph"
+            ],
+            "kid": [],
+            "child": [
+                "child",
+                "pupil"
+            ],
+            "picture": [
+                "picture"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000006723.jpg": {
+        "cluster_assigned_1": {
+            "bike": [
+                "car"
+            ],
+            "building": [
+                "building",
+                "apartment"
+            ],
+            "pole": [],
+            "side": [],
+            "row": [
+                "view"
+            ],
+            "brick": [],
+            "path": [],
+            "lane": [],
+            "traffic": [
+                "traffic"
+            ],
+            "walk": [],
+            "street": [
+                "road",
+                "street"
+            ],
+            "city": [
+                "city",
+                "centre",
+                "area"
+            ],
+            "business": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bike": [
+                "car"
+            ],
+            "building": [
+                "building",
+                "apartment"
+            ],
+            "pole": [],
+            "side": [],
+            "row": [
+                "view"
+            ],
+            "brick": [],
+            "path": [],
+            "lane": [],
+            "traffic": [
+                "traffic"
+            ],
+            "walk": [],
+            "street": [
+                "road",
+                "street"
+            ],
+            "city": [
+                "city",
+                "centre",
+                "area"
+            ],
+            "business": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000001584.jpg": {
+        "cluster_assigned_1": {
+            "bus": [
+                "bus",
+                "passenger"
+            ],
+            "middle": [
+                "side"
+            ],
+            "decker": [
+                "decker"
+            ],
+            "road": [
+                "road"
+            ],
+            "roll": [],
+            "street": [
+                "street"
+            ],
+            "city": [
+                "city",
+                "building",
+                "tourist",
+                "london"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "bus": [
+                "bus",
+                "passenger"
+            ],
+            "middle": [
+                "side"
+            ],
+            "decker": [
+                "decker"
+            ],
+            "road": [
+                "road"
+            ],
+            "roll": [],
+            "street": [
+                "street"
+            ],
+            "city": [
+                "city",
+                "tourist",
+                "london",
+                "building"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005001.jpg": {
+        "cluster_assigned_1": {
+            "group": [],
+            "sidewalk": [
+                "bicycle"
+            ],
+            "ribbon": [
+                "helmet"
+            ],
+            "scissors": [],
+            "pink": [],
+            "pair": [],
+            "people": [
+                "people",
+                "crowd",
+                "family"
+            ],
+            "child": [
+                "child",
+                "balloon",
+                "birth"
+            ],
+            "man": [],
+            "ceremony": [
+                "event"
+            ],
+            "street": [
+                "street"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "group": [],
+            "sidewalk": [
+                "bicycle"
+            ],
+            "ribbon": [
+                "helmet"
+            ],
+            "scissors": [],
+            "pink": [],
+            "pair": [],
+            "people": [
+                "people",
+                "crowd",
+                "family"
+            ],
+            "child": [
+                "child",
+                "balloon",
+                "birth"
+            ],
+            "man": [],
+            "ceremony": [
+                "event"
+            ],
+            "street": [
+                "street"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009772.jpg": {
+        "cluster_assigned_1": {
+            "sink": [
+                "sink"
+            ],
+            "hotel": [
+                "hotel"
+            ],
+            "bathroom": [
+                "bathroom",
+                "room",
+                "toilet",
+                "tub",
+                "shower"
+            ],
+            "picture": [
+                "picture"
+            ],
+            "television": [],
+            "view": [
+                "mirror",
+                "view"
+            ],
+            "guy": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "sink": [
+                "sink"
+            ],
+            "hotel": [
+                "hotel"
+            ],
+            "bathroom": [
+                "bathroom",
+                "room",
+                "toilet",
+                "tub",
+                "shower"
+            ],
+            "picture": [
+                "picture"
+            ],
+            "television": [],
+            "view": [
+                "mirror",
+                "view"
+            ],
+            "guy": []
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002532.jpg": {
+        "cluster_assigned_1": {
+            "snowy": [],
+            "skiis": [],
+            "skier": [],
+            "sky": [
+                "sky"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "plateau": [],
+            "pole": [],
+            "ski": [
+                "trail",
+                "ski"
+            ],
+            "blue": [
+                "woman",
+                "top"
+            ],
+            "snow": [
+                "snow"
+            ],
+            "hill": [
+                "mountain",
+                "summit",
+                "hill"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "snowy": [],
+            "skiis": [],
+            "skier": [],
+            "sky": [
+                "sky"
+            ],
+            "slope": [
+                "slope"
+            ],
+            "plateau": [],
+            "pole": [],
+            "ski": [
+                "ski",
+                "trail"
+            ],
+            "blue": [
+                "woman",
+                "top"
+            ],
+            "snow": [
+                "snow"
+            ],
+            "hill": [
+                "mountain",
+                "summit",
+                "hill"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000007795.jpg": {
+        "cluster_assigned_1": {
+            "type": [],
+            "setting": [],
+            "bed": [],
+            "side": [
+                "view"
+            ],
+            "hotel": [
+                "hotel",
+                "guest"
+            ],
+            "couple": [],
+            "room": [
+                "bedroom",
+                "room",
+                "suite",
+                "house",
+                "master",
+                "floor",
+                "bathroom"
+            ]
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "type": [],
+            "setting": [],
+            "bed": [],
+            "side": [
+                "view"
+            ],
+            "hotel": [
+                "hotel",
+                "guest"
+            ],
+            "couple": [],
+            "room": [
+                "bedroom",
+                "room",
+                "suite",
+                "master",
+                "house",
+                "floor",
+                "bathroom"
+            ]
+        },
+        "unassigned_words_2": 0
+    },
+    "nxtp_ours/dev_root/data/coco/coco_valid/00000/000000002153.jpg": {
+        "cluster_assigned_1": {
+            "base": [],
+            "pitcher": [],
+            "male": [],
+            "player": [
+                "player"
+            ],
+            "home": [
+                "home"
+            ],
+            "plate": [
+                "plate"
+            ],
+            "pitch": [
+                "pitch"
+            ],
+            "baseball": [
+                "baseball",
+                "inning",
+                "sport"
+            ],
+            "tennis": [],
+            "bat": [],
+            "hand": [],
+            "game": [
+                "game",
+                "team"
+            ],
+            "ball": [
+                "ball"
+            ],
+            "batter": []
+        },
+        "unassigned_words_1": 0,
+        "cluster_assigned_2": {
+            "base": [],
+            "pitcher": [],
+            "male": [],
+            "player": [
+                "player"
+            ],
+            "home": [
+                "home"
+            ],
+            "plate": [
+                "plate"
+            ],
+            "pitch": [
+                "pitch"
+            ],
+            "baseball": [
+                "baseball",
+                "sport",
+                "inning"
+            ],
+            "tennis": [],
+            "bat": [],
+            "hand": [],
+            "game": [
+                "game",
+                "team"
+            ],
+            "ball": [
+                "ball"
+            ],
+            "batter": []
+        },
+        "unassigned_words_2": 0
+    }
+}
