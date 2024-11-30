@@ -16,7 +16,7 @@ from decoding import OneShotDecoder
 from functions import load_llama, load_clip
 from utils import load_config, set_dtype, load_checkpoint
 
-def get_last_token_attention_map(attn_map, filename="last_token_attention_map.png", cmap="Blues"):
+def get_last_token_attention_map(attn_map,image_name, filename="last_token_attention_map.png", cmap="Blues"):
     last_token_image_attention = attn_map[0, :, -1, :256]  # Shape: [32, 256]
 
     # Visualizza la mappa di attenzione dell'ultimo token verso i token immagine per ogni testa
@@ -29,8 +29,8 @@ def get_last_token_attention_map(attn_map, filename="last_token_attention_map.pn
         ax[head_idx // 8, head_idx % 8].axis("off")
 
     plt.tight_layout()
-    os.makedirs("attentions", exist_ok=True)
-    plt.savefig(f"attentions/{filename}")
+    os.makedirs(f"attentions_nxtp/{image_name}", exist_ok=True)
+    plt.savefig(f"attentions_nxtp/{image_name}/{filename}")
     plt.close()
 
     # Calcolo della media delle attention map su tutte le teste
@@ -46,7 +46,7 @@ def get_last_token_attention_map(attn_map, filename="last_token_attention_map.pn
     plt.imshow(avg_attention_map, cmap=cmap)
     plt.axis("off")
     plt.tight_layout()
-    plt.savefig(f"attentions_normal_nxtp/average{filename}")
+    plt.savefig(f"attentions_nxtp/{image_name}/average{filename}")
     plt.close()
 
 
@@ -240,10 +240,14 @@ def main(
                 # visualize relatively shallow layers in the decoder
                 # if not "layer_idx_0" in k:
                 #     continue
+                
+                if "attn_layer_idx_5" != k:
+                        continue
 
                 print(f"visualizing attention map for {k}")
                 attn_map = cached_tensors[k]
-                # get_last_token_attention_map(attn_map, filename=f"layer{k}.png")
+                image_name = os.path.basename(img_path).replace(".jpg", "").replace(".png", "")
+                get_last_token_attention_map(attn_map,image_name, filename=f"layer{k}.png")
                 continue
                 # extract the attention map for image tokens
                 ii = dummy_token_index_obj
