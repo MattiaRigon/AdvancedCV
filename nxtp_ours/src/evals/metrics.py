@@ -125,6 +125,7 @@ class SemanticFScore(Metric):
             x_vals = F.normalize(x_vals, dim=1)
 
             s = x_tgts @ x_vals.T  # [M, N]
+            print(f" s: {s}")
             r = s.max(dim=1).values.mean()  # [M]
             p = s.max(dim=0).values.mean()  # [N]
             f = torch.nan_to_num(2 * r * p / (r + p))
@@ -157,3 +158,26 @@ class SemanticFScore(Metric):
         div_avg = self.div_avg / self.total
         div_std = self.div_std / self.total
         return recall, precision, f, {"div_avg": div_avg, "div_std": div_std}
+
+
+if __name__ == "__main__":
+
+    metric = SemanticFScore()
+    metric.update([["sheep",
+            "house",
+            "yard",
+            "garden",
+            "grass",
+            "farm",
+            "building",
+            "barn",
+            "flock",
+            "herd"]], [[            "grass",
+            "wall",
+            "group",
+            "standing",
+            "herd",
+            "brick",
+            "shaggy",
+            "building"]])
+    print(metric.compute())

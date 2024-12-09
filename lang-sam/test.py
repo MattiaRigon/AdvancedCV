@@ -24,10 +24,10 @@ if __name__ == "__main__":
 
     model = LangSAM()
     filename = "000000009400"
-    image_pil = Image.open(f"nxtp_ours/dev_root/data/coco/coco_valid/00000/000000009400.jpg").convert("RGB")
-    image_pil = build_preprocess(224)(image_pil)
+    image_pil = Image.open(f"nxtp_ours/dev_root/data/coco/coco_valid/00000/000000005992.jpg").convert("RGB")
+    # image_pil = build_preprocess(224)(image_pil)
 
-    text_prompt = "segmetn all the objects in the image."
+    text_prompt = "sheeps."
     results = model.predict([image_pil], [text_prompt])
 
     # Directory for output files
@@ -46,6 +46,7 @@ if __name__ == "__main__":
 
         # Salvataggio delle maschere come immagini
         for mask_idx, mask in enumerate(result["masks"]):
+
             mask_img = Image.fromarray((mask * 255).astype(np.uint8))  # Convertire in scala di grigi 8-bit
             mask_path = f"{output_dir}/mask_{idx}_{mask_idx}.png"
             mask_img.save(mask_path)
@@ -80,6 +81,35 @@ if __name__ == "__main__":
             plt.title(f"Patch Matrix for Mask {mask_idx}")
             plt.axis("off")
             plt.savefig(f"{output_dir}/patch_matrix_{idx}_{mask_idx}.png")
+            # Merge all masks together
+
+        merged_mask = np.zeros_like(mask_array, dtype=np.uint8)
+        for mask in result["masks"]:
+            merged_mask = mask + merged_mask
+        
+        merged_mask = np.where(merged_mask > 0, 1, 0)
+
+        # Save the merged mask as an image
+        merged_mask_img = Image.fromarray((merged_mask * 255).astype(np.uint8))
+        merged_mask_path = f"{output_dir}/merged_mask_{idx}.png"
+        merged_mask_img.save(merged_mask_path)
+
+            # Calculate patches mask
+        patches_mask = np.zeros_like(merged_mask, dtype=np.uint8)
+        patch_size = 14
+        h, w = merged_mask.shape
+        matrix_height = h // patch_size
+        matrix_width = w // patch_size
+        # Calcola i valori delle patch
+        for i in range(matrix_height):
+            for j in range(matrix_width):
+                patch = merged_mask[i * patch_size:(i + 1) * patch_size, j * patch_size:(j + 1) * patch_size]
+                patch_value = 1 if np.sum(patch) >= (patch_size * patch_size / 2) else 0
+                patch_matrix[i, j] = patch_value
+        # Save the patches mask as an image
+        patches_mask_img = Image.fromarray((patch_matrix * 255).astype(np.uint8))
+        patches_mask_path = f"{output_dir}/merged_mask_patches{idx}_{mask_idx}.png"
+        patches_mask_img.save(patches_mask_path)
 
         # Salvataggio dei punteggi delle maschere come JSON
         mask_scores = result["mask_scores"].tolist()
